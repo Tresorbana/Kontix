@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "home": "Inicio"
+  },
+  "hero": {
+    "tagline": "Servicios Empresariales",
+    "headline": {
+      "line1": "Mejoramos su eficiencia",
+      "line2": "y competitividad", 
+      "line3": "con soluciones B2B especializadas."
+    },
+    "subtitle": "Optimización de procesos — Soluciones corporativas — Activos y Banca",
+    "startProject": "Comenzar",
+    "rating": "Fundada 2015 • República Dominicana"
+  },
+  "about": {
+    "sectionTitle": "Sobre Nosotros", 
+    "title": "Caribbean Ventures Investment Corp S.R.L.",
+    "description": "Fundada en 2015, proporcionamos servicios empresariales especializados para mejorar la eficiencia y competitividad en diversas industrias.",
+    "learnMore": "Conócenos Mejor",
+    "features": {
+      "experience": {
+        "title": "Experiencia Comprobada",
+        "description": "Más de 10 años ayudando a empresas a alcanzar sus objetivos financieros y operativos."
+      },
+      "personalized": {
+        "title": "Enfoque Personalizado",
+        "description": "Soluciones a medida diseñadas específicamente para las necesidades únicas de su negocio."
+      }
+    },
+    "stats": {
+      "clients": "Clientes Satisfechos",
+      "experience": "Años de Experiencia"
+    }
+  },
+  "services": {
+    "sectionTitle": "Nuestros Servicios",
+    "title": "Soluciones B2B Especializadas",
+    "description": "Servicios empresariales integrales para mejorar la eficiencia y competitividad.",
+    "items": {
+      "processes": {
+        "title": "Optimización de Procesos",
+        "description": "Mejorar resultados y reducir costos"
+      },
+      "corporate": {
+        "title": "Soluciones Corporativas", 
+        "description": "Impulsar organizaciones hacia adelante"
+      },
+      "structure": {
+        "title": "Estructura Corporativa",
+        "description": "Optimizar finanzas y configuración organizacional"
+      },
+      "portfolio": {
+        "title": "Portafolio de Alto Nivel",
+        "description": "Clientes y proveedores sólidos"
+      },
+      "global": {
+        "title": "Negocios Globales",
+        "description": "Gestión global centralizada"
+      },
+      "banking": {
+        "title": "Activos y Banca",
+        "description": "Acuerdos para manejo de activos"
+      }
+    },
+    "viewAll": "Ver Todos los Servicios"
+  },
+  "trust": {
+    "title": "Confíe en nuestra experiencia",
+    "subtitle": "Socios estratégicos para su crecimiento"
+  },
+  "foundations": {
+    "sectionTitle": "Bases Sólidas",
+    "title": "Construimos el futuro de su empresa sobre bases sólidas",
+    "description": "Nuestro enfoque integral combina estrategia, tecnología y experiencia para crear soluciones duraderas.",
+    "learnMore": "Conocer Más"
+  },
+  "mission": {
+    "title": "Acerca de Caribbean Ventures",
+    "description": "Nuestra misión es simple, proporcionar experiencia, orientación y apoyo incomparables a nuestros clientes a lo largo de su viaje empresarial",
+    "cta": "Construyamos"
+  },
+  "whatWeDo": {
+    "sectionTitle": "Lo Que Hacemos",
+    "title": "Transformamos ideas en resultados",
+    "description": "Combinamos conocimiento especializado con tecnología avanzada para entregar soluciones que generan valor real."
+  },
+  "infrastructure": {
+    "sectionTitle": "Infraestructura Moderna",
+    "title": "Tecnología de punta al servicio de su negocio",
+    "description": "Utilizamos las herramientas y plataformas más avanzadas para garantizar eficiencia y seguridad en todos nuestros procesos."
+  },
+  "quality": {
+    "sectionTitle": "Construcción de Calidad",
+    "title": "Excelencia en cada proyecto",
+    "description": "Nuestro compromiso con la calidad se refleja en cada aspecto de nuestro trabajo, desde la planificación hasta la ejecución."
+  },
+  "portfolio": {
+    "sectionTitle": "Nuestro Portafolio",
+    "title": "Casos de éxito que nos respaldan",
+    "description": "Descubra cómo hemos ayudado a empresas como la suya a alcanzar sus objetivos.",
+    "viewCase": "Ver Caso"
+  },
+  "finalCta": {
+    "title": "¿Listo para transformar su negocio?",
+    "description": "Póngase en contacto con nosotros y descubra cómo podemos ayudarle a alcanzar sus objetivos empresariales.",
+    "contact": "Contactar Ahora",
+    "schedule": "Agendar Consulta"
+  },
+  "company": {
+    "name": "Caribbean Ventures",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico"
+  },
+  "footer": {
+    "description": "Caribbean Ventures Investment Corp S.R.L. - República Dominicana",
+    "rights": "Todos los derechos reservados",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios", 
+    "company": "Empresa",
+    "contact": "Contacto",
+    "newsletter": "Suscríbase a nuestro boletín",
+    "subscribe": "Suscribirse",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "disclaimer": "Descargo de Responsabilidad",
+    "cookies": "Cookies"
+  }
+}
