@@ -167,7 +167,7 @@ export const MorphingButton: React.FC<{
 export const LiquidMorph: React.FC<{
   className?: string;
   colors?: string[];
-}> = ({ className = "", colors = ["#f59e0b", "#d97706"] }) => {
+}> = ({ className = "", colors = ["#004355", "#cf2b2c"] }) => {
   return (
     <div className={`absolute inset-0 overflow-hidden ${className}`}>
       <motion.div
@@ -252,7 +252,7 @@ export const ParticleExplosion: React.FC<{
   isActive: boolean;
   particleCount?: number;
   colors?: string[];
-}> = ({ isActive, particleCount = 20, colors = ["#f59e0b", "#d97706", "#b45309"] }) => {
+}> = ({ isActive, particleCount = 20, colors = ["#004355", "#cf2b2c", "#004355"] }) => {
   const particles = Array.from({ length: particleCount }, (_, i) => ({
     id: i,
     angle: (360 / particleCount) * i,

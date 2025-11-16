@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Footer = () => {
@@ -10,147 +11,64 @@ const Footer = () => {
       className="relative bg-black text-[#8FA8B0] pt-24 pb-10"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
-      <div className="absolute right-0 bottom-0 z-0">
-        <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/68787b61f597cdfce1e64e86_dq-22.webp?"
-          width={610}
-          height={557}
-          alt="background construction tower detail"
-          className="w-auto h-auto opacity-30 mix-blend-luminosity"
-        />
-      </div>
-
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 pb-16">
-          {/* Column 1: Logo & Tagline */}
-          <div className="md:col-span-5 lg:col-span-4">
-            <a href="#" aria-label="home">
-              <div className="text-white font-bold text-2xl mb-6">
-                {t('company.name')}
-              </div>
-            </a>
-            <p className="text-base leading-relaxed">
-              {t('footer.description')}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-y-8 sm:gap-y-12 md:gap-x-8 pb-12 sm:pb-16">
+          {/* Column 1: Logo & company */}
+          <div className="sm:col-span-2 md:col-span-5 lg:col-span-4">
+            <Link href="/" aria-label={t('nav.home')} className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+              <Image
+                src="/logo.webp"
+                alt="Caribbean Ventures"
+                width={40}
+                height={40}
+                className="rounded-md"
+              />
+              <span className="text-white font-bold text-xl sm:text-2xl">
+                Caribbean Ventures
+              </span>
+            </Link>
+          </div>
+
+          {/* Column 2: Address & contact */}
+          <div className="sm:col-span-1 md:col-span-3 lg:col-span-4">
+            <h3 className="font-semibold text-base sm:text-lg text-white mb-3 sm:mb-4">{t('footer.addressTitle')}</h3>
+            <p className="text-xs sm:text-sm text-gray-300">{t('footer.address')}</p>
+
+            <h3 className="font-semibold text-base sm:text-lg text-white mt-5 sm:mt-6 mb-2">{t('footer.contactTitle')}</h3>
+            <p className="text-xs sm:text-sm text-gray-300">
+              <span className="block">contact@caribbean.ventures</span>
             </p>
           </div>
 
-           {/* Spacer column */}
-          <div className="hidden lg:block lg:col-span-1"></div>
-
-          {/* Column 2: Navigation Links */}
-          <div className="col-span-6 md:col-span-3 lg:col-span-2">
-            <ul className="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  Inicio
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  Nosotros
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  Contacto
-                </a>
-              </li>
+          {/* Column 3: Services */}
+          <div className="sm:col-span-1 md:col-span-4 lg:col-span-4">
+            <h3 className="font-semibold text-base sm:text-lg text-white mb-3 sm:mb-4">{t('footer.servicesTitle')}</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-300">
+              <li>{t('footer.service1')}</li>
+              <li>{t('footer.service2')}</li>
+              <li>{t('footer.service3')}</li>
             </ul>
           </div>
-
-          {/* Column 3: Contact Information */}
-          <div className="col-span-12 md:col-span-4 lg:col-span-4">
-            <h3 className="font-semibold text-lg text-white mb-4">
-              Contáctenos para una consulta
-            </h3>
-            <div className="space-y-2">
-              <p>
-                Email :{" "}
-                <a
-                  href="mailto:contact@caribbean.ventures"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  contact@caribbean.ventures
-                </a>
-              </p>
-              <p>
-                Call us&nbsp;&nbsp;:{" "}
-                <a
-                  href="tel:8884567890"
-                  className="text-white hover:text-primary transition-colors duration-300"
-                >
-                  (888) 456 7890
-                </a>
-              </p>
-            </div>
-            <div className="mt-6">
-              <p className="font-medium text-white">Address:</p>
-              <p className="mt-1">410 Sandtown, California, 94001, USA</p>
-            </div>
-          </div>
         </div>
 
-        <div className="border-t border-[#333333] pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-          <p className="text-center md:text-left mb-4 md:mb-0">
-            Designed by{" "}
-            <a
-              href="#"
-              className="text-white hover:text-primary transition-colors duration-300"
-            >
-              Radiant Templates
-            </a>
-            , powered by{" "}
-            <a
-              href="#"
-              className="text-white hover:text-primary transition-colors duration-300"
-            >
-              Webflow.
-            </a>
+        <div className="border-t border-[#333333] pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center text-xs sm:text-sm gap-4">
+          <p className="text-center md:text-left">
+            © {new Date().getFullYear()} Caribbean Ventures
           </p>
-          <div className="flex items-center space-x-4">
-            <a
-              href="#"
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+            <Link
+              href="/politica-de-privacidad"
               className="text-white hover:text-primary transition-colors duration-300"
             >
-              Política de Privacidad
-            </a>
-            <a
-              href="#"
+              {t('footer.privacy')}
+            </Link>
+            <Link
+              href="/terminos-y-condiciones"
               className="text-white hover:text-primary transition-colors duration-300"
             >
-              Términos y Condiciones
-            </a>
+              {t('footer.terms')}
+            </Link>
           </div>
-        </div>
-        <div className="flex flex-wrap items-center justify-between pt-10 mt-16 border-t border-gray-800">
-          <p className="text-sm text-gray-400">
-            {new Date().getFullYear()} {t('company.name')}. {t('footer.rights')}
-          </p>
         </div>
       </div>
     </footer>

@@ -7,7 +7,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 const MissionCta = () => {
   const { t } = useLanguage();
-  const backgroundImageUrl = "https://cdn.prod.website-files.com/67ad72477c605912a4af72eb/689dba6042929fa08d7ed48d_Mask%20group%20-%202025-08-14T155717.035.webp";
+  const backgroundImageUrl = "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&h=900&fit=crop&auto=format&q=80";
   const arrowIconUrl = "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/67af1b78eef99645a9f0bfd8_Arrow%206-5.svg?";
 
   return (
@@ -24,7 +24,7 @@ const MissionCta = () => {
           <h2 className="text-4xl md:text-[44px] font-bold text-white leading-tight mb-8">
             {t('mission.description')}
           </h2>
-          <Link href="#" className="inline-flex items-center justify-center bg-primary text-primary-foreground font-semibold py-4 px-8 rounded-md transition duration-300 hover:bg-primary/90 group">
+          <Link href="/contact" className="inline-flex items-center justify-center bg-primary text-primary-foreground font-semibold py-4 px-8 rounded-md transition duration-300 hover:bg-primary/90 group">
             {t('mission.cta')}
             <Image
               src={arrowIconUrl}

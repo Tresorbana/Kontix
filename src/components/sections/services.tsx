@@ -15,40 +15,40 @@ interface Service {
 const servicesData: Service[] = [
   {
     title: 'Consultoría Empresarial',
-    description: 'Soluciones estratégicas para optimizar el rendimiento de su negocio y alcanzar sus objetivos comerciales.',
-    imageUrl: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/6870f1f1079ca10bf321c3f4_Group%201597883591-10.webp',
+    description: 'Mejore la eficiencia, rentabilidad y competitividad de su empresa con soluciones estratégicas y personalizadas.',
+    imageUrl: 'https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&h=500&fit=crop&auto=format&q=80',
     altText: 'Consultoría Empresarial',
     features: [
-      'Análisis de mercado y competencia',
-      'Estrategias de crecimiento',
-      'Optimización de procesos',
-      'Planificación estratégica'
+      'Análisis de viabilidad y planes de negocio',
+      'Optimización de procesos internos',
+      'Toma de decisiones estratégicas',
+      'Estudios de mercado y planificación financiera'
     ],
     link: '/servicios/consultoria-empresarial'
   },
   {
     title: 'Gestión Administrativa y Contable',
-    description: 'Servicios integrales para la gestión eficiente de las operaciones administrativas y financieras de su empresa.',
-    imageUrl: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/6870f1f197c6508f0456e5f6_Group%201597883591%20(1)-11.webp',
+    description: 'Delegue tareas operativas para enfocarse en su negocio principal con servicios administrativos y contables eficientes.',
+    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&auto=format&q=80',
     altText: 'Gestión Administrativa y Contable',
     features: [
-      'Contabilidad general',
-      'Nóminas y recursos humanos',
-      'Facturación electrónica',
-      'Reportes financieros'
+      'Gestión de nómina y recursos humanos',
+      'Trámites fiscales y legales',
+      'Servicios de contabilidad y auditoría',
+      'Facturación electrónica y administración de proveedores'
     ],
     link: '/servicios/gestion-administrativa'
   },
   {
     title: 'Asesoría Financiera',
-    description: 'Orientación experta para la toma de decisiones financieras inteligentes y sostenibles para su negocio.',
-    imageUrl: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/6870f1f174824844f6d4336d_Group%201597883591%20(2)-12.webp',
+    description: 'Maximice ganancias y asegure la sostenibilidad financiera de su empresa con asesoría experta.',
+    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop&auto=format&q=80',
     altText: 'Asesoría Financiera',
     features: [
-      'Análisis financiero',
-      'Planificación fiscal',
-      'Estructura de capital',
-      'Inversiones estratégicas'
+      'Planificación financiera y presupuestos',
+      'Gestión de flujo de caja',
+      'Optimización de impuestos',
+      'Búsqueda de fuentes de financiamiento'
     ],
     link: '/servicios/asesoria-financiera'
   },
@@ -79,7 +79,7 @@ const ServiceCard = ({ title, description, imageUrl, altText, features, link }: 
         ))}
       </ul>
       <div className="mt-auto">
-        <Link href="#" className="inline-flex items-center text-primary font-medium hover:text-primary-dark transition-colors">
+        <Link href="/contact" className="inline-flex items-center text-primary font-medium hover:text-primary-dark transition-colors">
           Más información
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -99,10 +99,10 @@ const ServicesSection = () => {
             Nuestras Soluciones
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Soluciones integrales para su negocio
+            Descubra nuestras soluciones diseñadas para potenciar su crecimiento empresarial.
           </h2>
           <p className="text-lg text-gray-600">
-            Ofrecemos servicios profesionales diseñados para optimizar sus operaciones y maximizar su rentabilidad.
+            Consultoría Empresarial, Gestión Administrativa y Contable, y Asesoría Financiera adaptadas a las necesidades de su empresa.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -112,7 +112,7 @@ const ServicesSection = () => {
         </div>
         <div className="text-center mt-16">
           <Link 
-            href="#" 
+            href="/contact" 
             className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition-colors duration-300"
           >
             Solicite una consulta gratuita

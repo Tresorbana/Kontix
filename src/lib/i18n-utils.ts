@@ -8,19 +8,20 @@ import { Language } from '@/contexts/LanguageContext';
 /**
  * Format a date according to the specified language
  */
-export const formatDate = (date: Date, language: Language): string => {
+export const formatDate = (date: Date, language: Language, options?: Intl.DateTimeFormatOptions): string => {
   return new Intl.DateTimeFormat(language, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    ...options,
   }).format(date);
 };
 
 /**
  * Format a number according to the specified language
  */
-export const formatNumber = (num: number, language: Language): string => {
-  return new Intl.NumberFormat(language).format(num);
+export const formatNumber = (num: number, language: Language, options?: Intl.NumberFormatOptions): string => {
+  return new Intl.NumberFormat(language, options).format(num);
 };
 
 /**
@@ -64,9 +65,10 @@ export const getLanguageName = (language: Language): string => {
  */
 export const getValidLanguage = (lang: string | null): Language => {
   if (lang === 'es' || lang === 'en') {
-    return lang;
+    return lang as Language;
   }
-  return 'en'; // Default fallback
+  // Default fallback: Spanish
+  return 'es';
 };
 
 /**
@@ -74,8 +76,8 @@ export const getValidLanguage = (lang: string | null): Language => {
  */
 export const loadTranslations = async (language: Language) => {
   try {
-    const module = await import(`@/locales/${language}.json`);
-    return module.default;
+    const translationsModule = await import(`@/locales/${language}.json`);
+    return translationsModule.default;
   } catch (error) {
     console.error(`Failed to load ${language} translations:`, error);
     // Fallback to empty object to prevent crashes

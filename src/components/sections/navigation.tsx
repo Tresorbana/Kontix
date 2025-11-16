@@ -6,9 +6,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import LanguageToggle from '../ui/LanguageToggle';
+import { Globe } from 'lucide-react';
 
 export default function Navigation() {
-  const { t } = useLanguage();
+  const { t, language, toggleLanguage } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   
   useEffect(() => {
@@ -22,74 +23,117 @@ export default function Navigation() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [scrolled]);
+
+  const handleMobileLinkClick = () => {
+    // No menu to close, just navigate
+  };
   
   return (
     <header className={`fixed w-full z-50 transition-all duration-500 ${
-      scrolled ? 'py-2' : 'py-4'
+      scrolled ? 'py-2' : 'py-3 sm:py-4'
     }`}>
       <div className="container mx-auto px-4">
         <div className={`backdrop-blur-xl bg-black/40 border border-white/10 rounded-2xl shadow-2xl shadow-black/30 transition-all duration-500 hover:border-white/20 hover:backdrop-blur-2xl ${
-          scrolled ? 'py-3 px-6' : 'py-4 px-8'
+          scrolled ? 'py-2.5 px-4 sm:px-6' : 'py-3 px-4 sm:px-6 md:px-8'
         }`}>
           <div className="flex items-center justify-between">
-            {/* Logo and Company Name */}
-            <Link href="#" className="flex items-center space-x-4 group">
-              <motion.div 
-                className="relative h-12 w-12 md:h-14 md:w-14 flex-shrink-0 rounded-xl bg-white/5 p-2 border border-white/10 transition-all duration-300 group-hover:bg-[#f8a725]/10 group-hover:border-[#f8a725]/30"
-                whileHover={{ scale: 1.05 }}
-              >
+            {/* Logo (left) */}
+            <Link href="/" className="flex items-center gap-3">
+              <div className="relative h-10 w-10 sm:h-12 sm:w-12 rounded-2xl bg-white/5 p-2 border-2 border-white/20 transition-all duration-300">
                 <Image
                   src="/logo.webp"
                   alt="Caribbean Ventures"
-                  fill
-                  className="object-contain p-1 transition-all duration-300 group-hover:scale-105"
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-contain"
                   priority
                 />
-              </motion.div>
-              <motion.span 
-                className="text-xl font-bold text-white group-hover:text-[#f8a725] transition-colors duration-300"
-                initial={{ opacity: 0, x: -10 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5 }}
-              >
+              </div>
+              <span className="text-lg sm:text-xl font-bold text-white">
                 {t('company.name')}
-              </motion.span>
+              </span>
             </Link>
 
             {/* Right side actions */}
-            <div className="flex items-center space-x-4">
-              <div className="hidden md:flex items-center space-x-2 bg-black/40 backdrop-blur-lg rounded-full px-1 py-1 border border-white/10 hover:border-[#f8a725]/50 transition-all duration-300 group">
-                <LanguageToggle />
+            <div className="flex items-center space-x-4 justify-end">
+              <div className="hidden md:flex items-center space-x-2 bg-black/40 backdrop-blur-lg rounded-full px-1 py-1 border border-white/10 hover:border-[#cf2b2c]/60 transition-all duration-300 group">
+                <nav className="flex items-center space-x-1">
+                  <motion.a 
+                    href="/#about"
+                    onClick={(e) => {
+                      if (window.location.pathname !== '/') {
+                        window.location.href = '/#about';
+                        return;
+                      }
+                      e.preventDefault();
+                      const element = document.getElementById('about');
+                      if (element) {
+                        const offset = 120; // Offset for fixed navigation
+                        const elementPosition = element.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - offset;
+                        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                      }
+                    }}
+                    className="relative overflow-hidden text-sm font-medium text-white hover:text-[#cf2b2c] px-4 py-1.5 transition-colors duration-300"
+                    whileHover={{ scale: 1.03 }}
+                  >
+                    <span className="relative z-10">{t('nav.about')}</span>
+                  </motion.a>
+                  <motion.a 
+                    href="/#services"
+                    onClick={(e) => {
+                      if (window.location.pathname !== '/') {
+                        window.location.href = '/#services';
+                        return;
+                      }
+                      e.preventDefault();
+                      const element = document.getElementById('services');
+                      if (element) {
+                        const offset = 120; // Offset for fixed navigation
+                        const elementPosition = element.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - offset;
+                        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                      }
+                    }}
+                    className="relative overflow-hidden text-sm font-medium text-white hover:text-[#cf2b2c] px-4 py-1.5 transition-colors duration-300"
+                    whileHover={{ scale: 1.03 }}
+                  >
+                    <span className="relative z-10">{t('nav.services')}</span>
+                  </motion.a>
+                  <motion.a 
+                    href="/contact" 
+                    className="relative overflow-hidden text-sm font-medium text-white hover:text-[#cf2b2c] px-4 py-1.5 transition-colors duration-300"
+                    whileHover={{ scale: 1.03 }}
+                  >
+                    <span className="relative z-10">{t('nav.contact')}</span>
+                  </motion.a>
+                </nav>
                 <div className="h-6 w-px bg-gradient-to-b from-transparent via-white/30 to-transparent mx-1"></div>
-                <motion.a 
-                  href="#" 
-                  className="relative overflow-hidden text-sm font-medium text-white hover:text-[#f8a725] px-4 py-1.5 transition-colors duration-300"
-                  whileHover={{ scale: 1.03 }}
-                >
-                  <span className="relative z-10">{t('nav.contact')}</span>
-                  <span className="absolute inset-0 bg-gradient-to-r from-[#f8a725]/10 to-[#f8b84c]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></span>
-                </motion.a>
+                <LanguageToggle />
               </div>
               
-              {/* Mobile menu button */}
+              {/* Mobile language toggle button */}
               <motion.button 
-                className="md:hidden p-2.5 rounded-xl bg-black/40 hover:bg-[#f8a725]/10 backdrop-blur-md transition-all duration-300 border border-white/10 hover:border-[#f8a725]/50"
-                aria-label="Menu"
+                className="md:hidden px-4 py-2.5 rounded-xl bg-black/40 hover:bg-[#004355]/20 backdrop-blur-md transition-all duration-300 border border-white/10 hover:border-[#cf2b2c]/60 flex items-center gap-2"
+                aria-label="Toggle Language"
+                onClick={() => toggleLanguage()}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
+                <span className="text-sm sm:text-base font-medium text-white uppercase">
+                  {language === 'es' ? 'EN' : 'ES'}
+                </span>
+                <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </motion.button>
             </div>
           </div>
         </div>
       </div>
+
       
       {/* Subtle glow effect */}
       <motion.div 
-        className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-[#f8a725]/10 blur-3xl -z-10"
+        className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-[#004355]/20 blur-3xl -z-10"
         animate={{
           opacity: [0.3, 0.4, 0.3],
         }}

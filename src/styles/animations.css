@@ -13,12 +13,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f59e0b;
+  background: #004355;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #d97706;
+  background: #cf2b2c;
 }
 
 /* Scroll progress indicator */
@@ -27,7 +27,7 @@ html {
   top: 0;
   left: 0;
   height: 3px;
-  background: linear-gradient(90deg, #f59e0b, #d97706);
+  background: linear-gradient(90deg, #004355, #cf2b2c);
   transform-origin: 0%;
   z-index: 9999;
 }
@@ -180,14 +180,14 @@ html {
   backface-visibility: hidden;
 }
 
-/* Custom cursor styles */
+/* Custom cursor styles - use default pointer */
 .cursor-none {
-  cursor: none;
+  cursor: auto;
 }
 
-/* Hide cursor only on desktop */
+/* Desktop-specific cursor override (kept for compatibility) */
 @media (min-width: 768px) {
   .cursor-desktop-none {
-    cursor: none;
+    cursor: auto;
   }
 }

@@ -22,7 +22,7 @@
   },
   "about": {
     "sectionTitle": "About Us", 
-    "title": "Caribbean Ventures Investment Corp S.R.L.",
+    "title": "Caribbean Ventures",
     "description": "Founded in 2015, we provide specialized business services to enhance efficiency and competitiveness across diverse industries.",
     "learnMore": "Learn More About Us",
     "features": {
@@ -112,13 +112,15 @@
     "title": "Ready to transform your business?",
     "description": "Contact us and discover how we can help you achieve your business objectives.",
     "contact": "Contact Now",
-    "schedule": "Schedule Consultation"
+    "schedule": "Schedule Consultation",
+    "tagline": "Contact Us",
+    "button": "Contact Us"
   },
   "company": {
     "name": "Caribbean Ventures"
   },
   "footer": {
-    "description": "Caribbean Ventures Investment Corp S.R.L. - Dominican Republic",
+    "description": "Caribbean Ventures - Dominican Republic",
     "rights": "All rights reserved",
     "quickLinks": "Quick Links",
     "services": "Services", 
@@ -129,6 +131,40 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "disclaimer": "Disclaimer",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "addressTitle": "Our Address",
+    "address": "Santo Domingo, Dominican Republic",
+    "contactTitle": "Contact Us",
+    "servicesTitle": "Our Services",
+    "service1": "Business Consulting",
+    "service2": "Administrative and Accounting Management",
+    "service3": "Financial Advisory"
+  },
+  "quality": {
+    "sectionTitle": "Quality and Excellence",
+    "title": "Commitment to excellence in every solution",
+    "description": "Our commitment to quality is reflected in every aspect of our work, from strategic planning to successful execution of business projects.",
+    "contactButton": "Contact Us"
+  },
+  "whatWeDo": {
+    "sectionTitle": "What We Do",
+    "title": "We transform ideas into results",
+    "description": "We combine specialized knowledge with advanced technology to deliver solutions that generate real value.",
+    "tagline": "Our Services",
+    "subtitle": "Comprehensive solutions for your business success",
+    "services": {
+      "service1": {
+        "title": "Business Consulting",
+        "description": "Strategic solutions to improve the efficiency and profitability of your business"
+      },
+      "service2": {
+        "title": "Administrative and Accounting Management",
+        "description": "Comprehensive services to optimize your company's operations"
+      },
+      "service3": {
+        "title": "Financial Advisory",
+        "description": "Maximize your profits with personalized financial strategies"
+      }
+    }
   }
 }

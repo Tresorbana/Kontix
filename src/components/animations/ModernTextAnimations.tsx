@@ -146,7 +146,7 @@ export const GradientText: React.FC<{
   text: string;
   className?: string;
   colors?: string[];
-}> = ({ text, className = "", colors = ["#f59e0b", "#d97706", "#b45309"] }) => {
+}> = ({ text, className = "", colors = ["#004355", "#cf2b2c", "#004355"] }) => {
   return (
     <motion.div
       className={`bg-gradient-to-r ${className}`}

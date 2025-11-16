@@ -46,10 +46,10 @@ const AnimatedStat = ({
 
   return (
     <div className="text-center">
-      <p className="text-5xl font-bold tracking-tighter text-black">
+      <div className="text-5xl font-bold tracking-tighter text-black">
         {count}
         {suffix}
-      </p>
+      </div>
       <p className="mt-1 text-sm text-black">{label}</p>
     </div>
   );
@@ -83,7 +83,7 @@ export default function AboutUsSection() {
   }, []);
 
   return (
-    <section className="bg-black text-white py-24 sm:py-32">
+    <section id="about" className="bg-black text-white py-24 sm:py-32">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 items-center">
           <SlideIn direction="left">
@@ -117,7 +117,7 @@ export default function AboutUsSection() {
                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   >
                     <Link
-                      href="#"
+                      href="/about"
                       className="inline-flex items-center gap-3 rounded-lg bg-primary py-4 px-8 text-black font-medium transition-colors hover:bg-primary/90"
                     >
                       {t('about.learnMore')}
@@ -208,15 +208,15 @@ export default function AboutUsSection() {
                 intensity={0.5}
               >
                 <ClipPathReveal direction="left" className="text-center">
-                  <p className="text-5xl font-bold tracking-tighter text-black">
+                  <div className="text-5xl font-bold tracking-tighter text-black">
                     <EasedCounter from={0} to={200} suffix="+" />
-                  </p>
+                  </div>
                   <p className="mt-1 text-sm text-black">{t('about.stats.clients')}</p>
                 </ClipPathReveal>
                 <ClipPathReveal direction="right" className="text-center">
-                  <p className="text-5xl font-bold tracking-tighter text-black">
+                  <div className="text-5xl font-bold tracking-tighter text-black">
                     <EasedCounter from={0} to={15} suffix="+" />
-                  </p>
+                  </div>
                   <p className="mt-1 text-sm text-black">{t('about.stats.experience')}</p>
                 </ClipPathReveal>
               </MagneticCard>

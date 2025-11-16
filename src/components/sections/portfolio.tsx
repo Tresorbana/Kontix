@@ -1,46 +1,49 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface Project {
   slug: string;
   image: string;
   title: string;
-  location: string;
+  description: string;
 }
 
-const projects: Project[] = [
-  {
-    slug: 'skyline-tower',
-    image: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/6893177c46cc496e4f67516b_Mask%20group%20-%202025-08-06T135452.985-20.webp?',
-    title: 'Skyline tower',
-    location: 'New York, USA',
-  },
-  {
-    slug: 'facility-building',
-    image: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/6893175f05f7a5810358d089_Mask%20group%20-%202025-08-06T135443.129-21.webp?',
-    title: 'Facility building',
-    location: 'Grand Haven, USA',
-  },
-];
-
-const arrowIconUrl = "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874c8e16caffd9e749221fd_Arrow%2011%20(1)-26.svg?";
-
 const PortfolioSection = () => {
+  const { t } = useLanguage();
+  
+  const projects: Project[] = [
+    {
+      slug: 'consultoria-empresarial',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=900&fit=crop&auto=format&q=80',
+      title: t('footer.service1'),
+      description: t('whatWeDo.services.service1.description'),
+    },
+    {
+      slug: 'gestion-administrativa',
+      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=900&fit=crop&auto=format&q=80',
+      title: t('footer.service2'),
+      description: t('whatWeDo.services.service2.description'),
+    },
+  ];
+
+  const arrowIconUrl = "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874c8e16caffd9e749221fd_Arrow%2011%20(1)-26.svg?";
+
   return (
     <section className="bg-white py-[100px]">
       <div className="container mx-auto px-5">
         <div className="flex flex-col items-center mb-10 text-center">
           <div className="text-[#666666] text-sm font-medium tracking-[0.2em] uppercase mb-2">
-            Our work
+            {t('portfolio.sectionTitle')}
           </div>
           <h2 className="text-[40px] font-semibold leading-[1.3] text-[#121212] max-w-[580px]">
-            Innovative building techniques for a brighter future
+            {t('portfolio.title')}
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project) => (
-            <Link href="#" key={project.slug} className="group block">
+            <Link href="/contact" key={project.slug} className="group block">
               <div className="relative rounded-[20px] overflow-hidden aspect-[588/665]">
                 <Image
                   src={project.image}
@@ -55,7 +58,7 @@ const PortfolioSection = () => {
                   </div>
                   <div>
                     <h3 className="text-2xl font-semibold text-[#121212] mb-1">{project.title}</h3>
-                    <p className="text-base text-[#666666]">( {project.location} )</p>
+                    <p className="text-base text-[#666666]">{project.description}</p>
                   </div>
                 </div>
               </div>

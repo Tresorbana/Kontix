@@ -9,15 +9,11 @@ export const CursorManager = () => {
     };
 
     if (!checkIsMobile()) {
-      document.body.classList.add('cursor-desktop-none');
+      // Default cursor, no custom behavior on desktop
     }
 
     const handleResize = () => {
-      if (checkIsMobile()) {
-        document.body.classList.remove('cursor-desktop-none');
-      } else {
-        document.body.classList.add('cursor-desktop-none');
-      }
+      // No cursor class toggling; keep default cursor on all devices
     };
 
     window.addEventListener('resize', handleResize);

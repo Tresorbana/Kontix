@@ -1,43 +1,27 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from '@/contexts/LanguageContext';
 
-const features = [
-  {
-    iconUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/68a6f948afe26d123fa1a789_Vector%20(86)-24.svg?",
-    iconWidth: 31,
-    iconHeight: 42,
-    title: "Faster project completion",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius finibus erat. In hac habitas",
-  },
-  {
-    iconUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/68a6f94843d62cbb7a4301ef_Group%201009003667%20(1)-25.svg?",
-    iconWidth: 28,
-    iconHeight: 42,
-    title: "Increased property value",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit cras diam sapien, mattis sed lorem pretium",
-  },
-];
 
 const QualityConstruction = () => {
+  const { t } = useLanguage();
   return (
     <section className="bg-background text-foreground py-20 lg:py-24">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="relative h-[480px] lg:h-[600px] w-full">
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/68a6f8abc12a30456070fc93_worker-at-heights-near-eiffel-tower-qk-ay-19.webp?"
-              alt="Construction worker"
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=800&fit=crop&auto=format&q=80"
+              alt="Business professional meeting"
               width={314}
               height={434}
               className="absolute top-0 left-0 w-3/4 max-w-[314px] rounded-2xl object-cover z-10"
             />
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/68a6f8ab171f32ee9981ec87_Mask%20group%20-%202025-08-20T141702.980-18.webp?"
-              alt="Construction site detail"
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=600&fit=crop&auto=format&q=80"
+              alt="Business team collaboration"
               width={313}
               height={311}
               className="absolute bottom-0 right-0 w-3/4 max-w-[313px] rounded-2xl object-cover"
@@ -46,44 +30,56 @@ const QualityConstruction = () => {
 
           <div>
             <p className="text-primary text-sm font-semibold tracking-[1.4px] uppercase mb-4">
-              Quality Construction
+              {t('quality.sectionTitle')}
             </p>
             <h2 className="text-4xl lg:text-[40px] font-semibold text-foreground leading-tight lg:leading-[52px]">
-              Building strong foundations for a stronger future
+              {t('quality.title')}
             </h2>
+            <p className="mt-6 text-lg leading-7 text-gray-300">
+              {t('quality.description')}
+            </p>
 
             <div className="mt-10 pt-10 border-t border-border space-y-8">
-              {features.map((feature, index) => (
-                <div key={index} className="flex items-start gap-5">
-                  <Image
-                    src={feature.iconUrl}
-                    alt={`${feature.title} icon`}
-                    width={feature.iconWidth}
-                    height={feature.iconHeight}
-                    className="flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <h3 className="text-xl font-semibold text-white mb-2">
-                      {feature.title}
-                    </h3>
-                    <p className="text-white/70">{feature.description}</p>
-                  </div>
+              <div className="flex items-start gap-5">
+                <div className="flex-shrink-0 mt-1 w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
-              ))}
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">
+                    {t('about.features.experience.title')}
+                  </h3>
+                  <p className="text-white/70">{t('about.features.experience.description')}</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-5">
+                <div className="flex-shrink-0 mt-1 w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">
+                    {t('about.features.personalized.title')}
+                  </h3>
+                  <p className="text-white/70">{t('about.features.personalized.description')}</p>
+                </div>
+              </div>
             </div>
 
             <Link
-              href="#"
+              href="/contact"
               className="group inline-flex items-center justify-center bg-primary text-primary-foreground font-medium py-4 px-8 rounded-full mt-10 transition-transform duration-300 hover:-translate-y-1"
             >
-              <span>Get started</span>
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/67af1b78eef99645a9f0bfd8_Arrow%206-5.svg?"
-                alt="Arrow icon"
-                width={10}
-                height={9}
-                className="ml-2 transition-transform duration-300 group-hover:translate-x-1"
+                src="/logo.webp"
+                alt="Caribbean Ventures"
+                width={24}
+                height={24}
+                className="mr-2 rounded-full"
               />
+              <span>{t('quality.contactButton')}</span>
             </Link>
           </div>
         </div>

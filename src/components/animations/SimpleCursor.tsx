@@ -22,7 +22,6 @@ export const SimpleCursor: React.FC = () => {
     // Only show cursor on desktop
     if (!isMobile()) {
       setIsVisible(true);
-      document.body.classList.add('cursor-desktop-none');
     }
 
     const moveCursor = (e: MouseEvent) => {
@@ -60,7 +59,6 @@ export const SimpleCursor: React.FC = () => {
     return () => {
       window.removeEventListener("mousemove", moveCursor);
       window.removeEventListener('resize', handleResize);
-      document.body.classList.remove('cursor-desktop-none');
       
       interactiveElements.forEach(el => {
         el.removeEventListener("mouseenter", handleMouseEnter);

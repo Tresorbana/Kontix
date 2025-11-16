@@ -49,21 +49,21 @@ export default function ServicesSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section id="services" className="py-20 bg-black">
       <div className="container mx-auto px-5">
         <StaggerContainer className="text-center mb-16">
           <StaggerItem>
-            <p className="text-sm font-semibold tracking-widest text-yellow-500 uppercase">
+            <p className="text-sm font-semibold tracking-widest text-[#cf2b2c] uppercase">
               {t('services.sectionTitle')}
             </p>
           </StaggerItem>
           <StaggerItem>
-            <h2 className="mt-4 text-4xl font-bold tracking-tight bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-300 bg-clip-text text-transparent sm:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl">
               {t('services.title')}
             </h2>
           </StaggerItem>
           <StaggerItem>
-            <p className="mt-6 text-lg leading-7 text-yellow-100/80 max-w-3xl mx-auto">
+            <p className="mt-6 text-lg leading-7 text-gray-200 max-w-3xl mx-auto">
               {t('services.description')}
             </p>
           </StaggerItem>
@@ -73,7 +73,7 @@ export default function ServicesSection() {
           {servicesData.map((service, index) => (
             <StaggerItem key={service.key}>
               <MagneticHover className="group">
-                <div className="bg-gray-800/50 backdrop-blur-sm border border-white/5 rounded-2xl overflow-hidden hover:bg-gray-700/50 hover:border-yellow-500/20 transition-all duration-300 h-full group-hover:shadow-lg group-hover:shadow-yellow-500/10">
+                <div className="bg-gray-800/50 backdrop-blur-sm border border-white/5 rounded-2xl overflow-hidden hover:bg-gray-700/50 hover:border-[#cf2b2c]/40 transition-all duration-300 h-full group-hover:shadow-lg group-hover:shadow-[#004355]/25">
                   <div className="relative h-48 overflow-hidden">
                     <Image
                       src={service.imageUrl}
@@ -83,10 +83,10 @@ export default function ServicesSection() {
                     />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold text-yellow-50 mb-3 group-hover:text-yellow-400 transition-colors duration-300">
+                    <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-[#cf2b2c] transition-colors duration-300">
                       {t(`services.items.${service.key}.title`)}
                     </h3>
-                    <p className="text-yellow-100/70 text-sm leading-relaxed group-hover:text-yellow-100/90 transition-colors duration-300">
+                    <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-100 transition-colors duration-300">
                       {t(`services.items.${service.key}.description`)}
                     </p>
                   </div>
@@ -94,12 +94,6 @@ export default function ServicesSection() {
               </MagneticHover>
             </StaggerItem>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <button className="relative overflow-hidden group bg-gradient-to-r from-yellow-500 to-yellow-400 text-gray-900 font-semibold py-3 px-8 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/20 hover:scale-105">
-            {t('services.viewAll')}
-          </button>
         </div>
       </div>
     </section>

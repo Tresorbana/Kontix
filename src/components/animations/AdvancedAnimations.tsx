@@ -137,7 +137,7 @@ export const ProgressBar: React.FC<{
   progress: number; 
   className?: string;
   color?: string;
-}> = ({ progress, className = "", color = "#f59e0b" }) => {
+}> = ({ progress, className = "", color = "#cf2b2c" }) => {
   return (
     <div className={`w-full bg-gray-200 rounded-full ${className}`}>
       <motion.div
@@ -156,7 +156,7 @@ export const ProgressBar: React.FC<{
 export const MorphingShape: React.FC<{ 
   className?: string;
   color?: string;
-}> = ({ className = "", color = "#f59e0b" }) => {
+}> = ({ className = "", color = "#004355" }) => {
   return (
     <motion.div
       className={`rounded-full ${className}`}
@@ -205,7 +205,7 @@ export const GlowEffect: React.FC<{
   children: React.ReactNode; 
   className?: string;
   color?: string;
-}> = ({ children, className = "", color = "#f59e0b" }) => {
+}> = ({ children, className = "", color = "#cf2b2c" }) => {
   return (
     <motion.div
       className={className}

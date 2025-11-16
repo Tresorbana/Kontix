@@ -4,26 +4,26 @@ import Image from "next/image";
 const foundationData = [
   {
     imageSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/68749f6c20e992e58e737946_Mask%20group%20-%202025-07-14T114015.102-13.webp?",
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1000&h=667&fit=crop&auto=format&q=80",
     subtitle: "ATENCIÓN INTEGRAL",
     title: "Atención integral",
     listItems: [
-      "Servicio completo que cubre todas las áreas necesarias",
-      "Equipo legal y contable altamente capacitado",
-      "Soluciones personalizadas para cada negocio",
-      "Experiencia local e internacional",
+      "Ofrecemos un servicio completo que cubre todas las áreas necesarias",
+      "Para que su empresa pueda crecer y prosperar sin preocuparse por los detalles operativos",
+      "Coordinamos cada aspecto para que usted se enfoque en la estrategia de su negocio",
+      "Acompañamiento cercano y continuo en cada etapa",
     ],
   },
   {
     imageSrc:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/images/6874a1877186f18bd7fb9060_Mask%20group%20-%202025-07-14T114921.653-14.webp?",
+      "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1000&h=667&fit=crop&auto=format&q=80",
     subtitle: "NUESTRA VENTAJA COMPETITIVA",
     title: "¿Por qué elegirnos?",
     listItems: [
-      "Atención integral para su negocio",
-      "Equipo profesional altamente calificado",
-      "Soluciones a medida según sus necesidades",
-      "Experiencia en diversos mercados",
+      "Atención integral",
+      "Equipo legal y contable altamente capacitado",
+      "Soluciones personalizadas",
+      "Experiencia local e internacional",
     ],
   },
 ];
@@ -69,8 +69,8 @@ const StrongFoundations = () => {
                       </h3>
                     </div>
                     <a
-                      href="#"
-                      aria-label={`Learn more about ${item.title}`}
+                      href="/contact"
+                      aria-label={`Contáctanos sobre ${item.title}`}
                       className="bg-primary flex-shrink-0 w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:scale-110"
                     >
                       <Image

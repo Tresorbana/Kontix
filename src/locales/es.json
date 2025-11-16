@@ -9,16 +9,21 @@
     "tagline": "Servicios Empresariales",
     "headline": {
       "line1": "Mejoramos su eficiencia",
-      "line2": "y competitividad", 
-      "line3": "con soluciones B2B especializadas."
+      "line2": "y competitividad con soluciones B2B especializadas"
     },
     "subtitle": "Optimización de procesos — Soluciones corporativas — Activos y Banca",
-    "startProject": "Comenzar",
-    "rating": "Fundada 2015 • República Dominicana"
+    "cta": {
+      "primary": "Comenzar",
+      "secondary": "Nuestros Servicios"
+    },
+    "trust": {
+      "clients": "100+ Clientes Satisfechos",
+      "experience": "10+ Años de Experiencia"
+    }
   },
   "about": {
     "sectionTitle": "Sobre Nosotros", 
-    "title": "Caribbean Ventures Investment Corp S.R.L.",
+    "title": "Caribbean Ventures",
     "description": "Fundada en 2015, proporcionamos servicios empresariales especializados para mejorar la eficiencia y competitividad en diversas industrias.",
     "learnMore": "Conócenos Mejor",
     "features": {
@@ -108,7 +113,9 @@
     "title": "¿Listo para transformar su negocio?",
     "description": "Póngase en contacto con nosotros y descubra cómo podemos ayudarle a alcanzar sus objetivos empresariales.",
     "contact": "Contactar Ahora",
-    "schedule": "Agendar Consulta"
+    "schedule": "Agendar Consulta",
+    "tagline": "Contáctanos",
+    "button": "Contáctanos"
   },
   "company": {
     "name": "Caribbean Ventures",
@@ -117,7 +124,7 @@
     "email": "Correo Electrónico"
   },
   "footer": {
-    "description": "Caribbean Ventures Investment Corp S.R.L. - República Dominicana",
+    "description": "Caribbean Ventures - República Dominicana",
     "rights": "Todos los derechos reservados",
     "quickLinks": "Enlaces Rápidos",
     "services": "Servicios", 
@@ -128,6 +135,40 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Uso",
     "disclaimer": "Descargo de Responsabilidad",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "addressTitle": "Nuestra Dirección",
+    "address": "Santo Domingo, República Dominicana",
+    "contactTitle": "Contáctanos",
+    "servicesTitle": "Nuestros Servicios",
+    "service1": "Consultoría Empresarial",
+    "service2": "Gestión Administrativa y Contable",
+    "service3": "Asesoría Financiera"
+  },
+  "quality": {
+    "sectionTitle": "Calidad y Excelencia",
+    "title": "Compromiso con la excelencia en cada solución",
+    "description": "Nuestro compromiso con la calidad se refleja en cada aspecto de nuestro trabajo, desde la planificación estratégica hasta la ejecución exitosa de proyectos empresariales.",
+    "contactButton": "Contáctanos"
+  },
+  "whatWeDo": {
+    "sectionTitle": "Lo Que Hacemos",
+    "title": "Transformamos ideas en resultados",
+    "description": "Combinamos conocimiento especializado con tecnología avanzada para entregar soluciones que generan valor real.",
+    "tagline": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales para el éxito de su negocio",
+    "services": {
+      "service1": {
+        "title": "Consultoría Empresarial",
+        "description": "Soluciones estratégicas para mejorar la eficiencia y rentabilidad de su negocio"
+      },
+      "service2": {
+        "title": "Gestión Administrativa y Contable",
+        "description": "Servicios integrales para optimizar las operaciones de su empresa"
+      },
+      "service3": {
+        "title": "Asesoría Financiera",
+        "description": "Maximice sus ganancias con estrategias financieras personalizadas"
+      }
+    }
   }
 }

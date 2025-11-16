@@ -44,6 +44,26 @@ export const VelocityScale: React.FC<{
   );
 };
 
+// Parallax layer component (separate to allow hooks)
+const ParallaxLayer: React.FC<{
+  content: React.ReactNode;
+  speed: number;
+  className?: string;
+  scrollYProgress: any;
+}> = ({ content, speed, className, scrollYProgress }) => {
+  const y = useTransform(scrollYProgress, [0, 1], [0, speed * 100]);
+  const smoothY = useSpring(y, { stiffness: 100, damping: 30 });
+
+  return (
+    <motion.div
+      style={{ y: smoothY }}
+      className={className || "absolute inset-0"}
+    >
+      {content}
+    </motion.div>
+  );
+};
+
 // Multi-layered parallax
 export const MultiLayerParallax: React.FC<{
   layers: {
@@ -61,20 +81,15 @@ export const MultiLayerParallax: React.FC<{
 
   return (
     <div ref={containerRef} className={`relative ${className}`}>
-      {layers.map((layer, index) => {
-        const y = useTransform(scrollYProgress, [0, 1], [0, layer.speed * 100]);
-        const smoothY = useSpring(y, { stiffness: 100, damping: 30 });
-
-        return (
-          <motion.div
-            key={index}
-            style={{ y: smoothY }}
-            className={layer.className || "absolute inset-0"}
-          >
-            {layer.content}
-          </motion.div>
-        );
-      })}
+      {layers.map((layer, index) => (
+        <ParallaxLayer
+          key={index}
+          content={layer.content}
+          speed={layer.speed}
+          className={layer.className}
+          scrollYProgress={scrollYProgress}
+        />
+      ))}
     </div>
   );
 };

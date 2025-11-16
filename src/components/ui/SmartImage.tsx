@@ -38,7 +38,7 @@ export const SmartImage: React.FC<SmartImageProps> = ({
         setImageSrc(fallbackSrc);
       } else {
         // Generate a placeholder based on dimensions
-        const placeholderSrc = `https://via.placeholder.com/${width || 400}x${height || 300}/1f2937/f59e0b?text=${encodeURIComponent(alt)}`;
+        const placeholderSrc = `https://via.placeholder.com/${width || 400}x${height || 300}/1f2937/cf2b2c?text=${encodeURIComponent(alt)}`;
         setImageSrc(placeholderSrc);
       }
     }
@@ -46,7 +46,7 @@ export const SmartImage: React.FC<SmartImageProps> = ({
 
   const imageProps = {
     src: imageSrc,
-    alt,
+    alt: alt || '',
     className,
     onError: handleError,
     priority,
@@ -54,7 +54,7 @@ export const SmartImage: React.FC<SmartImageProps> = ({
     ...(fill ? { fill: true, sizes } : { width, height })
   };
 
-  return <Image {...imageProps} />;
+  return <Image {...imageProps} alt={alt || ''} />;
 };
 
 // Specialized components for different use cases

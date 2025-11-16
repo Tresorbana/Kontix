@@ -22,6 +22,19 @@ const customerIcons = [
 
 const SLIDE_DURATION = 5000;
 
+// Default slides data (component not currently in use)
+const slidesData = [
+  {
+    id: '1',
+    key: 'slide1',
+    bgImage: 'https://picsum.photos/1920/1080?random=1',
+    thumb: {
+      image: 'https://picsum.photos/64/64?random=1',
+      title: 'Slide 1'
+    }
+  }
+];
+
 const ProgressBar = ({ active }: { active: boolean }) => {
   return (
     <div className="absolute top-0 left-0 h-[3px] w-full bg-white/20 rounded-t-lg overflow-hidden">

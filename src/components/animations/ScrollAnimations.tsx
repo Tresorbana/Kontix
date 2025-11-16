@@ -1,7 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 // Animation variants
@@ -11,7 +10,7 @@ export const fadeInVariants = {
     opacity: 1,
     transition: { 
       duration: 0.6,
-      ease: "easeOut"
+      ease: "easeOut" as const
     }
   }
 };
@@ -24,7 +23,7 @@ export const slideInVariants = {
       x: 0,
       transition: { 
         duration: 0.6,
-        ease: "easeOut"
+        ease: "easeOut" as const
       }
     }
   },
@@ -35,7 +34,7 @@ export const slideInVariants = {
       x: 0,
       transition: { 
         duration: 0.6,
-        ease: "easeOut"
+        ease: "easeOut" as const
       }
     }
   },
@@ -46,7 +45,7 @@ export const slideInVariants = {
       y: 0,
       transition: { 
         duration: 0.6,
-        ease: "easeOut"
+        ease: "easeOut" as const
       }
     }
   },
@@ -57,7 +56,7 @@ export const slideInVariants = {
       y: 0,
       transition: { 
         duration: 0.6,
-        ease: "easeOut"
+        ease: "easeOut" as const
       }
     }
   }
@@ -70,7 +69,7 @@ export const scaleInVariants = {
     scale: 1,
     transition: { 
       duration: 0.6,
-      ease: "easeOut"
+      ease: "easeOut" as const
     }
   }
 };
@@ -93,7 +92,7 @@ export const staggerItemVariants = {
     y: 0,
     transition: { 
       duration: 0.5,
-      ease: "easeOut"
+      ease: "easeOut" as const
     }
   }
 };
@@ -120,7 +119,8 @@ export const FadeIn: React.FC<AnimationProps> = ({ children, className = "", del
         visible: {
           ...fadeInVariants.visible,
           transition: {
-            ...fadeInVariants.visible.transition,
+            duration: 0.6,
+            ease: "easeOut" as const,
             delay
           }
         }
@@ -151,7 +151,8 @@ export const SlideIn: React.FC<AnimationProps & { direction?: 'left' | 'right' |
         visible: {
           ...slideInVariants[direction].visible,
           transition: {
-            ...slideInVariants[direction].visible.transition,
+            duration: 0.6,
+            ease: "easeOut" as const,
             delay
           }
         }
@@ -177,7 +178,8 @@ export const ScaleIn: React.FC<AnimationProps> = ({ children, className = "", de
         visible: {
           ...scaleInVariants.visible,
           transition: {
-            ...scaleInVariants.visible.transition,
+            duration: 0.6,
+            ease: "easeOut" as const,
             delay
           }
         }
@@ -223,18 +225,14 @@ export const Parallax: React.FC<AnimationProps & { speed?: number }> = ({
   speed = 0.5 
 }) => {
   const ref = useRef(null);
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 1000], [0, -1000 * speed]);
 
   return (
     <motion.div
       ref={ref}
       className={className}
-      style={{
-        y: motion.useTransform(
-          motion.useScroll().scrollY,
-          [0, 1000],
-          [0, -1000 * speed]
-        )
-      }}
+      style={{ y }}
     >
       {children}
     </motion.div>
