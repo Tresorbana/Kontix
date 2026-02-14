@@ -2,7 +2,8 @@
   "nav": {
     "services": "Services",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "home": "Home"
   },
   "hero": {
     "tagline": "Strategic Business Excellence",
