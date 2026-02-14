@@ -14,11 +14,10 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-// Default fallback translations
-const DEFAULT_TRANSLATIONS = {
-  loading: 'Loading...',
-  error: 'Error loading translations',
-};
+// Default fallback translations (English)
+import enTranslations from '../locales/en.json';
+
+const DEFAULT_TRANSLATIONS = enTranslations;
 
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
@@ -33,19 +32,19 @@ interface LanguageProviderProps {
   defaultLanguage?: Language;
 }
 
-export const LanguageProvider: React.FC<LanguageProviderProps> = ({ 
-  children, 
-  defaultLanguage = 'es' 
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({
+  children,
+  defaultLanguage = 'en'  // Changed default to English
 }) => {
   const [language, setLanguageState] = useState<Language>(defaultLanguage);
   const [translations, setTranslations] = useState<Record<string, any>>(DEFAULT_TRANSLATIONS);
-  const [isLanguageLoading, setIsLanguageLoading] = useState(true);
+  const [isLanguageLoading, setIsLanguageLoading] = useState(false); // Default to false since we have EN loaded
 
   // Set language and persist to localStorage
   const setLanguage = useCallback((newLanguage: Language) => {
     if (newLanguage !== language) {
       setLanguageState(newLanguage);
-      
+
       // Update localStorage if in browser
       if (typeof window !== 'undefined') {
         try {
@@ -78,34 +77,35 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
 
   // Load translations when language changes
   useEffect(() => {
+    // If language is EN, we might already have it as default, 
+    // but better to reload if we switched from ES to ensure consistency
+    // or if we just mounted and language is EN, we are good.
+
     let isMounted = true;
-    
+
     const loadTranslations = async () => {
       try {
         setIsLanguageLoading(true);
-        // Add a small delay to show loading state (for demo purposes)
-        await new Promise(resolve => setTimeout(resolve, 150));
-        
+
+        // Dynamically import the locale file
         const translationsModule = await import(
-          /* webpackChunkName: "[request]" */ 
+          /* webpackChunkName: "[request]" */
           `../locales/${language}.json`
         );
-        
+
         if (isMounted) {
-          setTranslations({
-            ...DEFAULT_TRANSLATIONS,
-            ...translationsModule.default
-          });
-          
+          setTranslations(translationsModule.default);
+
           // Update HTML lang attribute
           document.documentElement.lang = language;
-          
+
           // Add language-specific body class
           document.body.classList.remove('lang-en', 'lang-es');
           document.body.classList.add(`lang-${language}`);
         }
       } catch (error) {
         console.error('Failed to load translations:', error);
+        // Fallback to English if loading fails
         if (isMounted) {
           setTranslations(DEFAULT_TRANSLATIONS);
         }
@@ -117,7 +117,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
     };
 
     loadTranslations();
-    
+
     return () => {
       isMounted = false;
     };
@@ -126,10 +126,10 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
   // Translation function with parameter support
   const t = useCallback((key: string, params?: Record<string, string | number>): string => {
     if (isLanguageLoading) return '';
-    
+
     const keys = key.split('.');
     let value: any = translations;
-    
+
     // Navigate through the nested object to find the translation
     for (const k of keys) {
       if (value && typeof value === 'object' && k in value) {
@@ -142,16 +142,16 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         return key; // Return the key as fallback
       }
     }
-    
+
     // If we have a string value, process any parameters
     if (typeof value === 'string' && params) {
       return Object.entries(params).reduce(
-        (str, [param, paramValue]) => 
+        (str, [param, paramValue]) =>
           str.replace(new RegExp(`{{${param}}}`, 'g'), String(paramValue)),
         value
       );
     }
-    
+
     return typeof value === 'string' ? value : key;
   }, [translations, isLanguageLoading]);
 

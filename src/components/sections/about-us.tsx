@@ -108,83 +108,83 @@ export default function AboutUsSection() {
                   {t('about.description')}
                 </BlurReveal>
               </StaggerItem>
-            <StaggerItem>
-              <div className="mt-10">
-                <MagneticHover>
-                  <motion.div
-                    whileHover={{ scale: 1.05, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                  >
-                    <Link
-                      href="/about"
-                      className="inline-flex items-center gap-3 rounded-lg bg-primary py-4 px-8 text-black font-medium transition-colors hover:bg-primary/90"
+              <StaggerItem>
+                <div className="mt-10">
+                  <MagneticHover>
+                    <motion.div
+                      whileHover={{ scale: 1.05, y: -2 }}
+                      whileTap={{ scale: 0.95 }}
+                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
                     >
-                      {t('about.learnMore')}
+                      <Link
+                        href="/about"
+                        className="inline-flex items-center gap-3 rounded-lg bg-primary py-4 px-8 text-black font-medium transition-colors hover:bg-primary/90"
+                      >
+                        {t('about.learnMore')}
+                        <motion.div
+                          whileHover={{ x: 5 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                        >
+                          <IconImage
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEwIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05IDQuNUwxIDQuNU0yLjUgOEw5IDQuNUwyLjUgMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHN2Zz4K"
+                            width={10}
+                            height={9}
+                            alt="Arrow icon"
+                          />
+                        </motion.div>
+                      </Link>
+                    </motion.div>
+                  </MagneticHover>
+                </div>
+              </StaggerItem>
+              <StaggerItem>
+                <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 border-t border-border pt-12 sm:grid-cols-2">
+                  <FadeIn delay={0.2} className="flex items-start gap-4">
+                    <FloatingElement intensity={0.5}>
                       <motion.div
-                        whileHover={{ x: 5 }}
+                        whileHover={{ scale: 1.1, rotate: 5 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                       >
                         <IconImage
-                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEwIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05IDQuNUwxIDQuNU0yLjUgOEw5IDQuNUwyLjUgMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHN2Zz4K"
-                          width={10}
-                          height={9}
-                          alt="Arrow icon"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPHBhdGggZD0iTTI0IDEyTDMyIDI0SDI0VjM2TDE2IDI0SDI0VjEyWiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4K"
+                          width={48}
+                          height={48}
+                          alt="Experience icon"
+                          className="flex-shrink-0"
                         />
                       </motion.div>
-                    </Link>
-                  </motion.div>
-                </MagneticHover>
-              </div>
-            </StaggerItem>
-            <StaggerItem>
-              <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 border-t border-border pt-12 sm:grid-cols-2">
-                <FadeIn delay={0.2} className="flex items-start gap-4">
-                  <FloatingElement intensity={0.5}>
-                    <motion.div
-                      whileHover={{ scale: 1.1, rotate: 5 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    >
-                                      <IconImage
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPHBhdGggZD0iTTI0IDEyTDMyIDI0SDI0VjM2TDE2IDI0SDI0VjEyWiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4K"
-                                        width={48}
-                                        height={48}
-                                        alt="Experience icon"
-                                        className="flex-shrink-0"
-                                      />
-                    </motion.div>
-                  </FloatingElement>
-                  <div>
-                    <h3 className="text-xl font-semibold leading-7">{t('about.features.experience.title')}</h3>
-                    <p className="mt-2 text-sm leading-6 text-gray-400">
-                      {t('about.features.experience.description')}
-                    </p>
-                  </div>
-                </FadeIn>
-                <FadeIn delay={0.4} className="flex items-start gap-4">
-                  <FloatingElement intensity={0.5}>
-                    <motion.div
-                      whileHover={{ scale: 1.1, rotate: -5 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    >
-                                      <IconImage
-                                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMTAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNMjAgMjRMMjIgMjZMMjggMjAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
-                                        width={48}
-                                        height={48}
-                                        alt="Quality icon"
-                                        className="flex-shrink-0"
-                                      />
-                    </motion.div>
-                  </FloatingElement>
-                  <div>
-                    <h3 className="text-xl font-semibold leading-7">{t('about.features.personalized.title')}</h3>
-                    <p className="mt-2 text-sm leading-6 text-gray-400">
-                      {t('about.features.personalized.description')}
-                    </p>
-                  </div>
-                </FadeIn>
-              </div>
-            </StaggerItem>
+                    </FloatingElement>
+                    <div>
+                      <h3 className="text-xl font-semibold leading-7">{t('about.features.experience.title')}</h3>
+                      <p className="mt-2 text-sm leading-6 text-gray-400">
+                        {t('about.features.experience.description')}
+                      </p>
+                    </div>
+                  </FadeIn>
+                  <FadeIn delay={0.4} className="flex items-start gap-4">
+                    <FloatingElement intensity={0.5}>
+                      <motion.div
+                        whileHover={{ scale: 1.1, rotate: -5 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                      >
+                        <IconImage
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMTAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNMjAgMjRMMjIgMjZMMjggMjAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                          width={48}
+                          height={48}
+                          alt="Quality icon"
+                          className="flex-shrink-0"
+                        />
+                      </motion.div>
+                    </FloatingElement>
+                    <div>
+                      <h3 className="text-xl font-semibold leading-7">{t('about.features.personalized.title')}</h3>
+                      <p className="mt-2 text-sm leading-6 text-gray-400">
+                        {t('about.features.personalized.description')}
+                      </p>
+                    </div>
+                  </FadeIn>
+                </div>
+              </StaggerItem>
             </StaggerContainer>
           </SlideIn>
           <SlideIn direction="right" className="relative mt-10 lg:mt-0">
@@ -194,7 +194,7 @@ export default function AboutUsSection() {
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
               >
                 <BusinessImage
-                  src="https://picsum.photos/570/570?random=20"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=570&h=570&fit=crop&auto=format&q=80"
                   width={570}
                   height={570}
                   alt="Equipo de profesionales de Caribbean Ventures trabajando juntos"

@@ -6,169 +6,158 @@
     "home": "Inicio"
   },
   "hero": {
-    "tagline": "Servicios Empresariales",
+    "tagline": "Excelencia Empresarial Estratégica",
     "headline": {
-      "line1": "Mejoramos su eficiencia",
-      "line2": "y competitividad con soluciones B2B especializadas"
+      "line1": "Elevando el Desempeño Empresarial",
+      "line2": "A Través de Innovación Estratégica"
     },
-    "subtitle": "Optimización de procesos — Soluciones corporativas — Activos y Banca",
+    "subtitle": "Optimización de Operaciones Globales — Estructuración Corporativa — Gestión de Activos y Soluciones de Capital",
     "cta": {
-      "primary": "Comenzar",
-      "secondary": "Nuestros Servicios"
+      "primary": "Agendar Consulta",
+      "secondary": "Explorar Capacidades"
     },
     "trust": {
-      "clients": "100+ Clientes Satisfechos",
-      "experience": "10+ Años de Experiencia"
-    }
+      "clients": "Confiado por Líderes del Mercado",
+      "experience": "Décadas de Experiencia en la Industria"
+    },
+    "startProject": "Iniciar Asociación",
+    "rating": "Respaldado por Ejecutivos Globales"
   },
   "about": {
-    "sectionTitle": "Sobre Nosotros", 
+    "sectionTitle": "Perfil Corporativo",
     "title": "Caribbean Ventures",
-    "description": "Fundada en 2015, proporcionamos servicios empresariales especializados para mejorar la eficiencia y competitividad en diversas industrias.",
-    "learnMore": "Conócenos Mejor",
+    "description": "Desde 2015, hemos sido el socio estratégico principal para empresas que buscan excelencia operativa, crecimiento sostenible y ventaja competitiva en el mercado a través de sectores globales.",
+    "learnMore": "Ver Perfil Corporativo",
     "features": {
       "experience": {
-        "title": "Experiencia Comprobada",
-        "description": "Más de 10 años ayudando a empresas a alcanzar sus objetivos financieros y operativos."
+        "title": "Autoridad en la Industria",
+        "description": "Apalancando más de una década de experiencia en consultoría de alto nivel para entregar resultados financieros y operativos medibles."
       },
       "personalized": {
-        "title": "Enfoque Personalizado",
-        "description": "Soluciones a medida diseñadas específicamente para las necesidades únicas de su negocio."
+        "title": "Estrategia a Medida",
+        "description": "Desarrollando marcos personalizados que abordan sus desafíos organizacionales específicos y capitalizan oportunidades de mercado únicas."
       }
     },
     "stats": {
-      "clients": "Clientes Satisfechos",
-      "experience": "Años de Experiencia"
+      "clients": "Socios Empresariales",
+      "experience": "Años de Liderazgo"
     }
   },
   "services": {
-    "sectionTitle": "Nuestros Servicios",
-    "title": "Soluciones B2B Especializadas",
-    "description": "Servicios empresariales integrales para mejorar la eficiencia y competitividad.",
+    "sectionTitle": "Capacidades Centrales",
+    "title": "Soluciones de Nivel Empresarial",
+    "description": "Entregando infraestructura empresarial sofisticada y orientación estratégica para impulsar la eficiencia operativa y el crecimiento de ingresos.",
     "items": {
       "processes": {
-        "title": "Optimización de Procesos",
-        "description": "Mejorar resultados y reducir costos"
+        "title": "Optimización Operativa",
+        "description": "Mejora sistémica de eficiencia y maximización del ROI"
       },
       "corporate": {
-        "title": "Soluciones Corporativas", 
-        "description": "Impulsar organizaciones hacia adelante"
+        "title": "Transformación Organizacional",
+        "description": "Impulsando cultura, estructura y excelencia en el desempeño"
       },
       "structure": {
-        "title": "Estructura Corporativa",
-        "description": "Optimizar finanzas y configuración organizacional"
+        "title": "Gobernanza Corporativa",
+        "description": "Optimizando marcos legales, financieros y operativos"
       },
       "portfolio": {
-        "title": "Portafolio de Alto Nivel",
-        "description": "Clientes y proveedores sólidos"
+        "title": "Alianzas Estratégicas",
+        "description": "Acceso a redes de proveedores de élite y asociaciones con clientes"
       },
       "global": {
-        "title": "Negocios Globales",
-        "description": "Gestión global centralizada"
+        "title": "Gestión Global",
+        "description": "Supervisión centralizada de unidades de negocio internacionales"
       },
       "banking": {
-        "title": "Activos y Banca",
-        "description": "Acuerdos para manejo de activos"
+        "title": "Gestión de Capital y Activos",
+        "description": "Estructuración de activos sofisticada y relaciones bancarias"
       }
     },
-    "viewAll": "Ver Todos los Servicios"
+    "viewAll": "Ver Portafolio Completo de Servicios"
   },
   "trust": {
-    "title": "Confíe en nuestra experiencia",
-    "subtitle": "Socios estratégicos para su crecimiento"
+    "title": "Alianzas Estratégicas",
+    "subtitle": "Asociándose para el Dominio Sostenible del Mercado"
   },
   "foundations": {
-    "sectionTitle": "Bases Sólidas",
-    "title": "Construimos el futuro de su empresa sobre bases sólidas",
-    "description": "Nuestro enfoque integral combina estrategia, tecnología y experiencia para crear soluciones duraderas.",
-    "learnMore": "Conocer Más"
+    "sectionTitle": "Cimientos Estratégicos",
+    "title": "Construido sobre Principios Inquebrantables",
+    "description": "Nuestra metodología holística integra planificación estratégica rigurosa, tecnología de vanguardia y profunda experiencia industrial para ofrecer soluciones resilientes a largo plazo.",
+    "learnMore": "Descubra Nuestra Metodología"
   },
   "mission": {
-    "title": "Acerca de Caribbean Ventures",
-    "description": "Nuestra misión es simple, proporcionar experiencia, orientación y apoyo incomparables a nuestros clientes a lo largo de su viaje empresarial",
-    "cta": "Construyamos"
+    "title": "Misión Corporativa",
+    "description": "Entregar experiencia inigualable, orientación estratégica y apoyo inquebrantable a lo largo de todo su ciclo de vida empresarial.",
+    "cta": "Iniciar Colaboración"
   },
   "whatWeDo": {
-    "sectionTitle": "Lo Que Hacemos",
-    "title": "Transformamos ideas en resultados",
-    "description": "Combinamos conocimiento especializado con tecnología avanzada para entregar soluciones que generan valor real."
-  },
-  "infrastructure": {
-    "sectionTitle": "Infraestructura Moderna",
-    "title": "Tecnología de punta al servicio de su negocio",
-    "description": "Utilizamos las herramientas y plataformas más avanzadas para garantizar eficiencia y seguridad en todos nuestros procesos."
-  },
-  "quality": {
-    "sectionTitle": "Construcción de Calidad",
-    "title": "Excelencia en cada proyecto",
-    "description": "Nuestro compromiso con la calidad se refleja en cada aspecto de nuestro trabajo, desde la planificación hasta la ejecución."
-  },
-  "portfolio": {
-    "sectionTitle": "Nuestro Portafolio",
-    "title": "Casos de éxito que nos respaldan",
-    "description": "Descubra cómo hemos ayudado a empresas como la suya a alcanzar sus objetivos.",
-    "viewCase": "Ver Caso"
-  },
-  "finalCta": {
-    "title": "¿Listo para transformar su negocio?",
-    "description": "Póngase en contacto con nosotros y descubra cómo podemos ayudarle a alcanzar sus objetivos empresariales.",
-    "contact": "Contactar Ahora",
-    "schedule": "Agendar Consulta",
-    "tagline": "Contáctanos",
-    "button": "Contáctanos"
-  },
-  "company": {
-    "name": "Caribbean Ventures",
-    "address": "Dirección",
-    "phone": "Teléfono",
-    "email": "Correo Electrónico"
-  },
-  "footer": {
-    "description": "Caribbean Ventures - República Dominicana",
-    "rights": "Todos los derechos reservados",
-    "quickLinks": "Enlaces Rápidos",
-    "services": "Servicios", 
-    "company": "Empresa",
-    "contact": "Contacto",
-    "newsletter": "Suscríbase a nuestro boletín",
-    "subscribe": "Suscribirse",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Uso",
-    "disclaimer": "Descargo de Responsabilidad",
-    "cookies": "Cookies",
-    "addressTitle": "Nuestra Dirección",
-    "address": "Santo Domingo, República Dominicana",
-    "contactTitle": "Contáctanos",
-    "servicesTitle": "Nuestros Servicios",
-    "service1": "Consultoría Empresarial",
-    "service2": "Gestión Administrativa y Contable",
-    "service3": "Asesoría Financiera"
-  },
-  "quality": {
-    "sectionTitle": "Calidad y Excelencia",
-    "title": "Compromiso con la excelencia en cada solución",
-    "description": "Nuestro compromiso con la calidad se refleja en cada aspecto de nuestro trabajo, desde la planificación estratégica hasta la ejecución exitosa de proyectos empresariales.",
-    "contactButton": "Contáctanos"
-  },
-  "whatWeDo": {
-    "sectionTitle": "Lo Que Hacemos",
-    "title": "Transformamos ideas en resultados",
-    "description": "Combinamos conocimiento especializado con tecnología avanzada para entregar soluciones que generan valor real.",
-    "tagline": "Nuestros Servicios",
-    "subtitle": "Soluciones integrales para el éxito de su negocio",
+    "sectionTitle": "Enfoque Operativo",
+    "title": "Transformación de Visión a Valor",
+    "description": "Combinamos conocimiento industrial especializado con tecnología avanzada para crear soluciones que impulsan valor tangible y medible para su empresa.",
+    "tagline": "Portafolio de Servicios",
+    "subtitle": "Soluciones integrales para el éxito empresarial",
     "services": {
       "service1": {
-        "title": "Consultoría Empresarial",
-        "description": "Soluciones estratégicas para mejorar la eficiencia y rentabilidad de su negocio"
+        "title": "Consultoría Estratégica",
+        "description": "Estrategias de alto nivel para mejorar la eficiencia y maximizar la rentabilidad"
       },
       "service2": {
-        "title": "Gestión Administrativa y Contable",
-        "description": "Servicios integrales para optimizar las operaciones de su empresa"
+        "title": "Gestión Administrativa",
+        "description": "Supervisión integral para agilizar operaciones complejas"
       },
       "service3": {
         "title": "Asesoría Financiera",
-        "description": "Maximice sus ganancias con estrategias financieras personalizadas"
+        "description": "Maximizando rendimientos a través de estrategias financieras personalizadas"
       }
     }
+  },
+  "infrastructure": {
+    "sectionTitle": "Infraestructura Avanzada",
+    "title": "Tecnología Impulsando Ventaja Competitiva",
+    "description": "Aprovechando plataformas y herramientas de última generación para garantizar máxima eficiencia, seguridad y confiabilidad en todos los procesos operativos."
+  },
+  "quality": {
+    "sectionTitle": "Estándar de Excelencia",
+    "title": "Calidad Integrada en Cada Compromiso",
+    "description": "Nuestro compromiso con la excelencia impregna cada aspecto de nuestro trabajo—desde la planificación estratégica inicial hasta la entrega exitosa del proyecto.",
+    "contactButton": "Solicitar Información"
+  },
+  "portfolio": {
+    "sectionTitle": "Trayectoria",
+    "title": "Historias de Éxito Comprobadas",
+    "description": "Descubra cómo hemos empoderado a empresas para alcanzar resultados extraordinarios y liderazgo de mercado.",
+    "viewCase": "Analizar Caso de Estudio"
+  },
+  "finalCta": {
+    "title": "¿Listo para la Transformación?",
+    "description": "Conecte con nuestros expertos hoy para descubrir cómo podemos facilitar sus objetivos estratégicos.",
+    "contact": "Comenzar Transformación",
+    "schedule": "Agendar Sesión Informativa",
+    "tagline": "Hablemos",
+    "button": "Contactar Liderazgo"
+  },
+  "company": {
+    "name": "Caribbean Ventures"
+  },
+  "footer": {
+    "description": "Caribbean Ventures - Soluciones Corporativas Estratégicas",
+    "rights": "Todos los derechos reservados",
+    "quickLinks": "Navegación",
+    "services": "Capacidades",
+    "company": "Corporativo",
+    "contact": "Contacto",
+    "newsletter": "Perspectivas Ejecutivas",
+    "subscribe": "Suscribirse",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "disclaimer": "Aviso Legal",
+    "cookies": "Política de Cookies",
+    "addressTitle": "Sede Central",
+    "address": "Santo Domingo, República Dominicana",
+    "contactTitle": "Contáctenos",
+    "servicesTitle": "Servicios Centrales",
+    "service1": "Consultoría Estratégica",
+    "service2": "Gestión Administrativa",
+    "service3": "Asesoría Financiera"
   }
 }

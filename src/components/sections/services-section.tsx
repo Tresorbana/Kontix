@@ -15,32 +15,32 @@ interface Service {
 const servicesData: Service[] = [
   {
     key: 'processes',
-    imageUrl: 'https://picsum.photos/400/300?random=1',
+    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'corporate',
-    imageUrl: 'https://picsum.photos/400/300?random=2',
+    imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'structure',
-    imageUrl: 'https://picsum.photos/400/300?random=3',
+    imageUrl: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=300&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'portfolio',
-    imageUrl: 'https://picsum.photos/400/300?random=4',
+    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'global',
-    imageUrl: 'https://picsum.photos/400/300?random=5',
+    imageUrl: 'https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=400&h=300&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'banking',
-    imageUrl: 'https://picsum.photos/400/300?random=6',
+    imageUrl: 'https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=400&h=300&fit=crop&auto=format&q=80',
     link: '#'
   }
 ];

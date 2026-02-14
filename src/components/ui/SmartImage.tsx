@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
+import { ImagePlaceholder } from './ImagePlaceholder';
 
 interface SmartImageProps {
   src: string;
@@ -14,6 +15,7 @@ interface SmartImageProps {
   fill?: boolean;
   sizes?: string;
   style?: React.CSSProperties;
+  showAsLoading?: boolean; // New prop to force skeleton state
 }
 
 export const SmartImage: React.FC<SmartImageProps> = ({
@@ -27,9 +29,22 @@ export const SmartImage: React.FC<SmartImageProps> = ({
   fill = false,
   sizes,
   style,
+  showAsLoading = false, // Default to showing actual image
 }) => {
   const [imageSrc, setImageSrc] = useState(src);
   const [hasError, setHasError] = useState(false);
+
+  // If showAsLoading is true, always show the skeleton placeholder
+  if (showAsLoading) {
+    return (
+      <ImagePlaceholder
+        width={fill ? undefined : width}
+        height={fill ? undefined : height}
+        className={className}
+        circular={false}
+      />
+    );
+  }
 
   const handleError = () => {
     if (!hasError) {

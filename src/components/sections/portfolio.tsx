@@ -12,18 +12,18 @@ interface Project {
 
 const PortfolioSection = () => {
   const { t } = useLanguage();
-  
+
   const projects: Project[] = [
     {
       slug: 'consultoria-empresarial',
       image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=900&fit=crop&auto=format&q=80',
-      title: t('footer.service1'),
+      title: t('whatWeDo.services.service1.title'),
       description: t('whatWeDo.services.service1.description'),
     },
     {
       slug: 'gestion-administrativa',
       image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=900&fit=crop&auto=format&q=80',
-      title: t('footer.service2'),
+      title: t('whatWeDo.services.service2.title'),
       description: t('whatWeDo.services.service2.description'),
     },
   ];

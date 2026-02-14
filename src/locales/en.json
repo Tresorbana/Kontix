@@ -5,166 +5,158 @@
     "contact": "Contact"
   },
   "hero": {
-    "tagline": "Business Services",
+    "tagline": "Strategic Business Excellence",
     "headline": {
-      "line1": "We enhance your efficiency",
-      "line2": "and competitiveness with specialized B2B solutions"
+      "line1": "Elevating Enterprise Performance",
+      "line2": "Through Strategic Innovation"
     },
-    "subtitle": "Optimizing processes — Corporate solutions — Assets & Banking",
+    "subtitle": "Global Operation Optimization — Corporate Structuring — Asset Management & Capital Solutions",
     "cta": {
-      "primary": "Get Started",
-      "secondary": "Our Services"
+      "primary": "Schedule Consultation",
+      "secondary": "Explore Capabilities"
     },
     "trust": {
-      "clients": "100+ Satisfied Clients",
-      "experience": "10+ Years Experience"
-    }
+      "clients": "Trusted by Market Leaders",
+      "experience": "Decades of Industry Expertise"
+    },
+    "startProject": "Initiate Partnership",
+    "rating": "Endorsed by Global Executives"
   },
   "about": {
-    "sectionTitle": "About Us", 
+    "sectionTitle": "Corporate Profile",
     "title": "Caribbean Ventures",
-    "description": "Founded in 2015, we provide specialized business services to enhance efficiency and competitiveness across diverse industries.",
-    "learnMore": "Learn More About Us",
+    "description": "Since 2015, we have been the premier strategic partner for enterprises seeking operational excellence, sustainable growth, and competitive market advantage across global sectors.",
+    "learnMore": "View Corporate Profile",
     "features": {
       "experience": {
-        "title": "Proven Experience",
-        "description": "Over 10 years helping companies achieve their financial and operational objectives."
+        "title": "Industry Authority",
+        "description": "Leveraging over a decade of high-stakes consulting experience to deliver measurable financial and operational outcomes."
       },
       "personalized": {
-        "title": "Personalized Approach",
-        "description": "Tailored solutions designed specifically for your business's unique needs."
+        "title": "Bespoke Strategy",
+        "description": "Developing tailored frameworks that address your specific organizational challenges and capitalize on unique market opportunities."
       }
     },
     "stats": {
-      "clients": "Satisfied Clients",
-      "experience": "Years of Experience"
+      "clients": "Enterprise Partners",
+      "experience": "Years of Leadership"
     }
   },
   "services": {
-    "sectionTitle": "Our Services",
-    "title": "Specialized B2B Solutions",
-    "description": "Comprehensive business services to enhance efficiency and competitiveness.",
+    "sectionTitle": "Core Capabilities",
+    "title": "Enterprise-Grade Solutions",
+    "description": "Delivering sophisticated business infrastructure and strategic guidance to drive operational efficiency and revenue growth.",
     "items": {
       "processes": {
-        "title": "Optimizing Processes",
-        "description": "Improve results and reduce costs"
+        "title": "Operational Optimization",
+        "description": "Systemic efficiency enhancement and ROI maximization"
       },
       "corporate": {
-        "title": "Corporate Solutions", 
-        "description": "Push organizations forward"
+        "title": "Organizational Transformation",
+        "description": "Driving culture, structure, and performance excellence"
       },
       "structure": {
-        "title": "Corporate Structure",
-        "description": "Optimize finances and organizational setup"
+        "title": "Corporate Governance",
+        "description": "Optimizing legal, financial, and operational frameworks"
       },
       "portfolio": {
-        "title": "Top-level Portfolio",
-        "description": "Strong clients and suppliers"
+        "title": "Strategic Alliances",
+        "description": "Access to elite supplier networks and client partnerships"
       },
       "global": {
-        "title": "Global Business",
-        "description": "Centralized global management"
+        "title": "Global Management",
+        "description": "Centralized oversight of international business units"
       },
       "banking": {
-        "title": "Assets & Banking",
-        "description": "Agreements for handling assets"
+        "title": "Capital & Asset Management",
+        "description": "Sophisticated asset structuring and banking relationships"
       }
     },
-    "viewAll": "View All Services"
+    "viewAll": "View Full Service Portfolio"
   },
   "trust": {
-    "title": "Trust our expertise",
-    "subtitle": "Strategic partners for your growth"
+    "title": "Strategic Alliances",
+    "subtitle": "Partnering for Sustainable Market Dominance"
   },
   "foundations": {
-    "sectionTitle": "Strong Foundations",
-    "title": "We build your company's future on solid foundations",
-    "description": "Our comprehensive approach combines strategy, technology, and experience to create lasting solutions.",
-    "learnMore": "Learn More"
+    "sectionTitle": "Strategic Foundations",
+    "title": "Built on Unwavering Principles",
+    "description": "Our holistic methodology integrates rigorous strategic planning, cutting-edge technology, and deep industry expertise to deliver resilient, long-term solutions.",
+    "learnMore": "Discover Our Methodology"
   },
   "mission": {
-    "title": "About Caribbean Ventures",
-    "description": "Our mission is simple, to provide unparalleled expertise, guidance, and support to our clients across their business journey",
-    "cta": "Let's build"
+    "title": "Corporate Mission",
+    "description": "To deliver unparalleled expertise, strategic guidance, and unwavering support throughout your entire business lifecycle.",
+    "cta": "Initiate Collaboration"
   },
   "whatWeDo": {
-    "sectionTitle": "What We Do",
-    "title": "We transform ideas into results",
-    "description": "We combine specialized knowledge with advanced technology to deliver solutions that generate real value."
+    "sectionTitle": "Operational Approach",
+    "title": "Vision to Value Transformation",
+    "description": "We blend specialized industry knowledge with advanced technology to create solutions that drive tangible, measurable value for your enterprise.",
+    "tagline": "Service Portfolio",
+    "subtitle": "Comprehensive solutions for enterprise success",
+    "services": {
+      "service1": {
+        "title": "Strategic Consulting",
+        "description": "High-level strategies to enhance efficiency and maximize profitability"
+      },
+      "service2": {
+        "title": "Administrative Management",
+        "description": "Comprehensive oversight to streamline complex operations"
+      },
+      "service3": {
+        "title": "Financial Advisory",
+        "description": "Maximizing returns through personalized financial strategies"
+      }
+    }
   },
   "infrastructure": {
-    "sectionTitle": "Modern Infrastructure",
-    "title": "Cutting-edge technology at your business service",
-    "description": "We use the most advanced tools and platforms to ensure efficiency and security in all our processes."
+    "sectionTitle": "Advanced Infrastructure",
+    "title": "Technology Driving Competitive Advantage",
+    "description": "Leveraging state-of-the-art platforms and tools to ensure maximum efficiency, security, and reliability across all operational processes."
   },
   "quality": {
-    "sectionTitle": "Quality Construction",
-    "title": "Excellence in every project",
-    "description": "Our commitment to quality is reflected in every aspect of our work, from planning to execution."
+    "sectionTitle": "Excellence Standard",
+    "title": "Quality Embedded in Every Engagement",
+    "description": "Our commitment to excellence permeates every aspect of our work—from initial strategic planning to successful project delivery.",
+    "contactButton": "Inquire Now"
   },
   "portfolio": {
-    "sectionTitle": "Our Portfolio",
-    "title": "Success stories that back us up",
-    "description": "Discover how we have helped companies like yours achieve their objectives.",
-    "viewCase": "View Case"
+    "sectionTitle": "Track Record",
+    "title": "Proven Success Stories",
+    "description": "Discover how we have empowered enterprises to achieve breakthrough results and market leadership.",
+    "viewCase": "Analyze Case Study"
   },
   "finalCta": {
-    "title": "Ready to transform your business?",
-    "description": "Contact us and discover how we can help you achieve your business objectives.",
-    "contact": "Contact Now",
-    "schedule": "Schedule Consultation",
-    "tagline": "Contact Us",
-    "button": "Contact Us"
+    "title": "Ready for Transformation?",
+    "description": "Connect with our experts today to discover how we can facilitate your strategic objectives.",
+    "contact": "Begin Transformation",
+    "schedule": "Schedule Briefing",
+    "tagline": "Let's Talk",
+    "button": "Contact Leadership"
   },
   "company": {
     "name": "Caribbean Ventures"
   },
   "footer": {
-    "description": "Caribbean Ventures - Dominican Republic",
+    "description": "Caribbean Ventures - Strategic Corporate Solutions",
     "rights": "All rights reserved",
-    "quickLinks": "Quick Links",
-    "services": "Services", 
-    "company": "Company",
+    "quickLinks": "Navigation",
+    "services": "Capabilities",
+    "company": "Corporate",
     "contact": "Contact",
-    "newsletter": "Subscribe to our newsletter",
+    "newsletter": "Executive Insights",
     "subscribe": "Subscribe",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
-    "disclaimer": "Disclaimer",
-    "cookies": "Cookies",
-    "addressTitle": "Our Address",
+    "terms": "Terms of Service",
+    "disclaimer": "Legal Disclaimer",
+    "cookies": "Cookie Policy",
+    "addressTitle": "Headquarters",
     "address": "Santo Domingo, Dominican Republic",
     "contactTitle": "Contact Us",
-    "servicesTitle": "Our Services",
-    "service1": "Business Consulting",
-    "service2": "Administrative and Accounting Management",
+    "servicesTitle": "Core Services",
+    "service1": "Strategic Consulting",
+    "service2": "Administrative Management",
     "service3": "Financial Advisory"
-  },
-  "quality": {
-    "sectionTitle": "Quality and Excellence",
-    "title": "Commitment to excellence in every solution",
-    "description": "Our commitment to quality is reflected in every aspect of our work, from strategic planning to successful execution of business projects.",
-    "contactButton": "Contact Us"
-  },
-  "whatWeDo": {
-    "sectionTitle": "What We Do",
-    "title": "We transform ideas into results",
-    "description": "We combine specialized knowledge with advanced technology to deliver solutions that generate real value.",
-    "tagline": "Our Services",
-    "subtitle": "Comprehensive solutions for your business success",
-    "services": {
-      "service1": {
-        "title": "Business Consulting",
-        "description": "Strategic solutions to improve the efficiency and profitability of your business"
-      },
-      "service2": {
-        "title": "Administrative and Accounting Management",
-        "description": "Comprehensive services to optimize your company's operations"
-      },
-      "service3": {
-        "title": "Financial Advisory",
-        "description": "Maximize your profits with personalized financial strategies"
-      }
-    }
   }
 }
