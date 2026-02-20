@@ -1,33 +1,33 @@
 {
   "nav": {
-    "services": "Services",
-    "about": "About",
+    "services": "Advisory Domains",
+    "about": "Firm Profile",
     "contact": "Contact",
     "home": "Home"
   },
   "hero": {
-    "tagline": "Strategic Business Excellence",
+    "tagline": "Private Strategic Advisory",
     "headline": {
-      "line1": "Elevating Enterprise Performance",
-      "line2": "Through Strategic Innovation"
+      "line1": "Private Strategic Advisory",
+      "line2": "for Global Enterprises"
     },
-    "subtitle": "Global Operation Optimization — Corporate Structuring — Asset Management & Capital Solutions",
+    "subtitle": "Corporate Structuring • International Expansion • Capital Strategy • Governance Optimization",
     "cta": {
-      "primary": "Schedule Consultation",
-      "secondary": "Explore Capabilities"
+      "primary": "Schedule a Private Consultation",
+      "secondary": "Download Corporate Profile"
     },
     "trust": {
       "clients": "Trusted by Market Leaders",
-      "experience": "Decades of Industry Expertise"
+      "experience": "Santo Domingo, Dominican Republic | Global Mandates"
     },
     "startProject": "Initiate Partnership",
     "rating": "Endorsed by Global Executives"
   },
   "about": {
-    "sectionTitle": "Corporate Profile",
-    "title": "Caribbean Ventures",
-    "description": "Since 2015, we have been the premier strategic partner for enterprises seeking operational excellence, sustainable growth, and competitive market advantage across global sectors.",
-    "learnMore": "View Corporate Profile",
+    "sectionTitle": "About Caribbean Ventures",
+    "title": "Private Strategic Advisory",
+    "description": "Caribbean Ventures is a boutique strategic advisory firm specializing in corporate structuring, operational governance, and capital alignment for cross-border enterprises. We serve founders, boards, and executive teams seeking disciplined growth, regulatory precision, and long-term enterprise resilience.",
+    "learnMore": "View Firm Profile",
     "features": {
       "experience": {
         "title": "Industry Authority",
@@ -35,7 +35,7 @@
       },
       "personalized": {
         "title": "Bespoke Strategy",
-        "description": "Developing tailored frameworks that address your specific organizational challenges and capitalize on unique market opportunities."
+        "description": "Our engagement model is selective, confidential, and execution-driven."
       }
     },
     "stats": {
@@ -43,78 +43,80 @@
       "experience": "Years of Leadership"
     }
   },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To empower global enterprises with the strategic infrastructure, governance frameworks, and capital alignment needed to achieve sustainable, cross-border growth.",
+    "cta": "Start Your Journey"
+  },
   "services": {
-    "sectionTitle": "Core Capabilities",
-    "title": "Enterprise-Grade Solutions",
-    "description": "Delivering sophisticated business infrastructure and strategic guidance to drive operational efficiency and revenue growth.",
+    "sectionTitle": "Our Advisory Domains",
+    "title": "Strategic Capabilities",
+    "description": "We design elite business infrastructures for leaders operating across borders and complex regulatory environments.",
     "items": {
-      "processes": {
-        "title": "Operational Optimization",
-        "description": "Systemic efficiency enhancement and ROI maximization"
+      "structuring": {
+        "title": "Corporate Structuring & Governance",
+        "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions."
       },
-      "corporate": {
-        "title": "Organizational Transformation",
-        "description": "Driving culture, structure, and performance excellence"
+      "operations": {
+        "title": "International Operations Management",
+        "description": "Centralized oversight of subsidiaries, regulatory coordination, and multi-market integration."
       },
-      "structure": {
-        "title": "Corporate Governance",
-        "description": "Optimizing legal, financial, and operational frameworks"
+      "capital": {
+        "title": "Capital & Asset Strategy",
+        "description": "Banking relationships, asset protection frameworks, capital optimization, and risk positioning."
       },
-      "portfolio": {
-        "title": "Strategic Alliances",
-        "description": "Access to elite supplier networks and client partnerships"
-      },
-      "global": {
-        "title": "Global Management",
-        "description": "Centralized oversight of international business units"
-      },
-      "banking": {
-        "title": "Capital & Asset Management",
-        "description": "Sophisticated asset structuring and banking relationships"
+      "advisory": {
+        "title": "Executive Strategic Advisory",
+        "description": "Board-level advisory for expansion, restructuring, and long-term competitive positioning."
       }
     },
-    "viewAll": "View Full Service Portfolio"
+    "viewAll": "View Full Advisory Portfolio"
   },
-  "trust": {
-    "title": "Strategic Alliances",
-    "subtitle": "Partnering for Sustainable Market Dominance"
-  },
-  "foundations": {
-    "sectionTitle": "Strategic Foundations",
-    "title": "Built on Unwavering Principles",
-    "description": "Our holistic methodology integrates rigorous strategic planning, cutting-edge technology, and deep industry expertise to deliver resilient, long-term solutions.",
-    "learnMore": "Discover Our Methodology"
-  },
-  "mission": {
-    "title": "Corporate Mission",
-    "description": "To deliver unparalleled expertise, strategic guidance, and unwavering support throughout your entire business lifecycle.",
-    "cta": "Initiate Collaboration"
-  },
-  "whatWeDo": {
-    "sectionTitle": "Operational Approach",
-    "title": "Vision to Value Transformation",
-    "description": "We blend specialized industry knowledge with advanced technology to create solutions that drive tangible, measurable value for your enterprise.",
-    "tagline": "Service Portfolio",
-    "subtitle": "Comprehensive solutions for enterprise success",
-    "services": {
-      "service1": {
-        "title": "Strategic Consulting",
-        "description": "High-level strategies to enhance efficiency and maximize profitability"
+  "luxury": {
+    "tagline": "Our Distinction",
+    "title": "The Caribbean Ventures Standard",
+    "items": {
+      "precision": {
+        "title": "Precision",
+        "description": "Every structure is engineered with legal, financial, and operational coherence."
       },
-      "service2": {
-        "title": "Administrative Management",
-        "description": "Comprehensive oversight to streamline complex operations"
+      "discretion": {
+        "title": "Discretion",
+        "description": "Confidentiality and executive-level communication define every engagement."
       },
-      "service3": {
-        "title": "Financial Advisory",
-        "description": "Maximizing returns through personalized financial strategies"
+      "permanence": {
+        "title": "Strategic Permanence",
+        "description": "We build enduring systems — not temporary solutions."
+      }
+    }
+  },
+  "process": {
+    "sectionTitle": "Engagement Framework",
+    "title": "High-Conversion Process",
+    "description": "Executives convert better when they understand the process.",
+    "steps": {
+      "step1": {
+        "title": "01 — Strategic Assessment",
+        "description": "Confidential diagnostic of structure, risk exposure, and growth objectives."
+      },
+      "step2": {
+        "title": "02 — Architecture Design",
+        "description": "Tailored structural blueprint aligned with legal and financial priorities."
+      },
+      "step3": {
+        "title": "03 — Execution Oversight",
+        "description": "Integrated coordination with legal, banking, and operational partners."
+      },
+      "step4": {
+        "title": "04 — Long-Term Governance",
+        "description": "Ongoing advisory to ensure stability, compliance, and performance continuity."
       }
     }
   },
   "infrastructure": {
-    "sectionTitle": "Advanced Infrastructure",
-    "title": "Technology Driving Competitive Advantage",
-    "description": "Leveraging state-of-the-art platforms and tools to ensure maximum efficiency, security, and reliability across all operational processes."
+    "sectionTitle": "Digital & Operational Infrastructure",
+    "title": "Advanced Systems",
+    "description": "We leverage secure enterprise systems, regulatory monitoring platforms, and institutional-grade reporting tools to ensure: Transparency, Operational continuity, Financial clarity, and Cross-border compliance."
   },
   "quality": {
     "sectionTitle": "Excellence Standard",
@@ -126,12 +128,22 @@
     "sectionTitle": "Track Record",
     "title": "Proven Success Stories",
     "description": "Discover how we have empowered enterprises to achieve breakthrough results and market leadership.",
-    "viewCase": "Analyze Case Study"
+    "viewCase": "Analyze Case Study",
+    "items": {
+      "item1": {
+        "title": "Corporate Structuring & Governance",
+        "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions."
+      },
+      "item2": {
+        "title": "International Operations Management",
+        "description": "Centralized oversight of subsidiaries, regulatory coordination, and multi-market integration."
+      }
+    }
   },
   "finalCta": {
-    "title": "Ready for Transformation?",
-    "description": "Connect with our experts today to discover how we can facilitate your strategic objectives.",
-    "contact": "Begin Transformation",
+    "title": "Engage with Our Advisory Team",
+    "description": "Private consultations are available for enterprises seeking structural refinement, expansion, or capital alignment.",
+    "contact": "Request Strategic Consultation",
     "schedule": "Schedule Briefing",
     "tagline": "Let's Talk",
     "button": "Contact Leadership"
@@ -156,8 +168,30 @@
     "address": "Santo Domingo, Dominican Republic",
     "contactTitle": "Contact Us",
     "servicesTitle": "Core Services",
-    "service1": "Strategic Consulting",
-    "service2": "Administrative Management",
-    "service3": "Financial Advisory"
+    "service1": "Corporate Structuring",
+    "service2": "International Operations",
+    "service3": "Capital Strategy"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Complete the form and our Caribbean Ventures team will get in touch with you.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "company": "Company",
+    "message": "Message",
+    "submit": "Send Message",
+    "directEmail": "You can also write to us directly at",
+    "addressLabel": "Address: Santo Domingo, Dominican Republic"
+  },
+  "alt": {
+    "infrastructure": "Modern business office infrastructure",
+    "professional": "Business professional",
+    "arrow": "Arrow icon",
+    "decorativeArrow": "Decorative arrow",
+    "experience": "Experience icon",
+    "quality": "Quality icon",
+    "team": "Professional team collaboration",
+    "meeting": "Business professional meeting",
+    "collaboration": "Business team collaboration"
   }
 }

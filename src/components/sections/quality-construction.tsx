@@ -14,14 +14,14 @@ const QualityConstruction = () => {
           <div className="relative h-[480px] lg:h-[600px] w-full">
             <Image
               src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=800&fit=crop&auto=format&q=80"
-              alt="Business professional meeting"
+              alt={t('alt.meeting')}
               width={314}
               height={434}
               className="absolute top-0 left-0 w-3/4 max-w-[314px] rounded-2xl object-cover z-10"
             />
             <Image
               src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=600&fit=crop&auto=format&q=80"
-              alt="Business team collaboration"
+              alt={t('alt.collaboration')}
               width={313}
               height={311}
               className="absolute bottom-0 right-0 w-3/4 max-w-[313px] rounded-2xl object-cover"

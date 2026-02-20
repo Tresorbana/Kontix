@@ -28,7 +28,7 @@ const FinalCTA = () => {
               {t('finalCta.button')}
               <Image
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/67af1b78eef99645a9f0bfd8_Arrow%206-5.svg"
-                alt="arrow icon"
+                alt={t('alt.arrow')}
                 width={10}
                 height={9}
                 className="ml-3 transition-transform duration-300 group-hover:translate-x-1"

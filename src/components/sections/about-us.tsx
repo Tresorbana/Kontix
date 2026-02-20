@@ -129,7 +129,7 @@ export default function AboutUsSection() {
                             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEwIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05IDQuNUwxIDQuNU0yLjUgOEw5IDQuNUwyLjUgMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHN2Zz4K"
                             width={10}
                             height={9}
-                            alt="Arrow icon"
+                            alt={t('alt.arrow')}
                           />
                         </motion.div>
                       </Link>
@@ -149,7 +149,7 @@ export default function AboutUsSection() {
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPHBhdGggZD0iTTI0IDEyTDMyIDI0SDI0VjM2TDE2IDI0SDI0VjEyWiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4K"
                           width={48}
                           height={48}
-                          alt="Experience icon"
+                          alt={t('alt.experience')}
                           className="flex-shrink-0"
                         />
                       </motion.div>
@@ -171,7 +171,7 @@ export default function AboutUsSection() {
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMTAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNMjAgMjRMMjIgMjZMMjggMjAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
                           width={48}
                           height={48}
-                          alt="Quality icon"
+                          alt={t('alt.quality')}
                           className="flex-shrink-0"
                         />
                       </motion.div>
@@ -197,7 +197,7 @@ export default function AboutUsSection() {
                   src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=570&h=570&fit=crop&auto=format&q=80"
                   width={570}
                   height={570}
-                  alt="Equipo de profesionales de Caribbean Ventures trabajando juntos"
+                  alt={t('alt.team')}
                   className="rounded-2xl object-cover"
                 />
               </motion.div>

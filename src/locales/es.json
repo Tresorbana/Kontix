@@ -1,33 +1,33 @@
 {
   "nav": {
-    "services": "Servicios",
-    "about": "Acerca de",
+    "services": "Áreas de Asesoría",
+    "about": "Perfil de la Firma",
     "contact": "Contacto",
     "home": "Inicio"
   },
   "hero": {
-    "tagline": "Excelencia Empresarial Estratégica",
+    "tagline": "Asesoría Estratégica Privada",
     "headline": {
-      "line1": "Elevando el Desempeño Empresarial",
-      "line2": "A Través de Innovación Estratégica"
+      "line1": "Asesoría Estratégica Privada",
+      "line2": "para Empresas Globales"
     },
-    "subtitle": "Optimización de Operaciones Globales — Estructuración Corporativa — Gestión de Activos y Soluciones de Capital",
+    "subtitle": "Estructuración Corporativa • Expansión Internacional • Estrategia de Capital • Optimización de Gobernanza",
     "cta": {
-      "primary": "Agendar Consulta",
-      "secondary": "Explorar Capacidades"
+      "primary": "Agendar Consulta Privada",
+      "secondary": "Descargar Perfil Corporativo"
     },
     "trust": {
       "clients": "Confiado por Líderes del Mercado",
-      "experience": "Décadas de Experiencia en la Industria"
+      "experience": "Santo Domingo, República Dominicana | Mandatos Globales"
     },
     "startProject": "Iniciar Asociación",
     "rating": "Respaldado por Ejecutivos Globales"
   },
   "about": {
-    "sectionTitle": "Perfil Corporativo",
-    "title": "Caribbean Ventures",
-    "description": "Desde 2015, hemos sido el socio estratégico principal para empresas que buscan excelencia operativa, crecimiento sostenible y ventaja competitiva en el mercado a través de sectores globales.",
-    "learnMore": "Ver Perfil Corporativo",
+    "sectionTitle": "Acerca de Caribbean Ventures",
+    "title": "Asesoría Estratégica Privada",
+    "description": "Caribbean Ventures es una firma boutique de asesoría estratégica especializada en estructuración corporativa, gobernanza operativa y alineación de capital para empresas transfronterizas. Servimos a fundadores, juntas directivas y equipos ejecutivos que buscan crecimiento disciplinado, precisión regulatoria y resiliencia empresarial a largo plazo.",
+    "learnMore": "Ver Perfil de la Firma",
     "features": {
       "experience": {
         "title": "Autoridad en la Industria",
@@ -35,7 +35,7 @@
       },
       "personalized": {
         "title": "Estrategia a Medida",
-        "description": "Desarrollando marcos personalizados que abordan sus desafíos organizacionales específicos y capitalizan oportunidades de mercado únicas."
+        "description": "Nuestro modelo de compromiso es selectivo, confidencial y orientado a la ejecución."
       }
     },
     "stats": {
@@ -43,78 +43,80 @@
       "experience": "Años de Liderazgo"
     }
   },
+  "mission": {
+    "title": "Nuestra Misión",
+    "description": "Empoderar a las empresas globales con la infraestructura estratégica, los marcos de gobernanza y la alineación de capital necesarios para lograr un crecimiento sostenible y transfronterizo.",
+    "cta": "Comience Su Camino"
+  },
   "services": {
-    "sectionTitle": "Capacidades Centrales",
-    "title": "Soluciones de Nivel Empresarial",
-    "description": "Entregando infraestructura empresarial sofisticada y orientación estratégica para impulsar la eficiencia operativa y el crecimiento de ingresos.",
+    "sectionTitle": "Nuestra Propuesta Estratégica",
+    "title": "Servicios Clave",
+    "description": "Ofrecemos asesoría corporativa de alto nivel para empresas que requieren estructura sólida, expansión internacional y optimización financiera.",
     "items": {
-      "processes": {
-        "title": "Optimización Operativa",
-        "description": "Mejora sistémica de eficiencia y maximización del ROI"
+      "structuring": {
+        "title": "Estructuración Corporativa Internacional",
+        "description": "Diseño de marcos legales y operativos compatibles y escalables en diversas jurisdicciones."
       },
-      "corporate": {
-        "title": "Transformación Organizacional",
-        "description": "Impulsando cultura, estructura y excelencia en el desempeño"
+      "operations": {
+        "title": "Gestión Administrativa y Supervisión Operativa",
+        "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado."
       },
-      "structure": {
-        "title": "Gobernanza Corporativa",
-        "description": "Optimizando marcos legales, financieros y operativos"
+      "capital": {
+        "title": "Estrategias Financieras y Protección Patrimonial",
+        "description": "Relaciones bancarias, marcos de protección de activos, optimización de capital y posicionamiento ante riesgos."
       },
-      "portfolio": {
-        "title": "Alianzas Estratégicas",
-        "description": "Acceso a redes de proveedores de élite y asociaciones con clientes"
-      },
-      "global": {
-        "title": "Gestión Global",
-        "description": "Supervisión centralizada de unidades de negocio internacionales"
-      },
-      "banking": {
-        "title": "Gestión de Capital y Activos",
-        "description": "Estructuración de activos sofisticada y relaciones bancarias"
+      "advisory": {
+        "title": "Coordinación Legal y Cumplimiento Regulatorio",
+        "description": "Asesoría a nivel de junta directiva para expansión, reestructuración y posicionamiento competitivo a largo plazo."
       }
     },
-    "viewAll": "Ver Portafolio Completo de Servicios"
+    "viewAll": "Ver Portafolio de Asesoría Completo"
   },
-  "trust": {
-    "title": "Alianzas Estratégicas",
-    "subtitle": "Asociándose para el Dominio Sostenible del Mercado"
-  },
-  "foundations": {
-    "sectionTitle": "Cimientos Estratégicos",
-    "title": "Construido sobre Principios Inquebrantables",
-    "description": "Nuestra metodología holística integra planificación estratégica rigurosa, tecnología de vanguardia y profunda experiencia industrial para ofrecer soluciones resilientes a largo plazo.",
-    "learnMore": "Descubra Nuestra Metodología"
-  },
-  "mission": {
-    "title": "Misión Corporativa",
-    "description": "Entregar experiencia inigualable, orientación estratégica y apoyo inquebrantable a lo largo de todo su ciclo de vida empresarial.",
-    "cta": "Iniciar Colaboración"
-  },
-  "whatWeDo": {
-    "sectionTitle": "Enfoque Operativo",
-    "title": "Transformación de Visión a Valor",
-    "description": "Combinamos conocimiento industrial especializado con tecnología avanzada para crear soluciones que impulsan valor tangible y medible para su empresa.",
-    "tagline": "Portafolio de Servicios",
-    "subtitle": "Soluciones integrales para el éxito empresarial",
-    "services": {
-      "service1": {
-        "title": "Consultoría Estratégica",
-        "description": "Estrategias de alto nivel para mejorar la eficiencia y maximizar la rentabilidad"
+  "luxury": {
+    "tagline": "Nuestra Distinción",
+    "title": "El Estándar de Caribbean Ventures",
+    "items": {
+      "precision": {
+        "title": "Precisión",
+        "description": "Cada estructura está diseñada con coherencia legal, financiera y operativa."
       },
-      "service2": {
-        "title": "Gestión Administrativa",
-        "description": "Supervisión integral para agilizar operaciones complejas"
+      "discretion": {
+        "title": "Discreción",
+        "description": "La confidencialidad y la comunicación a nivel ejecutivo definen cada compromiso."
       },
-      "service3": {
-        "title": "Asesoría Financiera",
-        "description": "Maximizando rendimientos a través de estrategias financieras personalizadas"
+      "permanence": {
+        "title": "Permanencia Estratégica",
+        "description": "Construimos sistemas duraderos, no soluciones temporales."
+      }
+    }
+  },
+  "process": {
+    "sectionTitle": "Marco de Compromiso",
+    "title": "Proceso de Alta Conversión",
+    "description": "Los ejecutivos convierten mejor cuando entienden el proceso.",
+    "steps": {
+      "step1": {
+        "title": "01 — Evaluación Estratégica",
+        "description": "Diagnóstico confidencial de estructura, exposición al riesgo y objetivos de crecimiento."
+      },
+      "step2": {
+        "title": "02 — Diseño de Arquitectura",
+        "description": "Plano estructural a medida alineado con prioridades legales y financieras."
+      },
+      "step3": {
+        "title": "03 — Supervisión de Ejecución",
+        "description": "Coordinación integrada con socios legales, bancarios y operativos."
+      },
+      "step4": {
+        "title": "04 — Gobernanza a Largo Plazo",
+        "description": "Asesoría continua para garantizar estabilidad, cumplimiento y continuidad del desempeño."
       }
     }
   },
   "infrastructure": {
-    "sectionTitle": "Infraestructura Avanzada",
-    "title": "Tecnología Impulsando Ventaja Competitiva",
-    "description": "Aprovechando plataformas y herramientas de última generación para garantizar máxima eficiencia, seguridad y confiabilidad en todos los procesos operativos."
+    "sectionTitle": "Infraestructura Digital y Operativa",
+    "title": "Sistemas Avanzados",
+    "description": "Aprovechamos sistemas empresariales seguros, plataformas de monitoreo regulatorio y herramientas de informes de grado institucional para garantizar: Transparencia, Continuidad operativa, Claridad financiera y Cumplimiento transfronterizo."
   },
   "quality": {
     "sectionTitle": "Estándar de Excelencia",
@@ -126,13 +128,23 @@
     "sectionTitle": "Trayectoria",
     "title": "Historias de Éxito Comprobadas",
     "description": "Descubra cómo hemos empoderado a empresas para alcanzar resultados extraordinarios y liderazgo de mercado.",
-    "viewCase": "Analizar Caso de Estudio"
+    "viewCase": "Analizar Caso de Estudio",
+    "items": {
+      "item1": {
+        "title": "Estructuración Corporativa Internacional",
+        "description": "Diseño de marcos legales y operativos compatibles y escalables en diversas jurisdicciones."
+      },
+      "item2": {
+        "title": "Gestión Administrativa y Supervisión Operativa",
+        "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado."
+      }
+    }
   },
   "finalCta": {
-    "title": "¿Listo para la Transformación?",
-    "description": "Conecte con nuestros expertos hoy para descubrir cómo podemos facilitar sus objetivos estratégicos.",
-    "contact": "Comenzar Transformación",
-    "schedule": "Agendar Sesión Informativa",
+    "title": "Contacte con Nuestro Equipo de Asesoría",
+    "description": "Consultas privadas disponibles para empresas que buscan refinamiento estructural, expansión o alineación de capital.",
+    "contact": "Solicitar Consulta Estratégica",
+    "schedule": "Agendar Reunión",
     "tagline": "Hablemos",
     "button": "Contactar Liderazgo"
   },
@@ -156,8 +168,30 @@
     "address": "Santo Domingo, República Dominicana",
     "contactTitle": "Contáctenos",
     "servicesTitle": "Servicios Centrales",
-    "service1": "Consultoría Estratégica",
-    "service2": "Gestión Administrativa",
-    "service3": "Asesoría Financiera"
+    "service1": "Estructuración Corporativa",
+    "service2": "Operaciones Internacionales",
+    "service3": "Estrategia de Capital"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Complete el formulario y nuestro equipo de Caribbean Ventures se pondrá en contacto con usted.",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "company": "Empresa",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "directEmail": "También puede escribirnos directamente a",
+    "addressLabel": "Dirección: Santo Domingo, República Dominicana"
+  },
+  "alt": {
+    "infrastructure": "Infraestructura de oficina de negocios moderna",
+    "professional": "Profesional de negocios",
+    "arrow": "Icono de flecha",
+    "decorativeArrow": "Flecha decorativa",
+    "experience": "Icono de experiencia",
+    "quality": "Icono de calidad",
+    "team": "Colaboración de equipo profesional",
+    "meeting": "Reunión de profesionales de negocios",
+    "collaboration": "Colaboración de equipo de negocios"
   }
 }

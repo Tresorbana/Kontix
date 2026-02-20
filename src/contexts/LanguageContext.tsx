@@ -85,8 +85,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
 
     const loadTranslations = async () => {
       try {
-        setIsLanguageLoading(true);
-
         // Dynamically import the locale file
         const translationsModule = await import(
           /* webpackChunkName: "[request]" */
@@ -125,7 +123,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
 
   // Translation function with parameter support
   const t = useCallback((key: string, params?: Record<string, string | number>): string => {
-    if (isLanguageLoading) return '';
 
     const keys = key.split('.');
     let value: any = translations;

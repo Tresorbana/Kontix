@@ -17,14 +17,14 @@ const PortfolioSection = () => {
     {
       slug: 'consultoria-empresarial',
       image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=900&fit=crop&auto=format&q=80',
-      title: t('whatWeDo.services.service1.title'),
-      description: t('whatWeDo.services.service1.description'),
+      title: t('portfolio.items.item1.title'),
+      description: t('portfolio.items.item1.description'),
     },
     {
       slug: 'gestion-administrativa',
       image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=900&fit=crop&auto=format&q=80',
-      title: t('whatWeDo.services.service2.title'),
-      description: t('whatWeDo.services.service2.description'),
+      title: t('portfolio.items.item2.title'),
+      description: t('portfolio.items.item2.description'),
     },
   ];
 

@@ -28,7 +28,7 @@ const MissionCta = () => {
             {t('mission.cta')}
             <Image
               src={arrowIconUrl}
-              alt="arrow icon"
+              alt={t('alt.arrow')}
               width={12}
               height={12}
               className="ml-3 transition-transform duration-300 transform group-hover:translate-x-1"

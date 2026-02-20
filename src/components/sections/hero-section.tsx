@@ -106,23 +106,6 @@ export default function HeroSection() {
             >
               {t('hero.cta.primary')}
             </Link>
-            <a
-              href="#services"
-              onClick={(e) => {
-                e.preventDefault();
-                const element = document.getElementById('services');
-                if (element) {
-                  const offset = 120; // Offset for fixed navigation
-                  const elementPosition = element.getBoundingClientRect().top;
-                  const offsetPosition = elementPosition + window.pageYOffset - offset;
-                  window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-                }
-              }}
-              className="px-6 sm:px-8 py-3 sm:py-4 bg-black hover:bg-gray-900 text-white border-2 border-[#004355] text-sm sm:text-base font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2"
-            >
-              <PlayCircle className="w-4 h-4 sm:w-5 sm:h-5" />
-              {t('hero.cta.secondary')}
-            </a>
           </motion.div>
         </div>
       </div>

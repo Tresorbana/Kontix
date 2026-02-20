@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { FadeIn } from '@/components/animations/ScrollAnimations';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navigation from '@/components/sections/navigation';
@@ -8,18 +9,18 @@ import Footer from '@/components/sections/footer';
 
 function AboutPage() {
   const { t } = useLanguage();
-  
+
   return (
     <div className="min-h-screen bg-black text-white">
       <Navigation />
       {/* Hero Section */}
       <section className="relative pt-28 sm:pt-32 md:pt-40 pb-20 md:pb-32 overflow-hidden">
         {/* Background Image */}
-        <div 
+        <div
           className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80')] bg-cover bg-center opacity-20"
           aria-hidden="true"
         />
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <FadeIn>
@@ -48,7 +49,7 @@ function AboutPage() {
               </p>
             </div>
           </FadeIn>
-          
+
           {/* Mission Section */}
           <FadeIn>
             <div className="text-center mb-16">
@@ -61,7 +62,7 @@ function AboutPage() {
               </p>
             </div>
           </FadeIn>
-          
+
           {/* Values Section */}
           <FadeIn>
             <div className="text-center">
@@ -69,7 +70,7 @@ function AboutPage() {
                 {t('quality.sectionTitle')}
               </h2>
               <div className="w-24 h-1 bg-[#cf2b2c] mx-auto mb-12"></div>
-              
+
               <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {[
                   { title: t('about.features.experience.title'), description: t('about.features.experience.description') },
@@ -86,7 +87,7 @@ function AboutPage() {
           </FadeIn>
         </div>
       </section>
-      
+
       {/* CTA Section */}
       <section className="py-20 bg-[#050505]">
         <div className="container mx-auto px-4 text-center">
@@ -97,12 +98,12 @@ function AboutPage() {
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
               {t('finalCta.description')}
             </p>
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center justify-center bg-[#cf2b2c] text-white font-bold py-3 px-8 rounded-full hover:bg-[#b02223] transition-colors"
             >
               {t('finalCta.button')}
-            </a>
+            </Link>
           </FadeIn>
         </div>
       </section>

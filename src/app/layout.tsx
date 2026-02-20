@@ -12,10 +12,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Caribbean Ventures",
+    default: "Private Strategic Advisory for Global Enterprises | Caribbean Ventures",
     template: "%s | Caribbean Ventures"
   },
-  description: "Enhancing your efficiency and competitiveness with specialized B2B solutions",
+  description: "Caribbean Ventures is a boutique strategic advisory firm specializing in corporate structuring, international operations management, and capital strategy for cross-border enterprises.",
   icons: {
     icon: [
       { url: '/logo.webp', type: 'image/webp' },
