@@ -17,7 +17,7 @@ function AboutPage() {
       <section className="relative pt-28 sm:pt-32 md:pt-40 pb-20 md:pb-32 overflow-hidden">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80')] bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&auto=format&q=80')] bg-cover bg-center opacity-20"
           aria-hidden="true"
         />
 

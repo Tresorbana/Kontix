@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from '@/contexts/LanguageContext';
+import { ArrowRight } from 'lucide-react';
 
 interface StatCounterProps {
   targetValue: number;
@@ -74,29 +75,26 @@ export default function ModernInfrastructure() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=1200&fit=crop&auto=format&q=80"
+              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=1200&fit=crop&auto=format&q=80"
               alt={t('alt.infrastructure')}
               width={668}
               height={708}
-              className="rounded-[20px] w-full h-auto object-cover"
+              className="rounded-[20px] w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
             <Link href="/contact" className="absolute bottom-[40px] -left-[70px] hidden xl:flex bg-primary rounded-[20px] p-[30px] items-center gap-5 w-[495px]">
-              <Image
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face&auto=format&q=80"
-                alt={t('alt.professional')}
-                width={82}
-                height={82}
-                className="rounded-full flex-shrink-0"
-              />
+              <div className="relative h-[82px] w-[82px] rounded-full overflow-hidden bg-white/10 flex items-center justify-center flex-shrink-0">
+                <Image
+                  src="https://images.unsplash.com/photo-1634117622592-114e3024ff27?w=200&h=200&fit=crop&auto=format&q=80"
+                  alt={t('alt.professional')}
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <p className="text-primary-foreground text-[22px] font-semibold leading-[1.3] flex-1">
                 {t('mission.description')}
               </p>
-              <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874c1895517f5ba58aae44d_Group%20130966-18.svg?"
-                alt={t('alt.arrow')}
-                width={50}
-                height={50}
-                className="flex-shrink-0"
+              <ArrowRight
+                className="w-[50px] h-[50px] text-primary-foreground flex-shrink-0"
               />
             </Link>
           </div>
@@ -109,52 +107,12 @@ export default function ModernInfrastructure() {
 
             <Link href="/contact" className="group inline-flex items-center gap-4">
               <span className="text-white font-medium text-[18px] group-hover:text-primary transition-colors">{t('services.viewAll')}</span>
-              <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/68a6e89b43d62cbb7a3ccad1_Vector%20431-19.svg?"
-                alt={t('alt.arrow')}
-                width={41}
-                height={15}
-              />
+              <ArrowRight className="w-6 h-6 text-primary group-hover:translate-x-1 transition-transform" />
             </Link>
 
             <div className="flex flex-col gap-10 mt-5">
-              <div className="flex flex-col gap-4">
-                <StatCounter
-                  targetValue={10}
-                  decimals={0}
-                  suffix="+"
-                  className="text-primary font-bold text-[80px] leading-none"
-                />
-                <div className="flex items-center gap-4">
-                  <Image
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874c21b2219a5da539917f1_Arrow%2010%20(4)-20.svg?"
-                    alt={t('alt.decorativeArrow')}
-                    width={33}
-                    height={48}
-                  />
-                  <h3 className="text-white text-[21px] font-medium">{t('about.stats.experience')}</h3>
-                </div>
-                <p className="text-muted text-base max-w-sm">{t('infrastructure.description')}</p>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <StatCounter
-                  targetValue={200}
-                  decimals={0}
-                  suffix="+"
-                  className="text-primary font-bold text-[80px] leading-none"
-                />
-                <div className="flex items-center gap-4">
-                  <Image
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874c21b2219a5da539917f1_Arrow%2010%20(4)-20.svg?"
-                    alt={t('alt.decorativeArrow')}
-                    width={33}
-                    height={48}
-                  />
-                  <h3 className="text-white text-[21px] font-medium">{t('about.stats.clients')}</h3>
-                </div>
-                <p className="text-muted text-base max-w-sm">{t('about.description')}</p>
-              </div>
+              <p className="text-muted text-base max-w-sm">{t('infrastructure.description')}</p>
+              <p className="text-muted text-base max-w-sm">{t('about.description')}</p>
             </div>
           </div>
         </div>

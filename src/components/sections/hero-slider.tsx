@@ -11,7 +11,7 @@ import { MorphingButton, LiquidMorph } from '@/components/animations/ModernInter
 
 // Static hero content instead of slides
 const heroData = {
-  bgImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop&auto=format&q=80"
+  bgImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&auto=format&q=80"
 };
 
 const customerIcons = [
@@ -27,9 +27,9 @@ const slidesData = [
   {
     id: '1',
     key: 'slide1',
-    bgImage: 'https://picsum.photos/1920/1080?random=1',
+    bgImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&auto=format&q=80',
     thumb: {
-      image: 'https://picsum.photos/64/64?random=1',
+      image: 'https://images.unsplash.com/photo-1634651337046-7043ef239aca?w=64&h=64&fit=crop&auto=format&q=80',
       title: 'Slide 1'
     }
   }
@@ -218,8 +218,8 @@ export default function HeroSlider() {
                       <motion.div
                         onClick={() => handleThumbClick(index)}
                         className={`relative cursor-pointer p-4 rounded-lg backdrop-blur-sm border transition-all duration-300 ${index === activeIndex
-                            ? 'bg-white/20 border-primary shadow-lg shadow-primary/20'
-                            : 'bg-white/10 border-white/20 hover:bg-white/15'
+                          ? 'bg-white/20 border-primary shadow-lg shadow-primary/20'
+                          : 'bg-white/10 border-white/20 hover:bg-white/15'
                           }`}
                         whileHover={{ scale: 1.02, y: -2 }}
                         whileTap={{ scale: 0.98 }}

@@ -194,33 +194,14 @@ export default function AboutUsSection() {
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
               >
                 <BusinessImage
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=570&h=570&fit=crop&auto=format&q=80"
+                  src="https://images.unsplash.com/photo-1634651337046-7043ef239aca?w=800&h=800&fit=crop&auto=format&q=80"
                   width={570}
                   height={570}
                   alt={t('alt.team')}
-                  className="rounded-2xl object-cover"
+                  className="rounded-2xl object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </motion.div>
             </ScaleIn>
-            <FloatingElement intensity={0.3}>
-              <MagneticCard
-                className="static mt-8 flex w-full max-w-sm justify-between gap-8 rounded-2xl bg-primary p-8 lg:absolute lg:mt-0 lg:w-[370px] lg:bottom-[-40px] lg:right-[-40px] transform-gpu"
-                intensity={0.5}
-              >
-                <ClipPathReveal direction="left" className="text-center">
-                  <div className="text-5xl font-bold tracking-tighter text-black">
-                    <EasedCounter from={0} to={200} suffix="+" />
-                  </div>
-                  <p className="mt-1 text-sm text-black">{t('about.stats.clients')}</p>
-                </ClipPathReveal>
-                <ClipPathReveal direction="right" className="text-center">
-                  <div className="text-5xl font-bold tracking-tighter text-black">
-                    <EasedCounter from={0} to={15} suffix="+" />
-                  </div>
-                  <p className="mt-1 text-sm text-black">{t('about.stats.experience')}</p>
-                </ClipPathReveal>
-              </MagneticCard>
-            </FloatingElement>
           </SlideIn>
         </div>
       </div>

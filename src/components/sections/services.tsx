@@ -16,7 +16,7 @@ const servicesData: Service[] = [
   {
     title: 'Consultoría Empresarial',
     description: 'Mejore la eficiencia, rentabilidad y competitividad de su empresa con soluciones estratégicas y personalizadas.',
-    imageUrl: 'https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&h=500&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=800&h=500&fit=crop&auto=format&q=80',
     altText: 'Consultoría Empresarial',
     features: [
       'Análisis de viabilidad y planes de negocio',
@@ -29,7 +29,7 @@ const servicesData: Service[] = [
   {
     title: 'Gestión Administrativa y Contable',
     description: 'Delegue tareas operativas para enfocarse en su negocio principal con servicios administrativos y contables eficientes.',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&h=500&fit=crop&auto=format&q=80',
     altText: 'Gestión Administrativa y Contable',
     features: [
       'Gestión de nómina y recursos humanos',
@@ -42,7 +42,7 @@ const servicesData: Service[] = [
   {
     title: 'Asesoría Financiera',
     description: 'Maximice ganancias y asegure la sostenibilidad financiera de su empresa con asesoría experta.',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1633167606207-d840b5070fc2?w=800&h=500&fit=crop&auto=format&q=80',
     altText: 'Asesoría Financiera',
     features: [
       'Planificación financiera y presupuestos',
@@ -111,8 +111,8 @@ const ServicesSection = () => {
           ))}
         </div>
         <div className="text-center mt-16">
-          <Link 
-            href="/contact" 
+          <Link
+            href="/contact"
             className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition-colors duration-300"
           >
             Solicite una consulta gratuita

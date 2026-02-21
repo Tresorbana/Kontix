@@ -6,7 +6,6 @@ import HeroSection from "@/components/sections/hero-section";
 import AboutUsSection from "@/components/sections/about-us";
 import ServicesSection from "@/components/sections/services-section";
 import StrongFoundations from "@/components/sections/strong-foundations";
-import MissionCta from "@/components/sections/mission-cta";
 import WhatWeDoSection from "@/components/sections/what-we-do";
 import ModernInfrastructure from "@/components/sections/modern-infrastructure";
 import QualityConstruction from "@/components/sections/quality-construction";
@@ -51,7 +50,6 @@ export default function HomePage() {
       <AboutUsSection />
       <ServicesSection />
       <StrongFoundations />
-      <MissionCta />
       <WhatWeDoSection />
       <ModernInfrastructure />
       <QualityConstruction />

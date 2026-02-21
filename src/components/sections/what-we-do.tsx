@@ -1,14 +1,11 @@
 'use client';
 
-import Image from "next/image";
+import React from "react";
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Target, Lock, Gem } from 'lucide-react';
 
 const luxuryKeys = ['precision', 'discretion', 'permanence'];
-const luxuryIcons = [
-  "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874e8d451ee2a9d7c63b529_Vector%20(19)-21.svg?",
-  "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/68a6f29d06e4b0e24e9ff3b0_Vector%20(73)-22.svg?",
-  "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/68a6f29d2d11acf80787b302_Vector%20(74)-23.svg?"
-];
+const luxuryIcons = [Target, Lock, Gem];
 
 const WhatWeDoSection = () => {
   const { t } = useLanguage();
@@ -31,14 +28,11 @@ const WhatWeDoSection = () => {
               className={`flex flex-col items-center text-center px-9 pt-4 pb-5 ${index > 0 ? 'mt-8 md:mt-0' : ''
                 } ${index < luxuryKeys.length - 1 ? "md:border-r md:border-zinc-200" : ""}`}
             >
-              <div className="w-[70px] h-[70px] flex items-center justify-center">
-                <Image
-                  src={luxuryIcons[index]}
-                  alt={t(`luxury.items.${key}.title`)}
-                  width={70}
-                  height={70}
-                  className="max-w-full max-h-full object-contain"
-                />
+              <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary/5 rounded-full mb-2">
+                {React.createElement(luxuryIcons[index], {
+                  className: "w-8 h-8 text-primary stroke-[1.5]",
+                  "aria-hidden": "true"
+                })}
               </div>
               <h3 className="mt-6 text-2xl font-semibold text-zinc-900">
                 {t(`luxury.items.${key}.title`)}

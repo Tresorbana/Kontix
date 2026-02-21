@@ -1,38 +1,13 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import { Building2, Briefcase, Shield, Globe, Landmark } from "lucide-react";
 
 const logos = [
-  {
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/688b678c743b0795c31de79a_creativa-14.svg?",
-    alt: "Creativa",
-    width: 147,
-    height: 26,
-  },
-  {
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/688b678c9aa1b90c8b6380e8_Group%202-11.svg?",
-    alt: "LunLap",
-    width: 120,
-    height: 32,
-  },
-  {
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/688b678c550ff116eb124e27_Group%203%20(1)-13.svg?",
-    alt: "Leagone",
-    width: 138,
-    height: 24,
-  },
-  {
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/688b678c322cc77b2386b5cc_urban%20(1)-12.svg?",
-    alt: "Urban",
-    width: 111,
-    height: 26,
-  },
-  {
-    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/688b678c98a83338f3c26a1b_Group%205-10.svg?",
-    alt: "MARQI",
-    width: 123,
-    height: 30,
-  },
+  { icon: Building2, name: "Creativa" },
+  { icon: Briefcase, name: "LunLap" },
+  { icon: Shield, name: "Leagone" },
+  { icon: Globe, name: "Urban" },
+  { icon: Landmark, name: "MARQI" },
 ];
 
 const ClientLogos = () => {
@@ -58,16 +33,10 @@ const ClientLogos = () => {
               {logos.map((logo, index) => (
                 <div
                   key={`logo-${index}`}
-                  className="flex-shrink-0 px-[65px] h-8 flex items-center justify-center filter invert"
+                  className="flex-shrink-0 px-[65px] flex items-center justify-center gap-3 opacity-50 hover:opacity-100 transition-opacity grayscale"
                 >
-                  <Image
-                    src={logo.src}
-                    alt={logo.alt}
-                    width={logo.width}
-                    height={logo.height}
-                    className="max-h-full w-auto"
-                    unoptimized
-                  />
+                  <logo.icon className="w-8 h-8 text-white" />
+                  <span className="text-xl font-bold text-white tracking-widest">{logo.name}</span>
                 </div>
               ))}
             </div>
@@ -78,16 +47,10 @@ const ClientLogos = () => {
               {logos.map((logo, index) => (
                 <div
                   key={`logo-duplicate-${index}`}
-                  className="flex-shrink-0 px-[65px] h-8 flex items-center justify-center filter invert"
+                  className="flex-shrink-0 px-[65px] flex items-center justify-center gap-3 opacity-50 hover:opacity-100 transition-opacity grayscale"
                 >
-                  <Image
-                    src={logo.src}
-                    alt={logo.alt}
-                    width={logo.width}
-                    height={logo.height}
-                    className="max-h-full w-auto"
-                    unoptimized
-                  />
+                  <logo.icon className="w-8 h-8 text-white" />
+                  <span className="text-xl font-bold text-white tracking-widest">{logo.name}</span>
                 </div>
               ))}
             </div>

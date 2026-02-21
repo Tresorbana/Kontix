@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { ArrowUpRight } from 'lucide-react';
 
 interface Project {
   slug: string;
@@ -16,19 +17,17 @@ const PortfolioSection = () => {
   const projects: Project[] = [
     {
       slug: 'consultoria-empresarial',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=900&fit=crop&auto=format&q=80',
+      image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=900&fit=crop&auto=format&q=80',
       title: t('portfolio.items.item1.title'),
       description: t('portfolio.items.item1.description'),
     },
     {
       slug: 'gestion-administrativa',
-      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=900&fit=crop&auto=format&q=80',
+      image: 'https://images.unsplash.com/photo-1634117622592-114e3024ff27?w=800&h=900&fit=crop&auto=format&q=80',
       title: t('portfolio.items.item2.title'),
       description: t('portfolio.items.item2.description'),
     },
   ];
-
-  const arrowIconUrl = "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/085e3073-cfac-4c74-97c3-0370505bf369-kontix-webflow-io/assets/svgs/6874c8e16caffd9e749221fd_Arrow%2011%20(1)-26.svg?";
 
   return (
     <section className="bg-white py-[100px]">
@@ -54,7 +53,7 @@ const PortfolioSection = () => {
                 />
                 <div className="absolute inset-0 bg-white/90 backdrop-blur-[5px] p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex flex-col justify-end">
                   <div className="absolute top-6 right-6 w-11 h-11 bg-primary rounded-full flex items-center justify-center">
-                    <Image src={arrowIconUrl} alt="Arrow Icon" width={14} height={14} />
+                    <ArrowUpRight className="w-5 h-5 text-white" />
                   </div>
                   <div>
                     <h3 className="text-2xl font-semibold text-[#121212] mb-1">{project.title}</h3>

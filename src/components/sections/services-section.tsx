@@ -15,22 +15,22 @@ interface Service {
 const servicesData: Service[] = [
   {
     key: 'structuring',
-    imageUrl: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'operations',
-    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&h=600&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'capital',
-    imageUrl: 'https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=600&h=400&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&h=600&fit=crop&auto=format&q=80',
     link: '#'
   },
   {
     key: 'advisory',
-    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1633167606207-d840b5070fc2?w=800&h=600&fit=crop&auto=format&q=80',
     link: '#'
   }
 ];

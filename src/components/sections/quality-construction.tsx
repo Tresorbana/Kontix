@@ -13,14 +13,14 @@ const QualityConstruction = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="relative h-[480px] lg:h-[600px] w-full">
             <Image
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=800&fit=crop&auto=format&q=80"
+              src="https://images.unsplash.com/photo-1620052581237-5d36667be337?w=800&h=800&fit=crop&auto=format&q=80"
               alt={t('alt.meeting')}
               width={314}
               height={434}
               className="absolute top-0 left-0 w-3/4 max-w-[314px] rounded-2xl object-cover z-10"
             />
             <Image
-              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=600&fit=crop&auto=format&q=80"
+              src="https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&h=800&fit=crop&auto=format&q=80"
               alt={t('alt.collaboration')}
               width={313}
               height={311}
@@ -68,19 +68,6 @@ const QualityConstruction = () => {
               </div>
             </div>
 
-            <Link
-              href="/contact"
-              className="group inline-flex items-center justify-center bg-primary text-primary-foreground font-medium py-4 px-8 rounded-full mt-10 transition-transform duration-300 hover:-translate-y-1"
-            >
-              <Image
-                src="/logo.webp"
-                alt="Caribbean Ventures"
-                width={24}
-                height={24}
-                className="mr-2 rounded-full"
-              />
-              <span>{t('quality.contactButton')}</span>
-            </Link>
           </div>
         </div>
       </div>
