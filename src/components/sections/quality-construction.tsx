@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from '@/contexts/LanguageContext';
+import LucideIcon from '@/components/ui/LucideIcon';
 
 
 const QualityConstruction = () => {
@@ -13,14 +14,14 @@ const QualityConstruction = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="relative h-[480px] lg:h-[600px] w-full">
             <Image
-              src="https://images.unsplash.com/photo-1620052581237-5d36667be337?w=800&h=800&fit=crop&auto=format&q=80"
+              src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&h=800&fit=crop&auto=format&q=80" // Unique: Global Network 2
               alt={t('alt.meeting')}
               width={314}
               height={434}
               className="absolute top-0 left-0 w-3/4 max-w-[314px] rounded-2xl object-cover z-10"
             />
             <Image
-              src="https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&h=800&fit=crop&auto=format&q=80"
+              src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&h=800&fit=crop&auto=format&q=80" // Unique: Modern Workspace
               alt={t('alt.collaboration')}
               width={313}
               height={311}
@@ -42,9 +43,7 @@ const QualityConstruction = () => {
             <div className="mt-10 pt-10 border-t border-border space-y-8">
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0 mt-1 w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
-                  <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+                  <LucideIcon name="CheckCircle2" className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">
@@ -55,9 +54,7 @@ const QualityConstruction = () => {
               </div>
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0 mt-1 w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
-                  <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
+                  <LucideIcon name="Users2" className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">

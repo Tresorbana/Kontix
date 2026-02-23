@@ -15,22 +15,22 @@ interface Service {
 const servicesData: Service[] = [
   {
     key: 'structuring',
-    imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop&auto=format&q=80', // Unique: Cybersecurity Grid
     link: '#'
   },
   {
     key: 'operations',
-    imageUrl: 'https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&h=600&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&h=600&fit=crop&auto=format&q=80', // Unique: Earth/Satellite View
     link: '#'
   },
   {
     key: 'capital',
-    imageUrl: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&h=600&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&auto=format&q=80', // Ultra-stable business analytics abstract (Resolved 404)
     link: '#'
   },
   {
     key: 'advisory',
-    imageUrl: 'https://images.unsplash.com/photo-1633167606207-d840b5070fc2?w=800&h=600&fit=crop&auto=format&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&auto=format&q=80', // Ultra-stable corporate architecture facade
     link: '#'
   }
 ];

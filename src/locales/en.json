@@ -18,7 +18,7 @@
     },
     "trust": {
       "clients": "Trusted by Market Leaders",
-      "experience": "Santo Domingo, Dominican Republic | Global Mandates"
+      "experience": "Remote-First Operation | Global Strategic Mandates"
     },
     "startProject": "Initiate Partnership",
     "rating": "Endorsed by Global Executives"
@@ -26,7 +26,7 @@
   "about": {
     "sectionTitle": "About Caribbean Ventures",
     "title": "Private Strategic Advisory",
-    "description": "Caribbean Ventures is a boutique strategic advisory firm specializing in corporate structuring, operational governance, and capital alignment for cross-border enterprises. We serve founders, boards, and executive teams seeking disciplined growth, regulatory precision, and long-term enterprise resilience.",
+    "description": "Caribbean Ventures is a remote-first strategic advisory firm specializing in corporate structuring, operational governance, and capital alignment for cross-border enterprises. We serve founders, boards, and executive teams through a borderless, digital-first engagement model designed for enterprise resilience.",
     "learnMore": "View Firm Profile",
     "features": {
       "experience": {
@@ -165,7 +165,7 @@
     "disclaimer": "Legal Disclaimer",
     "cookies": "Cookie Policy",
     "addressTitle": "Headquarters",
-    "address": "Santo Domingo, Dominican Republic",
+    "address": "Global Operations | Remote-First Advisory",
     "contactTitle": "Contact Us",
     "servicesTitle": "Core Services",
     "service1": "Corporate Structuring",
@@ -177,11 +177,12 @@
     "subtitle": "Complete the form and our Caribbean Ventures team will get in touch with you.",
     "name": "Full Name",
     "email": "Email Address",
+    "emailLabel": "Email",
     "company": "Company",
     "message": "Message",
     "submit": "Send Message",
     "directEmail": "You can also write to us directly at",
-    "addressLabel": "Address: Santo Domingo, Dominican Republic"
+    "addressLabel": "Address: Global Operations | Remote-First"
   },
   "alt": {
     "infrastructure": "Modern business office infrastructure",
@@ -192,6 +193,65 @@
     "quality": "Quality icon",
     "team": "Professional team collaboration",
     "meeting": "Business professional meeting",
-    "collaboration": "Business team collaboration"
+    "collaboration": "Business team collaboration",
+    "moreCustomers": "More customers"
+  },
+  "trustBanner": {
+    "title": "Trust",
+    "description": "Join the 850+ companies trusting our services"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Privacy policy of Caribbean Ventures. Learn how we protect your personal information.",
+    "intro": "At Caribbean Ventures, we are committed to respecting and protecting the privacy of our users. This privacy policy describes how we collect, use and protect the personal information that you provide us through our website.",
+    "sections": {
+      "collection": {
+        "title": "Information Collection",
+        "description": "We collect personal information only when necessary to offer you our services and improve your experience. The information collected may include, among others, contact and navigation data. We are committed not to sell, share or disclose your personal information without your consent, except in cases where required by law."
+      },
+      "security": {
+        "title": "Information Security",
+        "description": "We implement security measures to protect your data against unauthorized access, loss or alteration."
+      },
+      "acceptance": {
+        "title": "Policy Acceptance",
+        "description": "By using our website, you accept the terms of this privacy policy."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "description": "Terms and conditions of use of the Caribbean Ventures website.",
+    "intro": "By accessing or using the Caribbean Ventures website (hereinafter, 'the Site'), located at https://caribbean.ventures, you agree to comply with these Terms and Conditions of Use (hereinafter, 'Terms'). If you do not agree with any of the provisions of these Terms, we request that you refrain from using the Site.",
+    "sections": {
+      "modifications": {
+        "title": "Modifications to the Terms",
+        "description": "Caribbean Ventures reserves the right to modify or update these Terms at any time, without prior notice. Any changes will be effective immediately upon being published on the Site. We recommend that you regularly consult this section to stay informed about possible changes."
+      },
+      "usage": {
+        "title": "Use of the Site",
+        "description": "The Site is intended solely for legal purposes and in accordance with the laws of the Dominican Republic. You agree to use the Site responsibly and not to infringe intellectual property rights, nor perform activities that may damage, disable, overburden or impair the Site or interfere with the use and enjoyment of it by other users."
+      },
+      "property": {
+        "title": "Intellectual Property",
+        "description": "All content available on the Site, including but not limited to texts, graphics, images, logos, videos, software, codes and other materials, are the property of Caribbean Ventures or their respective owners and are protected by intellectual property laws. Reproduction, distribution, modification or use of any content of the Site without the prior written permission of Caribbean Ventures is not allowed."
+      },
+      "liability": {
+        "title": "Limited Liability",
+        "description": "Caribbean Ventures does not guarantee continuous or error-free availability of the Site. It is not responsible for direct, indirect, incidental, special or consequential damages that may arise from the use of the Site, including the loss of data, income or any other economic or non-economic damage, even if the company has been warned of the possibility of such damages."
+      },
+      "links": {
+        "title": "Links to Third-Party Sites",
+        "description": "The Site may contain links to other third-party websites. These links are provided only for your convenience and do not imply that Caribbean Ventures approves or endorses the content of such sites. Caribbean Ventures is not responsible for the contents, privacy policies or practices of third-party sites."
+      },
+      "termination": {
+        "title": "Termination of Access",
+        "description": "Caribbean Ventures reserves the right to suspend or terminate your access to the Site at any time and for any reason, without prior notice, if it is considered that you have violated these Terms."
+      },
+      "law": {
+        "title": "Applicable Law and Jurisdiction",
+        "description": "These Terms will be governed by and interpreted in accordance with the laws of the Dominican Republic. Any dispute arising in relation to the use of the Site will be resolved in the competent courts of the Dominican Republic."
+      }
+    }
   }
 }

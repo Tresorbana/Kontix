@@ -11,7 +11,7 @@ import { MorphingButton, LiquidMorph } from '@/components/animations/ModernInter
 
 // Static hero content instead of slides
 const heroData = {
-  bgImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&auto=format&q=80"
+  bgImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80" // Ultra-stable global connectivity network background
 };
 
 const customerIcons = [
@@ -27,9 +27,9 @@ const slidesData = [
   {
     id: '1',
     key: 'slide1',
-    bgImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&auto=format&q=80',
+    bgImage: 'https://images.unsplash.com/photo-1470723710355-95304d8aece4?w=1920&h=1080&fit=crop&auto=format&q=80', // Unique: Global Architecture Detail 2
     thumb: {
-      image: 'https://images.unsplash.com/photo-1634651337046-7043ef239aca?w=64&h=64&fit=crop&auto=format&q=80',
+      image: 'https://images.unsplash.com/photo-1470723710355-95304d8aece4?w=64&h=64&fit=crop&auto=format&q=80',
       title: 'Slide 1'
     }
   }
@@ -170,7 +170,7 @@ export default function HeroSlider() {
                         src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEwIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05IDQuNUwxIDQuNU0yLjUgOEw5IDQuNUwyLjUgMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHN2Zz4K"
                         width={10}
                         height={9}
-                        alt="Arrow icon"
+                        alt={t('alt.arrow')}
                       />
                     </motion.div>
                   </div>
@@ -197,7 +197,7 @@ export default function HeroSlider() {
                       <div className="w-8 h-8 rounded-full border-2 border-black bg-[#1D1D1D] flex items-center justify-center">
                         <IconImage
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYgMVY2TTYgNkg2SDAiIHN0cm9rZT0iI0Y1OUUwQiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHN2Zz4K"
-                          alt="More customers"
+                          alt={t('alt.moreCustomers')}
                           width={12}
                           height={12}
                         />

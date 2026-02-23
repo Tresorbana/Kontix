@@ -2,7 +2,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { BusinessImage, IconImage } from '@/components/ui/SmartImage';
+import NextImage from "next/image";
+import { BusinessImage } from '@/components/ui/SmartImage';
+import LucideIcon from '@/components/ui/LucideIcon';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { SlideIn, FadeIn, StaggerContainer, StaggerItem, ScaleIn } from '@/components/animations/ScrollAnimations';
 import { FloatingElement, MagneticHover, AnimatedCounter } from '@/components/animations/AdvancedAnimations';
@@ -125,11 +127,11 @@ export default function AboutUsSection() {
                           whileHover={{ x: 5 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         >
-                          <IconImage
-                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEwIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05IDQuNUwxIDQuNU0yLjUgOEw5IDQuNUwyLjUgMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHN2Zz4K"
-                            width={10}
-                            height={9}
-                            alt={t('alt.arrow')}
+                          <LucideIcon
+                            name="ArrowRight"
+                            size={16}
+                            className="text-black"
+                            aria-label={t('alt.arrow')}
                           />
                         </motion.div>
                       </Link>
@@ -145,13 +147,14 @@ export default function AboutUsSection() {
                         whileHover={{ scale: 1.1, rotate: 5 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                       >
-                        <IconImage
-                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPHBhdGggZD0iTTI0IDEyTDMyIDI0SDI0VjM2TDE2IDI0SDI0VjEyWiIgZmlsbD0id2hpdGUiLz4KPHN2Zz4K"
-                          width={48}
-                          height={48}
-                          alt={t('alt.experience')}
-                          className="flex-shrink-0"
-                        />
+                        <div className="w-12 h-12 bg-primary flex items-center justify-center rounded-xl flex-shrink-0">
+                          <LucideIcon
+                            name="Award"
+                            size={24}
+                            className="text-black"
+                            aria-label={t('alt.experience')}
+                          />
+                        </div>
                       </motion.div>
                     </FloatingElement>
                     <div>
@@ -167,13 +170,14 @@ export default function AboutUsSection() {
                         whileHover={{ scale: 1.1, rotate: -5 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                       >
-                        <IconImage
-                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiNGNTlFMEIiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMTAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPgo8cGF0aCBkPSJNMjAgMjRMMjIgMjZMMjggMjAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
-                          width={48}
-                          height={48}
-                          alt={t('alt.quality')}
-                          className="flex-shrink-0"
-                        />
+                        <div className="w-12 h-12 bg-primary flex items-center justify-center rounded-xl flex-shrink-0">
+                          <LucideIcon
+                            name="ShieldCheck"
+                            size={24}
+                            className="text-black"
+                            aria-label={t('alt.quality')}
+                          />
+                        </div>
                       </motion.div>
                     </FloatingElement>
                     <div>
@@ -193,11 +197,11 @@ export default function AboutUsSection() {
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
               >
-                <BusinessImage
-                  src="https://images.unsplash.com/photo-1634651337046-7043ef239aca?w=800&h=800&fit=crop&auto=format&q=80"
+                <NextImage
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=800&fit=crop&auto=format&q=80" // Remote workspace laptop setup, no faces
+                  alt={t('alt.team')}
                   width={570}
                   height={570}
-                  alt={t('alt.team')}
                   className="rounded-2xl object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </motion.div>

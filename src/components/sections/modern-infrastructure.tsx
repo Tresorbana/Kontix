@@ -75,7 +75,7 @@ export default function ModernInfrastructure() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=1200&fit=crop&auto=format&q=80"
+              src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&h=1200&fit=crop&auto=format&q=80" // Unique: Core Data Center (Resolved 404)
               alt={t('alt.infrastructure')}
               width={668}
               height={708}
@@ -84,7 +84,7 @@ export default function ModernInfrastructure() {
             <Link href="/contact" className="absolute bottom-[40px] -left-[70px] hidden xl:flex bg-primary rounded-[20px] p-[30px] items-center gap-5 w-[495px]">
               <div className="relative h-[82px] w-[82px] rounded-full overflow-hidden bg-white/10 flex items-center justify-center flex-shrink-0">
                 <Image
-                  src="https://images.unsplash.com/photo-1634117622592-114e3024ff27?w=200&h=200&fit=crop&auto=format&q=80"
+                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&h=200&fit=crop&auto=format&q=80" // Ultra-stable global network node abstract icon
                   alt={t('alt.professional')}
                   fill
                   className="object-cover"

@@ -17,13 +17,13 @@ const PortfolioSection = () => {
   const projects: Project[] = [
     {
       slug: 'consultoria-empresarial',
-      image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=900&fit=crop&auto=format&q=80',
+      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=900&fit=crop&auto=format&q=80', // Remote digital analytics dashboard, no faces
       title: t('portfolio.items.item1.title'),
       description: t('portfolio.items.item1.description'),
     },
     {
       slug: 'gestion-administrativa',
-      image: 'https://images.unsplash.com/photo-1634117622592-114e3024ff27?w=800&h=900&fit=crop&auto=format&q=80',
+      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=900&fit=crop&auto=format&q=80', // Unique: Architecture Glass 2
       title: t('portfolio.items.item2.title'),
       description: t('portfolio.items.item2.description'),
     },

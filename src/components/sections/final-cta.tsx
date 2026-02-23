@@ -12,7 +12,7 @@ const FinalCTA = () => {
       className="relative bg-cover bg-center py-24 sm:py-32"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=1600&h=900&fit=crop&auto=format&q=80')",
+          "url('https://images.unsplash.com/photo-1507679799987-c7377ec48696?w=1600&h=900&fit=crop&auto=format&q=80')", // Ultra-stable professional executive abstract (No faces)
       }}
     >
       <div className="absolute inset-0 bg-black/70"></div>

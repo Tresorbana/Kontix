@@ -76,7 +76,7 @@ export const SmartImage: React.FC<SmartImageProps> = ({
 export const HeroImage: React.FC<Omit<SmartImageProps, 'fallbackSrc'>> = (props) => (
   <SmartImage
     {...props}
-    fallbackSrc="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=800&fit=crop&auto=format&q=80"
+    fallbackSrc="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&auto=format&q=80"
   />
 );
 
@@ -90,7 +90,7 @@ export const ProfileImage: React.FC<Omit<SmartImageProps, 'fallbackSrc'>> = (pro
 export const BusinessImage: React.FC<Omit<SmartImageProps, 'fallbackSrc'>> = (props) => (
   <SmartImage
     {...props}
-    fallbackSrc="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop&auto=format&q=80"
+    fallbackSrc="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop&auto=format&q=80"
   />
 );
 
