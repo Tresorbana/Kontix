@@ -2,17 +2,18 @@
 
 import React from 'react';
 import * as LucideIcons from 'lucide-react';
-import { LucideProps } from 'lucide-react';
 
-interface LucideIconProps extends LucideProps {
-    name: keyof typeof LucideIcons;
+type LucideIconProps = {
+    name: string;
     className?: string;
     size?: number | string;
     color?: string;
-}
+    [key: string]: unknown;
+};
 
 const LucideIcon: React.FC<LucideIconProps> = ({ name, ...props }) => {
-    const IconComponent = LucideIcons[name] as React.ComponentType<LucideProps>;
+    const icons = LucideIcons as unknown as Record<string, React.ComponentType<Record<string, unknown>>>;
+    const IconComponent = icons[name];
 
     if (!IconComponent) {
         console.warn(`Icon "${name}" not found in lucide-react`);
