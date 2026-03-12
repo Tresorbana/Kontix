@@ -11,7 +11,7 @@
       "line1": "Private Strategic Advisory",
       "line2": "for Global Enterprises"
     },
-    "subtitle": "Corporate Structuring • International Expansion • Capital Strategy • Governance Optimization",
+    "subtitle": "Corporate Structuring • International Expansion • Capital Strategy • Processes Optimization",
     "cta": {
       "primary": "Schedule a Private Consultation",
       "secondary": "Download Corporate Profile"
@@ -26,7 +26,7 @@
   "about": {
     "sectionTitle": "About Caribbean Ventures",
     "title": "Private Strategic Advisory",
-    "description": "Caribbean Ventures is a remote-first strategic advisory firm specializing in corporate structuring, operational governance, and capital alignment for cross-border enterprises. We serve founders, boards, and executive teams through a borderless, digital-first engagement model designed for enterprise resilience.",
+    "description": "Caribbean Ventures is a remote-first strategic advisory firm specializing in corporate structuring, operational processes, and capital alignment for cross-border enterprises. We serve founders, boards, and executive teams through a borderless, digital-first engagement model designed for enterprise resilience.",
     "learnMore": "View Firm Profile",
     "features": {
       "experience": {
@@ -45,7 +45,7 @@
   },
   "mission": {
     "title": "Our Mission",
-    "description": "To empower global enterprises with the strategic infrastructure, governance frameworks, and capital alignment needed to achieve sustainable, cross-border growth.",
+    "description": "To empower global enterprises with the strategic infrastructure, processes frameworks, and capital alignment needed to achieve sustainable, cross-border growth.",
     "cta": "Start Your Journey"
   },
   "services": {
@@ -54,20 +54,20 @@
     "description": "We design elite business infrastructures for leaders operating across borders and complex regulatory environments.",
     "items": {
       "structuring": {
-        "title": "Corporate Structuring & Governance",
-        "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions."
+        "title": "Corporate Structuring",
+        "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions. Our approach ensures long-term resilience and adaptability in a shifting global regulatory landscape. We provide the structural foundation necessary for complex cross-border maneuvers and sustained institutional growth."
       },
       "operations": {
-        "title": "International Operations Management",
-        "description": "Centralized oversight of subsidiaries, regulatory coordination, and multi-market integration."
+        "title": "International Operations",
+        "description": "Centralized oversight of subsidiaries, regulatory coordination, and multi-market integration. We streamline administrative workflows to maintain operational coherence across diverse geographic regions. Our management protocols are engineered to mitigate local risk while maximizing global efficiency. We provide comprehensive administrative support, ensuring that all cross-border activities are executed with precision and compliance."
       },
       "capital": {
-        "title": "Capital & Asset Strategy",
-        "description": "Banking relationships, asset protection frameworks, capital optimization, and risk positioning."
+        "title": "Capital Strategy",
+        "description": "Banking relationships, asset protection frameworks, capital optimization, and risk positioning. We engineer sophisticated financial architectures that safeguard wealth and facilitate seamless capital movement. Our strategy emphasizes liquidity management and the strategic deployment of assets for maximum impact."
       },
       "advisory": {
-        "title": "Executive Strategic Advisory",
-        "description": "Board-level advisory for expansion, restructuring, and long-term competitive positioning."
+        "title": "Strategic Advisory",
+        "description": "Board-level advisory for expansion, restructuring, and long-term competitive positioning. We provide the executive intelligence required to navigate highly complex market entries and structural shifts. Our insights empower leadership to make decisive, data-driven choices that define their market legacy."
       }
     },
     "viewAll": "View Full Advisory Portfolio"
@@ -108,7 +108,7 @@
         "description": "Integrated coordination with legal, banking, and operational partners."
       },
       "step4": {
-        "title": "04 — Long-Term Governance",
+        "title": "04 — Long-Term Processes",
         "description": "Ongoing advisory to ensure stability, compliance, and performance continuity."
       }
     }
@@ -131,7 +131,7 @@
     "viewCase": "Analyze Case Study",
     "items": {
       "item1": {
-        "title": "Corporate Structuring & Governance",
+        "title": "Corporate Structuring & Processes",
         "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions."
       },
       "item2": {

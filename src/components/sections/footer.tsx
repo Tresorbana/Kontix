@@ -15,17 +15,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-y-8 sm:gap-y-12 md:gap-x-8 pb-12 sm:pb-16">
           {/* Column 1: Logo & company */}
           <div className="sm:col-span-2 md:col-span-5 lg:col-span-4">
-            <Link href="/" aria-label={t('nav.home')} className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+            <Link href="/" aria-label={t('nav.home')} className="flex items-center">
               <Image
                 src="/logo.webp"
                 alt="Caribbean Ventures"
-                width={40}
-                height={40}
-                className="rounded-md"
+                width={120}
+                height={120}
+                className="rounded-lg"
               />
-              <span className="text-white font-bold text-xl sm:text-2xl">
-                Caribbean Ventures
-              </span>
             </Link>
           </div>
 

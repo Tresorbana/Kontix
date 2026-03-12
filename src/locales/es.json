@@ -8,10 +8,10 @@
   "hero": {
     "tagline": "Asesoría Estratégica Privada",
     "headline": {
-      "line1": "Asesoría Estratégica Privada",
+      "line1": "Asesoría Estratégica",
       "line2": "para Empresas Globales"
     },
-    "subtitle": "Estructuración Corporativa • Expansión Internacional • Estrategia de Capital • Optimización de Gobernanza",
+    "subtitle": "Estructuración Corporativa • Expansión Internacional • Estrategia de Capital • Optimización de Procesos",
     "cta": {
       "primary": "Agendar Consulta Privada",
       "secondary": "Descargar Perfil Corporativo"
@@ -25,8 +25,8 @@
   },
   "about": {
     "sectionTitle": "Acerca de Caribbean Ventures",
-    "title": "Asesoría Estratégica Privada",
-    "description": "Caribbean Ventures es una firma de asesoría estratégica remota especializada en estructuración corporativa, gobernanza operativa y alineación de capital para empresas transfronterizas. Servimos a fundadores y equipos ejecutivos a través de un modelo de compromiso digital y sin fronteras.",
+    "title": "Asesoría Estratégica",
+    "description": "",
     "learnMore": "Ver Perfil de la Firma",
     "features": {
       "experience": {
@@ -45,7 +45,7 @@
   },
   "mission": {
     "title": "Nuestra Misión",
-    "description": "Empoderar a las empresas globales con la infraestructura estratégica, los marcos de gobernanza y la alineación de capital necesarios para lograr un crecimiento sostenible y transfronterizo.",
+    "description": "Empoderar a las empresas globales con la infraestructura estratégica, los marcos de procesos y la alineación de capital necesarios para lograr un crecimiento sostenible y transfronterizo.",
     "cta": "Comience Su Camino"
   },
   "services": {
@@ -54,20 +54,20 @@
     "description": "Ofrecemos asesoría corporativa de alto nivel para empresas que requieren estructura sólida, expansión internacional y optimización financiera.",
     "items": {
       "structuring": {
-        "title": "Estructuración Corporativa Internacional",
-        "description": "Diseño de marcos legales y operativos compatibles y escalables en diversas jurisdicciones."
+        "title": "Estructuración",
+        "description": "Diseño de marcos legales y operativos compatibles y escalables en diversas jurisdicciones. Nuestro enfoque garantiza la resiliencia y adaptabilidad a largo plazo en un panorama regulatorio global cambiante. Proporcionamos la base estructural necesaria para maniobras transfronterizas complejas y un crecimiento institucional sostenido."
       },
       "operations": {
-        "title": "Gestión Administrativa y Supervisión Operativa",
-        "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado."
+        "title": "Operaciones",
+        "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado. Optimizamos los flujos de trabajo administrativos para mantener la coherencia operativa en diversas regiones geográficas. Nuestros protocolos de gestión están diseñados para mitigar el riesgo local y maximizar la eficiencia global. Proporcionamos un soporte administrativo integral, asegurando que todas las actividades transfronterizas se ejecuten con precisión y cumpliendo con la normativa vigente."
       },
       "capital": {
-        "title": "Estrategias Financieras y Protección Patrimonial",
-        "description": "Relaciones bancarias, marcos de protección de activos, optimización de capital y posicionamiento ante riesgos."
+        "title": "Estrategia Capital",
+        "description": "Relaciones bancarias, marcos de protección de activos, optimización de capital y posicionamiento ante riesgos. Diseñamos arquitecturas financieras sofisticadas que salvaguardan el patrimonio y facilitan el movimiento fluido de capital. Nuestra estrategia enfatiza la gestión de la liquidez y el despliegue estratégico de activos para un impacto máximo."
       },
       "advisory": {
-        "title": "Coordinación Legal y Cumplimiento Regulatorio",
-        "description": "Asesoría a nivel de junta directiva para expansión, reestructuración y posicionamiento competitivo a largo plazo."
+        "title": "Asesoría Estratégica",
+        "description": "Asesoría a nivel de junta directiva para expansión, reestructuración y posicionamiento competitivo a largo plazo. Proporcionamos la inteligencia ejecutiva necesaria para navegar entradas en mercados y cambios estructurales altamente complejos. Nuestras perspectivas empoderan al liderazgo para tomar decisiones decisivas basadas en datos que definen su legado en el mercado."
       }
     },
     "viewAll": "Ver Portafolio de Asesoría Completo"
@@ -108,7 +108,7 @@
         "description": "Coordinación integrada con socios legales, bancarios y operativos."
       },
       "step4": {
-        "title": "04 — Gobernanza a Largo Plazo",
+        "title": "04 — Procesos a Largo Plazo",
         "description": "Asesoría continua para garantizar estabilidad, cumplimiento y continuidad del desempeño."
       }
     }
@@ -120,7 +120,7 @@
   },
   "quality": {
     "sectionTitle": "Estándar de Excelencia",
-    "title": "Calidad Integrada en Cada Compromiso",
+    "title": "Calidad y Compromiso",
     "description": "Nuestro compromiso con la excelencia impregna cada aspecto de nuestro trabajo—desde la planificación estratégica inicial hasta la entrega exitosa del proyecto.",
     "contactButton": "Solicitar Información"
   },
@@ -131,11 +131,11 @@
     "viewCase": "Analizar Caso de Estudio",
     "items": {
       "item1": {
-        "title": "Estructuración Corporativa Internacional",
+        "title": "Estructuración de Negocios",
         "description": "Diseño de marcos legales y operativos compatibles y escalables en diversas jurisdicciones."
       },
       "item2": {
-        "title": "Gestión Administrativa y Supervisión Operativa",
+        "title": "Gestión Administrativa",
         "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado."
       }
     }
@@ -168,9 +168,9 @@
     "address": "Operaciones Globales | Asesoría Remota",
     "contactTitle": "Contáctenos",
     "servicesTitle": "Servicios Centrales",
-    "service1": "Estructuración Corporativa",
-    "service2": "Operaciones Internacionales",
-    "service3": "Estrategia de Capital"
+    "service1": "Estructuración",
+    "service2": "Operaciones",
+    "service3": "Estrategia Capital"
   },
   "contact": {
     "title": "Contáctanos",

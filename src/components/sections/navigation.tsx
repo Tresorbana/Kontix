@@ -46,21 +46,17 @@ export default function Navigation() {
         <div className={`backdrop-blur-xl bg-black/40 border border-white/10 rounded-2xl shadow-2xl shadow-black/30 transition-all duration-500 hover:border-white/20 hover:backdrop-blur-2xl ${scrolled ? 'py-2.5 px-4 sm:px-6' : 'py-3 px-4 sm:px-6 md:px-8'
           }`}>
           <div className="flex items-center justify-between">
-            {/* Logo (left) */}
-            <Link href="/" className="flex items-center gap-3">
-              <div className="relative h-10 w-10 sm:h-12 sm:w-12 rounded-2xl bg-white/5 p-2 border-2 border-white/20 transition-all duration-300">
+            <Link href="/" className="flex items-center">
+              <div className="relative h-12 w-12 sm:h-16 sm:w-16 transition-all duration-300">
                 <Image
                   src="/logo.webp"
                   alt="Caribbean Ventures"
-                  width={48}
-                  height={48}
+                  width={64}
+                  height={64}
                   className="w-full h-full object-contain"
                   priority
                 />
               </div>
-              <span className="text-lg sm:text-xl font-bold text-white">
-                {t('company.name')}
-              </span>
             </Link>
 
             {/* Right side actions */}

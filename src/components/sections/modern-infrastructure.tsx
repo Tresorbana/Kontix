@@ -81,22 +81,7 @@ export default function ModernInfrastructure() {
               height={708}
               className="rounded-[20px] w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
-            <Link href="/contact" className="absolute bottom-[40px] -left-[70px] hidden xl:flex bg-primary rounded-[20px] p-[30px] items-center gap-5 w-[495px]">
-              <div className="relative h-[82px] w-[82px] rounded-full overflow-hidden bg-white/10 flex items-center justify-center flex-shrink-0">
-                <Image
-                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&h=200&fit=crop&auto=format&q=80" // Ultra-stable global network node abstract icon
-                  alt={t('alt.professional')}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <p className="text-primary-foreground text-[22px] font-semibold leading-[1.3] flex-1">
-                {t('mission.description')}
-              </p>
-              <ArrowRight
-                className="w-[50px] h-[50px] text-primary-foreground flex-shrink-0"
-              />
-            </Link>
+
           </div>
 
           <div className="flex flex-col gap-10">

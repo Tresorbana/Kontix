@@ -113,14 +113,9 @@ export default function AboutUsSection() {
               <StaggerItem>
                 <div className="mt-10">
                   <MagneticHover>
-                    <motion.div
-                      whileHover={{ scale: 1.05, y: -2 }}
-                      whileTap={{ scale: 0.95 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    >
                       <Link
                         href="/about"
-                        className="inline-flex items-center gap-3 rounded-lg bg-primary py-4 px-8 text-black font-medium transition-colors hover:bg-primary/90"
+                        className="inline-flex items-center gap-3 rounded-lg bg-primary py-4 px-8 text-white font-medium transition-colors hover:bg-primary/90"
                       >
                         {t('about.learnMore')}
                         <motion.div
@@ -130,12 +125,11 @@ export default function AboutUsSection() {
                           <LucideIcon
                             name="ArrowRight"
                             size={16}
-                            className="text-black"
+                            className="text-white"
                             aria-label={t('alt.arrow')}
                           />
                         </motion.div>
                       </Link>
-                    </motion.div>
                   </MagneticHover>
                 </div>
               </StaggerItem>
@@ -151,7 +145,7 @@ export default function AboutUsSection() {
                           <LucideIcon
                             name="Award"
                             size={24}
-                            className="text-black"
+                            className="text-white"
                             aria-label={t('alt.experience')}
                           />
                         </div>
@@ -174,7 +168,7 @@ export default function AboutUsSection() {
                           <LucideIcon
                             name="ShieldCheck"
                             size={24}
-                            className="text-black"
+                            className="text-white"
                             aria-label={t('alt.quality')}
                           />
                         </div>
