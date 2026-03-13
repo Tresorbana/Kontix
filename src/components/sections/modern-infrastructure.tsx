@@ -68,6 +68,8 @@ const StatCounter = ({ targetValue, suffix, decimals, className }: StatCounterPr
 
 export default function ModernInfrastructure() {
   const { t } = useLanguage();
+  const aboutDescription = t('about.description');
+  const hasAboutDescription = aboutDescription !== 'about.description' && aboutDescription.trim().length > 0;
   return (
     <section className="bg-background py-[100px]">
       <div className="container mx-auto px-5">
@@ -97,7 +99,9 @@ export default function ModernInfrastructure() {
 
             <div className="flex flex-col gap-10 mt-5">
               <p className="text-muted text-base max-w-sm">{t('infrastructure.description')}</p>
-              <p className="text-muted text-base max-w-sm">{t('about.description')}</p>
+              {hasAboutDescription ? (
+                <p className="text-muted text-base max-w-sm">{aboutDescription}</p>
+              ) : null}
             </div>
           </div>
         </div>

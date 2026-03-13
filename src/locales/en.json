@@ -26,7 +26,7 @@
   "about": {
     "sectionTitle": "About Caribbean Ventures",
     "title": "Private Strategic Advisory",
-    "description": "Caribbean Ventures is a remote-first strategic advisory firm specializing in corporate structuring, operational processes, and capital alignment for cross-border enterprises. We serve founders, boards, and executive teams through a borderless, digital-first engagement model designed for enterprise resilience.",
+    "description": "",
     "learnMore": "View Firm Profile",
     "features": {
       "experience": {
@@ -181,6 +181,8 @@
     "company": "Company",
     "message": "Message",
     "submit": "Send Message",
+    "sentTitle": "Sent",
+    "sentMessage": "Your message has been sent successfully.",
     "directEmail": "You can also write to us directly at",
     "addressLabel": "Address: Global Operations | Remote-First"
   },

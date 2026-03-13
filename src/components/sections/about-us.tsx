@@ -59,6 +59,8 @@ const AnimatedStat = ({
 
 export default function AboutUsSection() {
   const { t } = useLanguage();
+  const aboutDescription = t('about.description');
+  const hasAboutDescription = aboutDescription !== 'about.description' && aboutDescription.trim().length > 0;
   const statsRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -102,14 +104,16 @@ export default function AboutUsSection() {
                   delay={0.2}
                 />
               </StaggerItem>
-              <StaggerItem>
-                <BlurReveal
-                  delay={0.4}
-                  className="mt-6 text-base leading-7 text-gray-400"
-                >
-                  {t('about.description')}
-                </BlurReveal>
-              </StaggerItem>
+              {hasAboutDescription ? (
+                <StaggerItem>
+                  <BlurReveal
+                    delay={0.4}
+                    className="mt-6 text-base leading-7 text-gray-400"
+                  >
+                    {aboutDescription}
+                  </BlurReveal>
+                </StaggerItem>
+              ) : null}
               <StaggerItem>
                 <div className="mt-10">
                   <MagneticHover>

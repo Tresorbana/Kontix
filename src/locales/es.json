@@ -181,6 +181,8 @@
     "company": "Empresa",
     "message": "Mensaje",
     "submit": "Enviar mensaje",
+    "sentTitle": "Enviado",
+    "sentMessage": "Tu mensaje se ha enviado correctamente.",
     "directEmail": "También puede escribirnos directamente a",
     "addressLabel": "Dirección: Operaciones Globales | Remoto"
   },

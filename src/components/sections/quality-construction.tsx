@@ -21,7 +21,7 @@ const QualityConstruction = () => {
               className="absolute top-0 left-0 w-3/4 max-w-[314px] rounded-2xl object-cover z-10"
             />
             <Image
-              src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&h=800&fit=crop&auto=format&q=80" // Unique: Modern Workspace
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=800&fit=crop&auto=format&q=80"
               alt={t('alt.collaboration')}
               width={313}
               height={311}

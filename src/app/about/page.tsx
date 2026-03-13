@@ -9,6 +9,8 @@ import Footer from '@/components/sections/footer';
 
 function AboutPage() {
   const { t } = useLanguage();
+  const aboutDescription = t('about.description');
+  const hasAboutDescription = aboutDescription !== 'about.description' && aboutDescription.trim().length > 0;
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -27,9 +29,11 @@ function AboutPage() {
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
                 {t('about.title')}
               </h1>
-              <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-                {t('about.description')}
-              </p>
+              {hasAboutDescription ? (
+                <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+                  {aboutDescription}
+                </p>
+              ) : null}
             </FadeIn>
           </div>
         </div>
@@ -44,9 +48,11 @@ function AboutPage() {
                 {t('about.sectionTitle')}
               </h2>
               <div className="w-24 h-1 bg-[#cf2b2c] mx-auto mb-8"></div>
-              <p className="text-lg text-gray-300 max-w-4xl mx-auto">
-                {t('about.description')}
-              </p>
+              {hasAboutDescription ? (
+                <p className="text-lg text-gray-300 max-w-4xl mx-auto">
+                  {aboutDescription}
+                </p>
+              ) : null}
             </div>
           </FadeIn>
 
@@ -75,7 +81,7 @@ function AboutPage() {
                 {[
                   { title: t('about.features.experience.title'), description: t('about.features.experience.description') },
                   { title: t('about.features.personalized.title'), description: t('about.features.personalized.description') },
-                  { title: t('about.title'), description: t('about.description') }
+                  ...(hasAboutDescription ? [{ title: t('about.title'), description: aboutDescription }] : [])
                 ].map((value, index) => (
                   <div key={index} className="bg-gray-900/50 p-6 rounded-xl border border-gray-800 hover:border-[#cf2b2c]/40 transition-colors">
                     <h3 className="text-2xl font-bold text-[#cf2b2c] mb-3">{value.title}</h3>
