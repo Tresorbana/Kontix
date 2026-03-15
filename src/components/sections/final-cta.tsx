@@ -1,5 +1,6 @@
 'use client';
 
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -7,6 +8,20 @@ import { ArrowRight } from 'lucide-react';
 
 const FinalCTA = () => {
   const { t } = useLanguage();
+  const [sentToastKey, setSentToastKey] = useState(0);
+  const [isSentVisible, setIsSentVisible] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    form.reset();
+    setSentToastKey((key) => key + 1);
+    setIsSentVisible(true);
+    
+    // Auto-hide toast after 5 seconds
+    setTimeout(() => setIsSentVisible(false), 5000);
+  };
+
   return (
     <div
       className="relative bg-cover bg-center py-24 sm:py-32"
@@ -25,7 +40,7 @@ const FinalCTA = () => {
             {t('finalCta.title')}
           </h2>
           <div className="mt-12 bg-black/40 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-2xl max-w-2xl mx-auto">
-            <form className="space-y-5 text-left">
+            <form className="space-y-5 text-left" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
                   <label htmlFor="cta-name" className="block text-sm font-medium text-gray-300 mb-1.5">
@@ -86,6 +101,19 @@ const FinalCTA = () => {
           </div>
         </div>
       </div>
+      {isSentVisible ? (
+        <div className="fixed right-4 top-4 z-[9999] pointer-events-none">
+          <div
+            key={sentToastKey}
+            role="status"
+            aria-live="polite"
+            className="rounded-xl border border-primary/30 bg-primary px-4 py-3 shadow-xl"
+          >
+            <p className="text-sm font-semibold text-white">{t('contact.sentTitle')}</p>
+            <p className="mt-1 text-sm text-white/90">{t('contact.sentMessage')}</p>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 };

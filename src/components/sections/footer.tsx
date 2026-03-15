@@ -19,8 +19,8 @@ const Footer = () => {
               <Image
                 src="/logo.webp"
                 alt="Caribbean Ventures"
-                width={120}
-                height={120}
+                width={180}
+                height={180}
                 className="rounded-lg"
               />
             </Link>

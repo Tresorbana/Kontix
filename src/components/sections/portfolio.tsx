@@ -49,15 +49,15 @@ const PortfolioSection = () => {
                   alt={project.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-white/90 backdrop-blur-[5px] p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex flex-col justify-end">
-                  <div className="absolute top-6 right-6 w-11 h-11 bg-primary rounded-full flex items-center justify-center">
+                <div className="absolute inset-0 bg-white/20 backdrop-blur-[8px] p-6 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out">
+                  <div className="absolute top-6 right-6 w-11 h-11 bg-primary rounded-full flex items-center justify-center transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500 delay-75">
                     <ArrowUpRight className="w-5 h-5 text-white" />
                   </div>
-                  <div>
+                  <div className="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
                     <h3 className="text-2xl font-semibold text-[#121212] mb-1">{project.title}</h3>
-                    <p className="text-base text-[#666666]">{project.description}</p>
+                    <p className="text-base text-[#121212]/80">{project.description}</p>
                   </div>
                 </div>
               </div>
