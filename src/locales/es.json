@@ -70,7 +70,7 @@
         "description": "Asesoría a nivel de junta directiva para expansión, reestructuración y posicionamiento competitivo a largo plazo. Proporcionamos la inteligencia ejecutiva necesaria para navegar entradas en mercados y cambios estructurales altamente complejos. Nuestras perspectivas empoderan al liderazgo para tomar decisiones decisivas basadas en datos que definen su legado en el mercado."
       }
     },
-    "viewAll": "Ver Portafolio de Asesoría Completo"
+    "viewAll": "ver portafolio se asesoria"
   },
   "luxury": {
     "tagline": "Nuestra Distinción",
@@ -85,7 +85,7 @@
         "description": "La confidencialidad y la comunicación a nivel ejecutivo definen cada compromiso."
       },
       "permanence": {
-        "title": "Permanencia Estratégica",
+        "title": "permanencia Estrategica",
         "description": "Construimos sistemas duraderos, no soluciones temporales."
       }
     }
@@ -119,14 +119,24 @@
     "description": "Aprovechamos sistemas empresariales seguros, plataformas de monitoreo regulatorio y herramientas de informes de grado institucional para garantizar: Transparencia, Continuidad operativa, Claridad financiera y Cumplimiento transfronterizo."
   },
   "quality": {
-    "sectionTitle": "Estándar de Excelencia",
-    "title": "Calidad y Compromiso",
-    "description": "Nuestro compromiso con la excelencia impregna cada aspecto de nuestro trabajo—desde la planificación estratégica inicial hasta la entrega exitosa del proyecto.",
+    "sectionTitle": "Especialización Técnica",
+    "title": "Excelencia en Ejecución",
+    "description": "Nuestra metodología integra un análisis profundo con una ejecución ágil, asegurando que cada estructura corporativa sea robusta y cumpla con los más altos estándares internacionales.",
+    "features": {
+      "agility": {
+        "title": "Metodología Avanzada",
+        "description": "Aplicamos marcos de trabajo probados para la optimización de procesos y gestión de riesgos."
+      },
+      "rigor": {
+        "title": "Cumplimiento Global",
+        "description": "Alineamos cada operación con las normativas locales e internacionales de manera proactiva."
+      }
+    },
     "contactButton": "Solicitar Información"
   },
   "portfolio": {
     "sectionTitle": "Trayectoria",
-    "title": "Historias de Éxito Comprobadas",
+    "title": "historias de exito",
     "description": "Descubra cómo hemos empoderado a empresas para alcanzar resultados extraordinarios y liderazgo de mercado.",
     "viewCase": "Analizar Caso de Estudio",
     "items": {
@@ -141,7 +151,7 @@
     }
   },
   "finalCta": {
-    "title": "Contacte con Nuestro Equipo de Asesoría",
+    "title": "contacte con nuestro Equipo",
     "description": "Consultas privadas disponibles para empresas que buscan refinamiento estructural, expansión o alineación de capital.",
     "contact": "Solicitar Consulta Estratégica",
     "schedule": "Agendar Reunión",

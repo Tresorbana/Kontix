@@ -43,24 +43,24 @@ const QualityConstruction = () => {
             <div className="mt-10 pt-10 border-t border-border space-y-8">
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0 mt-1 w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
-                  <LucideIcon name="CheckCircle2" className="w-6 h-6 text-primary" />
+                  <LucideIcon name="Zap" className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">
-                    {t('about.features.experience.title')}
+                    {t('quality.features.agility.title')}
                   </h3>
-                  <p className="text-white/70">{t('about.features.experience.description')}</p>
+                  <p className="text-white/70">{t('quality.features.agility.description')}</p>
                 </div>
               </div>
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0 mt-1 w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
-                  <LucideIcon name="Users2" className="w-6 h-6 text-primary" />
+                  <LucideIcon name="ShieldCheck" className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">
-                    {t('about.features.personalized.title')}
+                    {t('quality.features.rigor.title')}
                   </h3>
-                  <p className="text-white/70">{t('about.features.personalized.description')}</p>
+                  <p className="text-white/70">{t('quality.features.rigor.description')}</p>
                 </div>
               </div>
             </div>

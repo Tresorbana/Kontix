@@ -120,8 +120,18 @@
   },
   "quality": {
     "sectionTitle": "Excellence Standard",
-    "title": "Quality Embedded in Every Engagement",
+    "title": "Execution Excellence",
     "description": "Our commitment to excellence permeates every aspect of our work—from initial strategic planning to successful project delivery.",
+    "features": {
+      "agility": {
+        "title": "Advanced Methodology",
+        "description": "We apply proven frameworks for process optimization and risk management."
+      },
+      "rigor": {
+        "title": "Global Compliance",
+        "description": "We proactively align every operation with local and international regulations."
+      }
+    },
     "contactButton": "Inquire Now"
   },
   "portfolio": {
