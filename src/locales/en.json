@@ -1,80 +1,80 @@
 {
   "nav": {
-    "services": "Advisory Domains",
-    "about": "Firm Profile",
+    "services": "Advisory domains",
+    "about": "Firm profile",
     "contact": "Contact",
     "home": "Home"
   },
   "hero": {
-    "tagline": "Private Strategic Advisory",
+    "tagline": "Private strategic advisory",
     "headline": {
-      "line1": "Private Strategic Advisory",
-      "line2": "for Global Enterprises"
+      "line1": "Private strategic advisory",
+      "line2": "for global enterprises"
     },
-    "subtitle": "Corporate Structuring • International Expansion • Capital Strategy • Processes Optimization",
+    "subtitle": "Corporate structuring • International expansion • Capital strategy • Processes optimization",
     "cta": {
-      "primary": "Schedule a Private Consultation",
-      "secondary": "Download Corporate Profile"
+      "primary": "Schedule a private consultation",
+      "secondary": "Download corporate profile"
     },
     "trust": {
-      "clients": "Trusted by Market Leaders",
-      "experience": "Remote-First Operation | Global Strategic Mandates"
+      "clients": "Trusted by market leaders",
+      "experience": "Remote-first operation | Global strategic mandates"
     },
-    "startProject": "Initiate Partnership",
-    "rating": "Endorsed by Global Executives"
+    "startProject": "Initiate partnership",
+    "rating": "Endorsed by global executives"
   },
   "about": {
     "sectionTitle": "About Caribbean Ventures",
-    "title": "Private Strategic Advisory",
+    "title": "Private strategic advisory",
     "description": "",
-    "learnMore": "View Firm Profile",
+    "learnMore": "View firm profile",
     "features": {
       "experience": {
-        "title": "Industry Authority",
+        "title": "Industry authority",
         "description": "Leveraging over a decade of high-stakes consulting experience to deliver measurable financial and operational outcomes."
       },
       "personalized": {
-        "title": "Bespoke Strategy",
+        "title": "Bespoke strategy",
         "description": "Our engagement model is selective, confidential, and execution-driven."
       }
     },
     "stats": {
-      "clients": "Enterprise Partners",
-      "experience": "Years of Leadership"
+      "clients": "Enterprise partners",
+      "experience": "Years of leadership"
     }
   },
   "mission": {
-    "title": "Our Mission",
+    "title": "Our mission",
     "description": "To empower global enterprises with the strategic infrastructure, processes frameworks, and capital alignment needed to achieve sustainable, cross-border growth.",
-    "cta": "Start Your Journey"
+    "cta": "Start your journey"
   },
   "services": {
-    "sectionTitle": "Our Advisory Domains",
-    "title": "Strategic Capabilities",
+    "sectionTitle": "Our advisory domains",
+    "title": "Strategic capabilities",
     "description": "We design elite business infrastructures for leaders operating across borders and complex regulatory environments.",
     "items": {
       "structuring": {
-        "title": "Corporate Structuring",
+        "title": "Corporate structuring",
         "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions. Our approach ensures long-term resilience and adaptability in a shifting global regulatory landscape. We provide the structural foundation necessary for complex cross-border maneuvers and sustained institutional growth."
       },
       "operations": {
-        "title": "International Operations",
+        "title": "International operations",
         "description": "Centralized oversight of subsidiaries, regulatory coordination, and multi-market integration. We streamline administrative workflows to maintain operational coherence across diverse geographic regions. Our management protocols are engineered to mitigate local risk while maximizing global efficiency. We provide comprehensive administrative support, ensuring that all cross-border activities are executed with precision and compliance."
       },
       "capital": {
-        "title": "Capital Strategy",
+        "title": "Capital strategy",
         "description": "Banking relationships, asset protection frameworks, capital optimization, and risk positioning. We engineer sophisticated financial architectures that safeguard wealth and facilitate seamless capital movement. Our strategy emphasizes liquidity management and the strategic deployment of assets for maximum impact."
       },
       "advisory": {
-        "title": "Strategic Advisory",
+        "title": "Strategic advisory",
         "description": "Board-level advisory for expansion, restructuring, and long-term competitive positioning. We provide the executive intelligence required to navigate highly complex market entries and structural shifts. Our insights empower leadership to make decisive, data-driven choices that define their market legacy."
       }
     },
-    "viewAll": "View Full Advisory Portfolio"
+    "viewAll": "View full advisory portfolio"
   },
   "luxury": {
-    "tagline": "Our Distinction",
-    "title": "The Caribbean Ventures Standard",
+    "tagline": "Our distinction",
+    "title": "The Caribbean Ventures standard",
     "items": {
       "precision": {
         "title": "Precision",
@@ -85,116 +85,116 @@
         "description": "Confidentiality and executive-level communication define every engagement."
       },
       "permanence": {
-        "title": "Strategic Permanence",
+        "title": "Strategic permanence",
         "description": "We build enduring systems — not temporary solutions."
       }
     }
   },
   "process": {
-    "sectionTitle": "Engagement Framework",
-    "title": "High-Conversion Process",
+    "sectionTitle": "Engagement framework",
+    "title": "High-conversion process",
     "description": "Executives convert better when they understand the process.",
     "steps": {
       "step1": {
-        "title": "01 — Strategic Assessment",
+        "title": "01 — Strategic assessment",
         "description": "Confidential diagnostic of structure, risk exposure, and growth objectives."
       },
       "step2": {
-        "title": "02 — Architecture Design",
+        "title": "02 — Architecture design",
         "description": "Tailored structural blueprint aligned with legal and financial priorities."
       },
       "step3": {
-        "title": "03 — Execution Oversight",
+        "title": "03 — Execution oversight",
         "description": "Integrated coordination with legal, banking, and operational partners."
       },
       "step4": {
-        "title": "04 — Long-Term Processes",
+        "title": "04 — Long-term processes",
         "description": "Ongoing advisory to ensure stability, compliance, and performance continuity."
       }
     }
   },
   "infrastructure": {
-    "sectionTitle": "Digital & Operational Infrastructure",
-    "title": "Advanced Systems",
+    "sectionTitle": "Digital & operational infrastructure",
+    "title": "Advanced systems",
     "description": "We leverage secure enterprise systems, regulatory monitoring platforms, and institutional-grade reporting tools to ensure: Transparency, Operational continuity, Financial clarity, and Cross-border compliance."
   },
   "quality": {
-    "sectionTitle": "Excellence Standard",
-    "title": "Execution Excellence",
+    "sectionTitle": "Excellence standard",
+    "title": "Execution excellence",
     "description": "Our commitment to excellence permeates every aspect of our work—from initial strategic planning to successful project delivery.",
     "features": {
       "agility": {
-        "title": "Advanced Methodology",
+        "title": "Advanced methodology",
         "description": "We apply proven frameworks for process optimization and risk management."
       },
       "rigor": {
-        "title": "Global Compliance",
+        "title": "Global compliance",
         "description": "We proactively align every operation with local and international regulations."
       }
     },
-    "contactButton": "Inquire Now"
+    "contactButton": "Inquire now"
   },
   "portfolio": {
-    "sectionTitle": "Track Record",
-    "title": "Proven Success Stories",
+    "sectionTitle": "Track record",
+    "title": "Proven success stories",
     "description": "Discover how we have empowered enterprises to achieve breakthrough results and market leadership.",
-    "viewCase": "Analyze Case Study",
+    "viewCase": "Analyze case study",
     "items": {
       "item1": {
-        "title": "Corporate Structuring & Processes",
+        "title": "Corporate structuring & processes",
         "description": "Designing compliant, scalable legal and operational frameworks across jurisdictions."
       },
       "item2": {
-        "title": "International Operations Management",
+        "title": "International operations management",
         "description": "Centralized oversight of subsidiaries, regulatory coordination, and multi-market integration."
       }
     }
   },
   "finalCta": {
-    "title": "Engage with Our Advisory Team",
+    "title": "Engage with our advisory team",
     "description": "Private consultations are available for enterprises seeking structural refinement, expansion, or capital alignment.",
-    "contact": "Request Strategic Consultation",
-    "schedule": "Schedule Briefing",
-    "tagline": "Let's Talk",
-    "button": "Contact Leadership"
+    "contact": "Request strategic consultation",
+    "schedule": "Schedule briefing",
+    "tagline": "Let's talk",
+    "button": "Contact leadership"
   },
   "company": {
     "name": "Caribbean Ventures"
   },
   "footer": {
-    "description": "Caribbean Ventures - Strategic Corporate Solutions",
+    "description": "Caribbean Ventures - Strategic corporate solutions",
     "rights": "All rights reserved",
     "quickLinks": "Navigation",
     "services": "Capabilities",
     "company": "Corporate",
     "contact": "Contact",
-    "newsletter": "Executive Insights",
+    "newsletter": "Executive insights",
     "subscribe": "Subscribe",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "disclaimer": "Legal Disclaimer",
-    "cookies": "Cookie Policy",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "disclaimer": "Legal disclaimer",
+    "cookies": "Cookie policy",
     "addressTitle": "Headquarters",
-    "address": "Global Operations | Remote-First Advisory",
-    "contactTitle": "Contact Us",
-    "servicesTitle": "Core Services",
-    "service1": "Corporate Structuring",
-    "service2": "International Operations",
-    "service3": "Capital Strategy"
+    "address": "Global operations | Remote-first advisory",
+    "contactTitle": "Contact us",
+    "servicesTitle": "Core services",
+    "service1": "Corporate structuring",
+    "service2": "International operations",
+    "service3": "Capital strategy"
   },
   "contact": {
-    "title": "Contact Us",
+    "title": "Contact us",
     "subtitle": "Complete the form and our Caribbean Ventures team will get in touch with you.",
-    "name": "Full Name",
-    "email": "Email Address",
+    "name": "Full name",
+    "email": "Email address",
     "emailLabel": "Email",
     "company": "Company",
     "message": "Message",
-    "submit": "Send Message",
+    "submit": "Send message",
     "sentTitle": "Sent",
     "sentMessage": "Your message has been sent successfully.",
     "directEmail": "You can also write to us directly at",
-    "addressLabel": "Address: Global Operations | Remote-First"
+    "addressLabel": "Address: Global operations | Remote-first"
   },
   "alt": {
     "infrastructure": "Modern business office infrastructure",
@@ -213,56 +213,56 @@
     "description": "Join the 850+ companies trusting our services"
   },
   "privacy": {
-    "title": "Privacy Policy",
+    "title": "Privacy policy",
     "description": "Privacy policy of Caribbean Ventures. Learn how we protect your personal information.",
     "intro": "At Caribbean Ventures, we are committed to respecting and protecting the privacy of our users. This privacy policy describes how we collect, use and protect the personal information that you provide us through our website.",
     "sections": {
       "collection": {
-        "title": "Information Collection",
+        "title": "Information collection",
         "description": "We collect personal information only when necessary to offer you our services and improve your experience. The information collected may include, among others, contact and navigation data. We are committed not to sell, share or disclose your personal information without your consent, except in cases where required by law."
       },
       "security": {
-        "title": "Information Security",
+        "title": "Information security",
         "description": "We implement security measures to protect your data against unauthorized access, loss or alteration."
       },
       "acceptance": {
-        "title": "Policy Acceptance",
+        "title": "Policy acceptance",
         "description": "By using our website, you accept the terms of this privacy policy."
       }
     }
   },
   "terms": {
-    "title": "Terms and Conditions",
+    "title": "Terms and conditions",
     "description": "Terms and conditions of use of the Caribbean Ventures website.",
     "intro": "By accessing or using the Caribbean Ventures website (hereinafter, 'the Site'), located at https://caribbean.ventures, you agree to comply with these Terms and Conditions of Use (hereinafter, 'Terms'). If you do not agree with any of the provisions of these Terms, we request that you refrain from using the Site.",
     "sections": {
       "modifications": {
-        "title": "Modifications to the Terms",
+        "title": "Modifications to the terms",
         "description": "Caribbean Ventures reserves the right to modify or update these Terms at any time, without prior notice. Any changes will be effective immediately upon being published on the Site. We recommend that you regularly consult this section to stay informed about possible changes."
       },
       "usage": {
-        "title": "Use of the Site",
-        "description": "The Site is intended solely for legal purposes and in accordance with the laws of the Dominican Republic. You agree to use the Site responsibly and not to infringe intellectual property rights, nor perform activities that may damage, disable, overburden or impair the Site or interfere with the use and enjoyment of it by other users."
+        "title": "Use of the site",
+        "description": "The site is intended solely for legal purposes and in accordance with the laws of the Dominican Republic. You agree to use the site responsibly and not to infringe intellectual property rights, nor perform activities that may damage, disable, overburden or impair the site or interfere with the use and enjoyment of it by other users."
       },
       "property": {
-        "title": "Intellectual Property",
-        "description": "All content available on the Site, including but not limited to texts, graphics, images, logos, videos, software, codes and other materials, are the property of Caribbean Ventures or their respective owners and are protected by intellectual property laws. Reproduction, distribution, modification or use of any content of the Site without the prior written permission of Caribbean Ventures is not allowed."
+        "title": "Intellectual property",
+        "description": "All content available on the site, including but not limited to texts, graphics, images, logos, videos, software, codes and other materials, are the property of Caribbean Ventures or their respective owners and are protected by intellectual property laws. Reproduction, distribution, modification or use of any content of the site without the prior written permission of Caribbean Ventures is not allowed."
       },
       "liability": {
-        "title": "Limited Liability",
-        "description": "Caribbean Ventures does not guarantee continuous or error-free availability of the Site. It is not responsible for direct, indirect, incidental, special or consequential damages that may arise from the use of the Site, including the loss of data, income or any other economic or non-economic damage, even if the company has been warned of the possibility of such damages."
+        "title": "Limited liability",
+        "description": "Caribbean Ventures does not guarantee continuous or error-free availability of the site. It is not responsible for direct, indirect, incidental, special or consequential damages that may arise from the use of the site, including the loss of data, income or any other economic or non-economic damage, even if the company has been warned of the possibility of such damages."
       },
       "links": {
-        "title": "Links to Third-Party Sites",
-        "description": "The Site may contain links to other third-party websites. These links are provided only for your convenience and do not imply that Caribbean Ventures approves or endorses the content of such sites. Caribbean Ventures is not responsible for the contents, privacy policies or practices of third-party sites."
+        "title": "Links to third-party sites",
+        "description": "The site may contain links to other third-party websites. These links are provided only for your convenience and do not imply that Caribbean Ventures approves or endorses the content of such sites. Caribbean Ventures is not responsible for the contents, privacy policies or practices of third-party sites."
       },
       "termination": {
-        "title": "Termination of Access",
-        "description": "Caribbean Ventures reserves the right to suspend or terminate your access to the Site at any time and for any reason, without prior notice, if it is considered that you have violated these Terms."
+        "title": "Termination of access",
+        "description": "Caribbean Ventures reserves the right to suspend or terminate your access to the site at any time and for any reason, without prior notice, if it is considered that you have violated these terms."
       },
       "law": {
-        "title": "Applicable Law and Jurisdiction",
-        "description": "These Terms will be governed by and interpreted in accordance with the laws of the Dominican Republic. Any dispute arising in relation to the use of the Site will be resolved in the competent courts of the Dominican Republic."
+        "title": "Applicable law and jurisdiction",
+        "description": "These terms will be governed by and interpreted in accordance with the laws of the Dominican Republic. Any dispute arising in relation to the use of the site will be resolved in the competent courts of the Dominican Republic."
       }
     }
   }

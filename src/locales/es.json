@@ -1,56 +1,56 @@
 {
   "nav": {
-    "services": "Áreas de Asesoría",
-    "about": "Perfil de la Firma",
+    "services": "Áreas de asesoría",
+    "about": "Perfil de la firma",
     "contact": "Contacto",
     "home": "Inicio"
   },
   "hero": {
-    "tagline": "Asesoría Estratégica Privada",
+    "tagline": "Asesoría estratégica privada",
     "headline": {
-      "line1": "Asesoría Estratégica",
-      "line2": "para Empresas Globales"
+      "line1": "Asesoría estratégica",
+      "line2": "para empresas globales"
     },
-    "subtitle": "Estructuración Corporativa • Expansión Internacional • Estrategia de Capital • Optimización de Procesos",
+    "subtitle": "Estructuración corporativa • Expansión internacional • Estrategia de capital • Optimización de procesos",
     "cta": {
-      "primary": "Agendar Consulta Privada",
-      "secondary": "Descargar Perfil Corporativo"
+      "primary": "Agendar consulta privada",
+      "secondary": "Descargar perfil corporativo"
     },
     "trust": {
-      "clients": "Confiado por Líderes del Mercado",
-      "experience": "Operación Remota | Mandatos Estratégicos Globales"
+      "clients": "Confiado por líderes del mercado",
+      "experience": "Operación remota | Mandatos estratégicos globales"
     },
-    "startProject": "Iniciar Asociación",
-    "rating": "Respaldado por Ejecutivos Globales"
+    "startProject": "Iniciar asociación",
+    "rating": "Respaldado por ejecutivos globales"
   },
   "about": {
     "sectionTitle": "Acerca de Caribbean Ventures",
-    "title": "Asesoría Estratégica",
+    "title": "Asesoría estratégica",
     "description": "",
-    "learnMore": "Ver Perfil de la Firma",
+    "learnMore": "Ver perfil de la firma",
     "features": {
       "experience": {
-        "title": "Autoridad en la Industria",
+        "title": "Autoridad en la industria",
         "description": "Apalancando más de una década de experiencia en consultoría de alto nivel para entregar resultados financieros y operativos medibles."
       },
       "personalized": {
-        "title": "Estrategia a Medida",
+        "title": "Estrategia a medida",
         "description": "Nuestro modelo de compromiso es selectivo, confidencial y orientado a la ejecución."
       }
     },
     "stats": {
-      "clients": "Socios Empresariales",
-      "experience": "Años de Liderazgo"
+      "clients": "Socios empresariales",
+      "experience": "Años de liderazgo"
     }
   },
   "mission": {
-    "title": "Nuestra Misión",
+    "title": "Nuestra misión",
     "description": "Empoderar a las empresas globales con la infraestructura estratégica, los marcos de procesos y la alineación de capital necesarios para lograr un crecimiento sostenible y transfronterizo.",
-    "cta": "Comience Su Camino"
+    "cta": "Comience su camino"
   },
   "services": {
-    "sectionTitle": "Nuestra Propuesta Estratégica",
-    "title": "Servicios Clave",
+    "sectionTitle": "Nuestra propuesta estratégica",
+    "title": "Servicios clave",
     "description": "Ofrecemos asesoría corporativa de alto nivel para empresas que requieren estructura sólida, expansión internacional y optimización financiera.",
     "items": {
       "structuring": {
@@ -62,19 +62,19 @@
         "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado. Optimizamos los flujos de trabajo administrativos para mantener la coherencia operativa en diversas regiones geográficas. Nuestros protocolos de gestión están diseñados para mitigar el riesgo local y maximizar la eficiencia global. Proporcionamos un soporte administrativo integral, asegurando que todas las actividades transfronterizas se ejecuten con precisión y cumpliendo con la normativa vigente."
       },
       "capital": {
-        "title": "Estrategia Capital",
+        "title": "Estrategia capital",
         "description": "Relaciones bancarias, marcos de protección de activos, optimización de capital y posicionamiento ante riesgos. Diseñamos arquitecturas financieras sofisticadas que salvaguardan el patrimonio y facilitan el movimiento fluido de capital. Nuestra estrategia enfatiza la gestión de la liquidez y el despliegue estratégico de activos para un impacto máximo."
       },
       "advisory": {
-        "title": "Asesoría Estratégica",
+        "title": "Asesoría estratégica",
         "description": "Asesoría a nivel de junta directiva para expansión, reestructuración y posicionamiento competitivo a largo plazo. Proporcionamos la inteligencia ejecutiva necesaria para navegar entradas en mercados y cambios estructurales altamente complejos. Nuestras perspectivas empoderan al liderazgo para tomar decisiones decisivas basadas en datos que definen su legado en el mercado."
       }
     },
-    "viewAll": "ver portafolio se asesoria"
+    "viewAll": "Ver portafolio de asesoría"
   },
   "luxury": {
-    "tagline": "Nuestra Distinción",
-    "title": "El Estándar de Caribbean Ventures",
+    "tagline": "Nuestra distinción",
+    "title": "El estándar de Caribbean Ventures",
     "items": {
       "precision": {
         "title": "Precisión",
@@ -85,102 +85,102 @@
         "description": "La confidencialidad y la comunicación a nivel ejecutivo definen cada compromiso."
       },
       "permanence": {
-        "title": "permanencia Estrategica",
+        "title": "Permanencia estratégica",
         "description": "Construimos sistemas duraderos, no soluciones temporales."
       }
     }
   },
   "process": {
-    "sectionTitle": "Marco de Compromiso",
-    "title": "Proceso de Alta Conversión",
+    "sectionTitle": "Marco de compromiso",
+    "title": "Proceso de alta conversión",
     "description": "Los ejecutivos convierten mejor cuando entienden el proceso.",
     "steps": {
       "step1": {
-        "title": "01 — Evaluación Estratégica",
+        "title": "01 — Evaluación estratégica",
         "description": "Diagnóstico confidencial de estructura, exposición al riesgo y objetivos de crecimiento."
       },
       "step2": {
-        "title": "02 — Diseño de Arquitectura",
+        "title": "02 — Diseño de arquitectura",
         "description": "Plano estructural a medida alineado con prioridades legales y financieras."
       },
       "step3": {
-        "title": "03 — Supervisión de Ejecución",
+        "title": "03 — Supervisión de ejecución",
         "description": "Coordinación integrada con socios legales, bancarios y operativos."
       },
       "step4": {
-        "title": "04 — Procesos a Largo Plazo",
+        "title": "04 — Procesos a largo plazo",
         "description": "Asesoría continua para garantizar estabilidad, cumplimiento y continuidad del desempeño."
       }
     }
   },
   "infrastructure": {
-    "sectionTitle": "Infraestructura Digital y Operativa",
-    "title": "Sistemas Avanzados",
+    "sectionTitle": "Infraestructura digital y operativa",
+    "title": "Sistemas avanzados",
     "description": "Aprovechamos sistemas empresariales seguros, plataformas de monitoreo regulatorio y herramientas de informes de grado institucional para garantizar: Transparencia, Continuidad operativa, Claridad financiera y Cumplimiento transfronterizo."
   },
   "quality": {
-    "sectionTitle": "Especialización Técnica",
-    "title": "Excelencia en Ejecución",
+    "sectionTitle": "Especialización técnica",
+    "title": "Excelencia en ejecución",
     "description": "Nuestra metodología integra un análisis profundo con una ejecución ágil, asegurando que cada estructura corporativa sea robusta y cumpla con los más altos estándares internacionales.",
     "features": {
       "agility": {
-        "title": "Metodología Avanzada",
+        "title": "Metodología avanzada",
         "description": "Aplicamos marcos de trabajo probados para la optimización de procesos y gestión de riesgos."
       },
       "rigor": {
-        "title": "Cumplimiento Global",
+        "title": "Cumplimiento global",
         "description": "Alineamos cada operación con las normativas locales e internacionales de manera proactiva."
       }
     },
-    "contactButton": "Solicitar Información"
+    "contactButton": "Solicitar información"
   },
   "portfolio": {
     "sectionTitle": "Trayectoria",
-    "title": "historias de exito",
+    "title": "Historias de éxito",
     "description": "Descubra cómo hemos empoderado a empresas para alcanzar resultados extraordinarios y liderazgo de mercado.",
-    "viewCase": "Analizar Caso de Estudio",
+    "viewCase": "Analizar caso de estudio",
     "items": {
       "item1": {
-        "title": "Estructuración de Negocios",
+        "title": "Estructuración de negocios",
         "description": "Diseño de marcos legales y operativos compatibles y escalables en diversas jurisdicciones."
       },
       "item2": {
-        "title": "Gestión Administrativa",
+        "title": "Gestión administrativa",
         "description": "Supervisión centralizada de subsidiarias, coordinación regulatoria e integración multimercado."
       }
     }
   },
   "finalCta": {
-    "title": "contacte con nuestro Equipo",
+    "title": "Contacte con nuestro equipo",
     "description": "Consultas privadas disponibles para empresas que buscan refinamiento estructural, expansión o alineación de capital.",
-    "contact": "Solicitar Consulta Estratégica",
-    "schedule": "Agendar Reunión",
+    "contact": "Solicitar consulta estratégica",
+    "schedule": "Agendar reunión",
     "tagline": "Hablemos",
-    "button": "Contactar Liderazgo"
+    "button": "Contactar liderazgo"
   },
   "company": {
     "name": "Caribbean Ventures"
   },
   "footer": {
-    "description": "Caribbean Ventures - Soluciones Corporativas Estratégicas",
+    "description": "Caribbean Ventures - Soluciones corporativas estratégicas",
     "rights": "Todos los derechos reservados",
     "quickLinks": "Navegación",
     "services": "Capacidades",
     "company": "Corporativo",
     "contact": "Contacto",
-    "newsletter": "Perspectivas Ejecutivas",
+    "newsletter": "Perspectivas ejecutivas",
     "subscribe": "Suscribirse",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio",
-    "disclaimer": "Aviso Legal",
-    "cookies": "Política de Cookies",
-    "addressTitle": "Sede Central",
-    "address": "Operaciones Globales | Asesoría Remota",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "disclaimer": "Aviso legal",
+    "cookies": "Política de cookies",
+    "addressTitle": "Sede central",
+    "address": "Operaciones globales | Asesoría remota",
     "contactTitle": "Contáctenos",
-    "servicesTitle": "Servicios Centrales",
+    "servicesTitle": "Servicios centrales",
     "service1": "Estructuración",
     "service2": "Operaciones",
-    "service3": "Estrategia Capital"
+    "service3": "Estrategia capital"
   },
   "contact": {
     "title": "Contáctanos",
@@ -194,7 +194,7 @@
     "sentTitle": "Enviado",
     "sentMessage": "Tu mensaje se ha enviado correctamente.",
     "directEmail": "También puede escribirnos directamente a",
-    "addressLabel": "Dirección: Operaciones Globales | Remoto"
+    "addressLabel": "Dirección: Operaciones globales | Remoto"
   },
   "alt": {
     "infrastructure": "Infraestructura de oficina de negocios moderna",
@@ -213,56 +213,56 @@
     "description": "Únase a las más de 850 empresas que confían en nuestros servicios"
   },
   "privacy": {
-    "title": "Política de Privacidad",
+    "title": "Política de privacidad",
     "description": "Política de privacidad de Caribbean Ventures. Conozca cómo protegemos su información personal.",
     "intro": "En Caribbean Ventures, nos comprometemos a respetar y proteger la privacidad de nuestros usuarios. Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos la información personal que usted nos proporciona a través de nuestro sitio web.",
     "sections": {
       "collection": {
-        "title": "Recopilación de Información",
+        "title": "Recopilación de información",
         "description": "Recopilamos información personal únicamente cuando es necesaria para ofrecerle nuestros servicios y mejorar su experiencia. La información recopilada puede incluir, entre otros, datos de contacto y de navegación. Nos comprometemos a no vender, compartir ni divulgar su información personal sin su consentimiento, salvo en los casos en que lo exija la ley."
       },
       "security": {
-        "title": "Seguridad de la Información",
+        "title": "Seguridad de la información",
         "description": "Implementamos medidas de seguridad para proteger sus datos contra el acceso no autorizado, pérdida o alteración."
       },
       "acceptance": {
-        "title": "Aceptación de la Política",
+        "title": "Aceptación de la política",
         "description": "Al utilizar nuestro sitio web, usted acepta los términos de esta política de privacidad."
       }
     }
   },
   "terms": {
-    "title": "Términos y Condiciones",
+    "title": "Términos y condiciones",
     "description": "Términos y condiciones de uso del sitio web de Caribbean Ventures.",
     "intro": "Al acceder o utilizar el sitio web de Caribbean Ventures (en adelante, 'el Sitio'), ubicado en https://caribbean.ventures usted acepta cumplir con estos Términos y Condiciones de Uso (en adelante, 'Términos'). Si no está de acuerdo con alguna de las disposiciones de estos Términos, le solicitamos que se abstenga de utilizar el Sitio.",
     "sections": {
       "modifications": {
-        "title": "Modificaciones de los Términos",
+        "title": "Modificaciones de los términos",
         "description": "Caribbean Ventures se reserva el derecho de modificar o actualizar estos Términos en cualquier momento, sin previo aviso. Cualquier cambio será efectivo de inmediato al ser publicado en el Sitio. Le recomendamos que consulte regularmente esta sección para mantenerse informado sobre los posibles cambios."
       },
       "usage": {
-        "title": "Uso del Sitio",
-        "description": "El Sitio está destinado únicamente para fines legales y de acuerdo con las leyes de la República Dominicana. Usted se compromete a utilizar el Sitio de manera responsable y a no infringir los derechos de propiedad intelectual, ni realizar actividades que puedan dañar, deshabilitar, sobrecargar o deteriorar el Sitio o interferir con el uso y disfrute del mismo por parte de otros usuarios."
+        "title": "Uso del sitio",
+        "description": "El sitio está destinado únicamente para fines legales y de acuerdo con las leyes de la República Dominicana. Usted se compromete a utilizar el sitio de manera responsable y a no infringir los derechos de propiedad intelectual, ni realizar actividades que puedan dañar, deshabilitar, sobrecargar o deteriorar el Sitio o interferir con el uso y disfrute del mismo por parte de otros usuarios."
       },
       "property": {
-        "title": "Propiedad Intelectual",
-        "description": "Todo el contenido disponible en el Sitio, incluidos pero no limitados a textos, gráficos, imágenes, logotipos, videos, software, códigos y otros materiales, son propiedad de Caribbean Ventures o de sus respectivos propietarios y están protegidos por leyes de propiedad intelectual. No se permite la reproducción, distribución, modificación o uso de cualquier contenido del Sitio sin el permiso previo por escrito de Caribbean Ventures."
+        "title": "Propiedad intelectual",
+        "description": "Todo el contenido disponible en el sitio, incluidos pero no limitados a textos, gráficos, imágenes, logotipos, videos, software, códigos y otros materiales, son propiedad de Caribbean Ventures o de sus respectivos propietarios y están protegidos por leyes de propiedad intelectual. No se permite la reproducción, distribución, modificación o uso de cualquier contenido del Sitio sin el permiso previo por escrito de Caribbean Ventures."
       },
       "liability": {
-        "title": "Responsabilidad Limitada",
-        "description": "Caribbean Ventures no garantiza la disponibilidad continua o libre de errores del Sitio. No se hace responsable por daños directos, indirectos, incidentales, especiales o consecuentes que puedan surgir del uso del Sitio, incluyendo la pérdida de datos, ingresos o cualquier otro daño económico o no económico, incluso si se ha advertido a la empresa de la posibilidad de tales daños."
+        "title": "Responsabilidad limitada",
+        "description": "Caribbean Ventures no garantiza la disponibilidad continua o libre de errores del sitio. No se hace responsable por daños directos, indirectos, incidentales, especiales o consecuentes que puedan surgir del uso del sitio, incluyendo la pérdida de datos, ingresos o cualquier otro daño económico o no económico, incluso si se ha advertido a la empresa de la posibilidad de tales daños."
       },
       "links": {
-        "title": "Enlaces a Sitios de Terceros",
-        "description": "El Sitio puede contener enlaces a otros sitios web de terceros. Estos enlaces se proporcionan solo para su conveniencia y no implican que Caribbean Ventures apruebe o respalde el contenido de dichos sitios. Caribbean Ventures no se hace responsable de los contenidos, políticas de privacidad o prácticas de los sitios de terceros."
+        "title": "Enlaces a sitios de terceros",
+        "description": "El sitio puede contener enlaces a otros sitios web de terceros. Estos enlaces se proporcionan solo para su conveniencia y no implican que Caribbean Ventures apruebe o respalde el contenido de dichos sitios. Caribbean Ventures no se hace responsable de los contenidos, políticas de privacidad o prácticas de los sitios de terceros."
       },
       "termination": {
-        "title": "Terminación del Acceso",
-        "description": "Caribbean Ventures se reserva el derecho de suspender o terminar su acceso al Sitio en cualquier momento y por cualquier motivo, sin previo aviso, si se considera que ha violado estos Términos."
+        "title": "Terminación del acceso",
+        "description": "Caribbean Ventures se reserva el derecho de suspender o terminar su acceso al sitio en cualquier momento y por cualquier motivo, sin previo aviso, si se considera que ha violado estos términos."
       },
       "law": {
-        "title": "Ley Aplicable y Jurisdicción",
-        "description": "Estos Términos se regirán e interpretarán de acuerdo con las leyes de la República Dominicana. Cualquier disputa que surja en relación con el uso del Sitio será resuelta en los tribunales competentes de la República Dominicana."
+        "title": "Ley aplicable y jurisdicción",
+        "description": "Estos términos se regirán e interpretarán de acuerdo con las leyes de la República Dominicana. Cualquier disputa que surja en relación con el uso del sitio será resuelta en los tribunales competentes de la República Dominicana."
       }
     }
   }
